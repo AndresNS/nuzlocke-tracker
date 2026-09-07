@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "@heroui/styles";
+
+@layer components {
+  .disclosure-group {
+    @apply w-full;
+
+    /* Performance optimization */
+    contain: layout style;
+  }
+}

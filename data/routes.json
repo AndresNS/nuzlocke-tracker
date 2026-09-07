@@ -1,0 +1,717 @@
+[
+  {
+    "id": "starter",
+    "name": "Starter (Littleroot Town)",
+    "encounters": ["mudkip", "treecko", "torchic"]
+  },
+  {
+    "id": "101",
+    "name": "Route 101",
+    "encounters": ["zigzagoon", "wurmple", "poochyena"]
+  },
+  {
+    "id": "103",
+    "name": "Route 103",
+    "encounters": [
+      "poochyena",
+      "zigzagoon",
+      "wingull",
+      "tentacool",
+      "magikarp",
+      "wailmer"
+    ]
+  },
+  {
+    "id": "102",
+    "name": "Route 102",
+    "encounters": [
+      "zigzagoon",
+      "wurmple",
+      "poochyena",
+      "ralts",
+      "surskit",
+      "seedot",
+      "lotad",
+      "marill",
+      "goldeen",
+      "magikarp",
+      "corphish"
+    ]
+  },
+  {
+    "id": "oldale-town",
+    "name": "Oldale Town",
+    "encounters": ["marill", "goldeen", "magikarp"]
+  },
+  {
+    "id": "petalburg-city",
+    "name": "Petalburg City",
+    "encounters": ["marill", "goldeen", "magikarp", "wailmer"]
+  },
+  {
+    "id": "104",
+    "name": "Route 104",
+    "encounters": ["zigzagoon", "wurmple", "wingull", "taillow", "magikarp"]
+  },
+  {
+    "id": "petalburg-woods",
+    "name": "Petalburg Woods",
+    "encounters": [
+      "shroomish",
+      "slakoth",
+      "silcoon",
+      "cascoon",
+      "wurmple",
+      "taillow",
+      "pidgey"
+    ]
+  },
+  {
+    "id": "rustboro-city",
+    "name": "Rustboro City",
+    "encounters": ["seedot"]
+  },
+  {
+    "id": "116",
+    "name": "Route 116",
+    "encounters": [
+      "zigzagoon",
+      "whismur",
+      "nincada",
+      "taillow",
+      "skitty",
+      "abra"
+    ]
+  },
+  {
+    "id": "rusturf-tunnel",
+    "name": "Rusturf Tunnel",
+    "encounters": ["whismur"]
+  },
+  {
+    "id": "105",
+    "name": "Route 105",
+    "encounters": ["tentacool", "wingull", "pelipper", "wailmer", "magikarp"]
+  },
+  {
+    "id": "106",
+    "name": "Route 106",
+    "encounters": ["tentacool", "wingull", "pelipper", "wailmer", "magikarp"]
+  },
+  {
+    "id": "dewford-town",
+    "name": "Dewford Town",
+    "encounters": ["tentacool", "wingull", "pelipper", "wailmer", "magikarp"]
+  },
+  {
+    "id": "granite-cave",
+    "name": "Granite Cave",
+    "encounters": [
+      "zubat",
+      "whismur",
+      "makuhita",
+      "aron",
+      "geodude",
+      "golbat",
+      "hariyama",
+      "lairon",
+      "abra",
+      "mawile",
+      "sableye"
+    ]
+  },
+  {
+    "id": "107",
+    "name": "Route 107",
+    "encounters": ["tentacool", "wingull", "pelipper", "wailmer", "magikarp"]
+  },
+  {
+    "id": "108",
+    "name": "Route 108",
+    "encounters": ["tentacool", "wingull", "pelipper", "wailmer", "magikarp"]
+  },
+  {
+    "id": "abandoned-ship",
+    "name": "Abandoned Ship",
+    "encounters": [
+      "tentacool",
+      "tentacruel",
+      "wingull",
+      "pelipper",
+      "wailmer",
+      "magikarp"
+    ]
+  },
+  {
+    "id": "109",
+    "name": "Route 109",
+    "encounters": ["tentacool", "wingull", "pelipper", "wailmer", "magikarp"]
+  },
+  {
+    "id": "slateport-city",
+    "name": "Slateport City",
+    "encounters": ["tentacool", "wingull", "pelipper", "wailmer", "magikarp"]
+  },
+  {
+    "id": "110",
+    "name": "Route 110",
+    "encounters": [
+      "electrike",
+      "wingull",
+      "plusle",
+      "minun",
+      "oddish",
+      "zigzagoon",
+      "gulpin",
+      "poochyena",
+      "wailmer",
+      "tentacool",
+      "magikarp"
+    ]
+  },
+  {
+    "id": "trick-house",
+    "name": "Trick House",
+    "encounters": []
+  },
+  {
+    "id": "mauville-city",
+    "name": "Mauville City",
+    "encounters": ["magikarp", "goldeen", "barboach", "wailmer"]
+  },
+  {
+    "id": "117",
+    "name": "Route 117",
+    "encounters": [
+      "zigzagoon",
+      "roselia",
+      "oddish",
+      "poochyena",
+      "seedot",
+      "marill",
+      "volbeat",
+      "illumise",
+      "surskit",
+      "magikarp",
+      "goldeen",
+      "corphish"
+    ]
+  },
+  {
+    "id": "verdanturf-town",
+    "name": "Verdanturf Town",
+    "encounters": ["magikarp", "goldeen", "barboach", "wailmer"]
+  },
+  {
+    "id": "112",
+    "name": "Route 112",
+    "encounters": ["numel", "machop", "poochyena"]
+  },
+  {
+    "id": "fiery-path",
+    "name": "Fiery Path",
+    "encounters": ["grimer", "koffing", "numel", "slugma", "torkoal", "machop"]
+  },
+  {
+    "id": "113",
+    "name": "Route 113",
+    "encounters": ["sandshrew", "spinda", "slugma", "skarmory"]
+  },
+  {
+    "id": "fallarbor-town",
+    "name": "Fallarbor Town",
+    "encounters": ["magikarp", "goldeen", "barboach", "wailmer"]
+  },
+  {
+    "id": "114",
+    "name": "Route 114",
+    "encounters": [
+      "swablu",
+      "lombre",
+      "nuzleaf",
+      "seviper",
+      "roselia",
+      "geodude",
+      "magikarp",
+      "goldeen",
+      "barboach",
+      "whiscash",
+      "marill"
+    ]
+  },
+  {
+    "id": "desert-underpass",
+    "name": "Desert Underpass",
+    "encounters": ["ditto", "whismur", "loudred"]
+  },
+  {
+    "id": "meteor-falls",
+    "name": "Meteor Falls",
+    "encounters": [
+      "zubat",
+      "golbat",
+      "whismur",
+      "loudred",
+      "solrock",
+      "lunatone",
+      "aron",
+      "lairon",
+      "barboach",
+      "magikarp",
+      "goldeen",
+      "bagon"
+    ]
+  },
+  {
+    "id": "115",
+    "name": "Route 115",
+    "encounters": [
+      "taillow",
+      "swablu",
+      "jigglypuff",
+      "swellow",
+      "wingull",
+      "tentacool",
+      "pelipper",
+      "wailmer",
+      "magikarp"
+    ]
+  },
+  {
+    "id": "jagged-pass",
+    "name": "Jagged Pass",
+    "encounters": ["machop", "numel", "spoink"]
+  },
+  {
+    "id": "lavaridge-town",
+    "name": "Lavaridge Town",
+    "encounters": []
+  },
+  {
+    "id": "111",
+    "name": "Route 111",
+    "encounters": [
+      "poochyena",
+      "zigzagoon",
+      "nincada",
+      "electrike",
+      "gulpin",
+      "roselia",
+      "sandshrew",
+      "trapinch",
+      "cacnea",
+      "geodude",
+      "marill",
+      "magikarp",
+      "goldeen",
+      "barboach",
+      "whiscash"
+    ]
+  },
+  {
+    "id": "mirage-tower",
+    "name": "Mirage Tower",
+    "encounters": ["sandshrew", "trapinch"]
+  },
+  {
+    "id": "new-mauville",
+    "name": "New Mauville",
+    "encounters": ["magnemite", "voltorb", "magneton"]
+  },
+  {
+    "id": "118",
+    "name": "Route 118",
+    "encounters": [
+      "zigzagoon",
+      "electrike",
+      "kecleon",
+      "linoone",
+      "wingull",
+      "manectric",
+      "tentacool",
+      "pelipper",
+      "magikarp",
+      "carvanha",
+      "wailmer"
+    ]
+  },
+  {
+    "id": "119",
+    "name": "Route 119",
+    "encounters": [
+      "oddish",
+      "zigzagoon",
+      "linoone",
+      "tropius",
+      "absol",
+      "kecleon",
+      "carvanha",
+      "feebas",
+      "magikarp",
+      "tentacool",
+      "wailmer"
+    ]
+  },
+  {
+    "id": "fortree-city",
+    "name": "Fortree City",
+    "encounters": ["pikachu", "plusle", "skitty"]
+  },
+  {
+    "id": "120",
+    "name": "Route 120",
+    "encounters": [
+      "oddish",
+      "marill",
+      "linoone",
+      "tropius",
+      "absol",
+      "kecleon",
+      "zangoose",
+      "poochyena",
+      "mightyena",
+      "barboach",
+      "magikarp",
+      "tentacool",
+      "wailmer"
+    ]
+  },
+  {
+    "id": "121",
+    "name": "Route 121",
+    "encounters": [
+      "oddish",
+      "gloom",
+      "poochyena",
+      "mightyena",
+      "zigzagoon",
+      "linoone",
+      "wingull",
+      "pelipper",
+      "tentacool",
+      "wailmer",
+      "magikarp"
+    ]
+  },
+  {
+    "id": "safari-zone",
+    "name": "Safari Zone",
+    "encounters": [
+      "pikachu",
+      "oddish",
+      "gloom",
+      "doduo",
+      "dodrio",
+      "nidoran-f",
+      "nidorina",
+      "nidoran-m",
+      "nidorino",
+      "exeggcute",
+      "pinsir",
+      "heracross",
+      "psyduck",
+      "golduck",
+      "rhyhorn",
+      "kecleon",
+      "paras",
+      "venonat",
+      "wobbuffet",
+      "girafarig"
+    ]
+  },
+  {
+    "id": "122",
+    "name": "Route 122",
+    "encounters": ["tentacool", "wingull", "pelipper", "wailmer", "magikarp"]
+  },
+  {
+    "id": "mt-pyre",
+    "name": "Mt. Pyre",
+    "encounters": [
+      "shuppet",
+      "duskull",
+      "chimecho",
+      "vulpix",
+      "wingull",
+      "pelipper"
+    ]
+  },
+  {
+    "id": "123",
+    "name": "Route 123",
+    "encounters": [
+      "shuppet",
+      "duskull",
+      "gloom",
+      "wingull",
+      "kecleon",
+      "oddish",
+      "zigzagoon",
+      "linoone",
+      "poochyena",
+      "mightyena",
+      "tentacool",
+      "pelipper",
+      "magikarp",
+      "goldeen",
+      "corphish"
+    ]
+  },
+  {
+    "id": "team-magma-hideout",
+    "name": "Team Magma Hideout",
+    "encounters": []
+  },
+  {
+    "id": "lilycove-city",
+    "name": "Lilycove City",
+    "encounters": [
+      "tentacool",
+      "wingull",
+      "pelipper",
+      "wailmer",
+      "staryu",
+      "magikarp"
+    ]
+  },
+  {
+    "id": "team-aqua-hideout",
+    "name": "Team Aqua Hideout",
+    "encounters": []
+  },
+  {
+    "id": "124",
+    "name": "Route 124",
+    "encounters": [
+      "tentacool",
+      "wingull",
+      "pelipper",
+      "sharpedo",
+      "wailmer",
+      "magikarp"
+    ]
+  },
+  {
+    "id": "mossdeep-city",
+    "name": "Mossdeep City",
+    "encounters": ["tentacool", "wingull", "pelipper", "wailmer", "magikarp"]
+  },
+  {
+    "id": "125",
+    "name": "Route 125",
+    "encounters": [
+      "tentacool",
+      "wingull",
+      "pelipper",
+      "sharpedo",
+      "wailmer",
+      "magikarp"
+    ]
+  },
+  {
+    "id": "shoal-cave",
+    "name": "Shoal Cave",
+    "encounters": [
+      "zubat",
+      "golbat",
+      "spheal",
+      "snorunt",
+      "sealeo",
+      "barboach",
+      "magikarp",
+      "wailmer"
+    ]
+  },
+  {
+    "id": "127",
+    "name": "Route 127",
+    "encounters": [
+      "tentacool",
+      "wingull",
+      "pelipper",
+      "sharpedo",
+      "wailmer",
+      "magikarp"
+    ]
+  },
+  {
+    "id": "128",
+    "name": "Route 128",
+    "encounters": [
+      "tentacool",
+      "wingull",
+      "pelipper",
+      "sharpedo",
+      "wailmer",
+      "magikarp",
+      "luvdisc"
+    ]
+  },
+  {
+    "id": "underwater",
+    "name": "Underwater",
+    "encounters": ["clamperl", "chinchou", "relicanth"]
+  },
+  {
+    "id": "seafloor-cavern",
+    "name": "Seafloor Cavern",
+    "encounters": [
+      "zubat",
+      "golbat",
+      "tentacool",
+      "wingull",
+      "pelipper",
+      "wailmer",
+      "magikarp",
+      "grimer",
+      "geodude",
+      "graveler"
+    ]
+  },
+  {
+    "id": "126",
+    "name": "Route 126",
+    "encounters": [
+      "tentacool",
+      "wingull",
+      "pelipper",
+      "sharpedo",
+      "wailmer",
+      "magikarp"
+    ]
+  },
+  {
+    "id": "sootopolis-city",
+    "name": "Sootopolis City",
+    "encounters": ["magikarp", "gyarados"]
+  },
+  {
+    "id": "cave-of-origin",
+    "name": "Cave of Origin",
+    "encounters": ["zubat", "golbat", "sableye", "mawile"]
+  },
+  {
+    "id": "129",
+    "name": "Route 129",
+    "encounters": [
+      "tentacool",
+      "wingull",
+      "pelipper",
+      "wailord",
+      "sharpedo",
+      "wailmer",
+      "magikarp"
+    ]
+  },
+  {
+    "id": "130",
+    "name": "Route 130",
+    "encounters": [
+      "tentacool",
+      "wingull",
+      "pelipper",
+      "wailord",
+      "sharpedo",
+      "wailmer",
+      "magikarp"
+    ]
+  },
+  {
+    "id": "131",
+    "name": "Route 131",
+    "encounters": [
+      "tentacool",
+      "wingull",
+      "pelipper",
+      "wailord",
+      "sharpedo",
+      "wailmer",
+      "magikarp"
+    ]
+  },
+  {
+    "id": "sky-pillar",
+    "name": "Sky Pillar",
+    "encounters": [
+      "golbat",
+      "sableye",
+      "mawile",
+      "claydol",
+      "dusclops",
+      "banette"
+    ]
+  },
+  {
+    "id": "pacifidlog-town",
+    "name": "Pacifidlog Town",
+    "encounters": ["tentacool", "wingull", "pelipper", "wailmer", "magikarp"]
+  },
+  {
+    "id": "mirage-island",
+    "name": "Mirage Island",
+    "encounters": ["wynaut"]
+  },
+  {
+    "id": "132",
+    "name": "Route 132",
+    "encounters": [
+      "tentacool",
+      "wingull",
+      "pelipper",
+      "wailord",
+      "sharpedo",
+      "wailmer",
+      "magikarp"
+    ]
+  },
+  {
+    "id": "133",
+    "name": "Route 133",
+    "encounters": [
+      "tentacool",
+      "wingull",
+      "pelipper",
+      "wailord",
+      "sharpedo",
+      "wailmer",
+      "magikarp"
+    ]
+  },
+  {
+    "id": "134",
+    "name": "Route 134",
+    "encounters": [
+      "tentacool",
+      "wingull",
+      "pelipper",
+      "wailord",
+      "sharpedo",
+      "wailmer",
+      "magikarp"
+    ]
+  },
+  {
+    "id": "island-cave",
+    "name": "Island Cave",
+    "encounters": ["zubat", "golbat", "tentacool", "tentacruel"]
+  },
+  {
+    "id": "ever-grande-city",
+    "name": "Ever Grande City",
+    "encounters": ["tentacool", "wingull", "pelipper", "wailmer", "magikarp"]
+  },
+  {
+    "id": "victory-road",
+    "name": "Victory Road",
+    "encounters": [
+      "golbat",
+      "hariyama",
+      "mawile",
+      "lairon",
+      "geodude",
+      "graveler",
+      "zubat",
+      "sableye"
+    ]
+  }
+]
