@@ -97,6 +97,9 @@ const RouteRow = memo(function RouteRow({
                       {encounter}
                     </Tag>
                   ))}
+                  <Tag id={"missed"} key={"missed"}>
+                    Missed
+                  </Tag>
                 </TagGroup.List>
               </TagGroup>
             )}
