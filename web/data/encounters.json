@@ -1,0 +1,28 @@
+[
+  {
+    "id": "",
+    "name": "",
+    "encounters": {
+      "areas": [
+        {
+          "method": "grass",
+          "pokemon": [
+            { "species": "264", "minLvl": 12, "maxLvl": 14, "rate": 20 }
+          ]
+        },
+        {
+          "method": "fishing-old-rod",
+          "pokemon": [{ "species": "", "minLvl": 12, "maxLvl": 14, "rate": 15 }]
+        }
+      ]
+    },
+    "trades": [
+      {
+        "give": "ralts",
+        "receive": [{ "name": "", "item": "" }]
+      }
+    ],
+    "gifts": [{ "name": "", "level": 24, "requirement": "" }],
+    "static": [{ "name": "", "level": 14 }]
+  }
+]
