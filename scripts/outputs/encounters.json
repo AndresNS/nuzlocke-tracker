@@ -7,27 +7,27 @@
         "method": "grass",
         "pokemon": [
           {
-            "name": "Wurmple",
+            "species": "wurmple",
             "rate": 45,
             "level": {
-              "min": "2",
-              "max": "3"
+              "min": 2,
+              "max": 3
             }
           },
           {
-            "name": "Poochyena",
+            "species": "poochyena",
             "rate": 45,
             "level": {
-              "min": "2",
-              "max": "3"
+              "min": 2,
+              "max": 3
             }
           },
           {
-            "name": "Zigzagoon",
+            "species": "zigzagoon",
             "rate": 10,
             "level": {
-              "min": "2",
-              "max": "3"
+              "min": 2,
+              "max": 3
             }
           }
         ]
@@ -36,9 +36,25 @@
     "trades": [],
     "gifts": [
       {
-        "name": "",
-        "level": 0,
-        "requirement": ""
+        "species": "treecko",
+        "level": {
+          "min": 5,
+          "max": 5
+        }
+      },
+      {
+        "species": "torchic",
+        "level": {
+          "min": 5,
+          "max": 5
+        }
+      },
+      {
+        "species": "mudkip",
+        "level": {
+          "min": 5,
+          "max": 5
+        }
       }
     ],
     "static": []
@@ -59,27 +75,27 @@
         "method": "grass",
         "pokemon": [
           {
-            "name": "Poochyena",
+            "species": "poochyena",
             "rate": 60,
             "level": {
-              "min": "2",
-              "max": "4"
+              "min": 2,
+              "max": 4
             }
           },
           {
-            "name": "Zigzagoon",
+            "species": "zigzagoon",
             "rate": 30,
             "level": {
-              "min": "2",
-              "max": "4"
+              "min": 2,
+              "max": 4
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 10,
             "level": {
-              "min": "2",
-              "max": "4"
+              "min": 2,
+              "max": 4
             }
           }
         ]
@@ -88,27 +104,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 60,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 35,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Pelipper",
+            "species": "pelipper",
             "rate": 5,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -117,19 +133,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -138,27 +154,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -167,19 +183,19 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 60,
             "level": {
-              "min": "25",
-              "max": "45"
+              "min": 25,
+              "max": 45
             }
           },
           {
-            "name": "Sharpedo",
+            "species": "sharpedo",
             "rate": 40,
             "level": {
-              "min": "30",
-              "max": "35"
+              "min": 30,
+              "max": 35
             }
           }
         ]
@@ -197,51 +213,51 @@
         "method": "grass",
         "pokemon": [
           {
-            "name": "Wurmple",
+            "species": "wurmple",
             "rate": 30,
             "level": {
-              "min": "3",
-              "max": "4"
+              "min": 3,
+              "max": 4
             }
           },
           {
-            "name": "Poochyena",
+            "species": "poochyena",
             "rate": 30,
             "level": {
-              "min": "3",
-              "max": "4"
+              "min": 3,
+              "max": 4
             }
           },
           {
-            "name": "Lotad",
+            "species": "lotad",
             "rate": 20,
             "level": {
-              "min": "3",
-              "max": "4"
+              "min": 3,
+              "max": 4
             }
           },
           {
-            "name": "Zigzagoon",
+            "species": "zigzagoon",
             "rate": 15,
             "level": {
-              "min": "3",
-              "max": "4"
+              "min": 3,
+              "max": 4
             }
           },
           {
-            "name": "Ralts",
+            "species": "ralts",
             "rate": 4,
             "level": {
-              "min": "4",
-              "max": "4"
+              "min": 4,
+              "max": 4
             }
           },
           {
-            "name": "Seedot",
+            "species": "seedot",
             "rate": 1,
             "level": {
-              "min": "3",
-              "max": "3"
+              "min": 3,
+              "max": 3
             }
           }
         ]
@@ -250,19 +266,19 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Marill",
+            "species": "marill",
             "rate": 99,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Goldeen",
+            "species": "goldeen",
             "rate": 1,
             "level": {
-              "min": "20",
-              "max": "30"
+              "min": 20,
+              "max": 30
             }
           }
         ]
@@ -271,19 +287,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Goldeen",
+            "species": "goldeen",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -292,27 +308,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Goldeen",
+            "species": "goldeen",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Corphish",
+            "species": "corphish",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -321,11 +337,11 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Corphish",
+            "species": "corphish",
             "rate": 100,
             "level": {
-              "min": "20",
-              "max": "45"
+              "min": 20,
+              "max": 45
             }
           }
         ]
@@ -351,43 +367,43 @@
         "method": "grass",
         "pokemon": [
           {
-            "name": "Poochyena",
+            "species": "poochyena",
             "rate": 40,
             "level": {
-              "min": "4",
-              "max": "5"
+              "min": 4,
+              "max": 5
             }
           },
           {
-            "name": "Marill",
+            "species": "marill",
             "rate": 20,
             "level": {
-              "min": "4",
-              "max": "5"
+              "min": 4,
+              "max": 5
             }
           },
           {
-            "name": "Wurmple",
+            "species": "wurmple",
             "rate": 20,
             "level": {
-              "min": "4",
-              "max": "5"
+              "min": 4,
+              "max": 5
             }
           },
           {
-            "name": "Taillow",
+            "species": "taillow",
             "rate": 10,
             "level": {
-              "min": "4",
-              "max": "5"
+              "min": 4,
+              "max": 5
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 10,
             "level": {
-              "min": "3",
-              "max": "5"
+              "min": 3,
+              "max": 5
             }
           }
         ]
@@ -396,19 +412,19 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 95,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Pelipper",
+            "species": "pelipper",
             "rate": 5,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -417,11 +433,11 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 100,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -430,11 +446,11 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 100,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -443,11 +459,11 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 100,
             "level": {
-              "min": "20",
-              "max": "45"
+              "min": 20,
+              "max": 45
             }
           }
         ]
@@ -481,51 +497,51 @@
         "method": "grass",
         "pokemon": [
           {
-            "name": "Poochyena",
+            "species": "poochyena",
             "rate": 28,
             "level": {
-              "min": "6",
-              "max": "8"
+              "min": 6,
+              "max": 8
             }
           },
           {
-            "name": "Whismur",
+            "species": "whismur",
             "rate": 20,
             "level": {
-              "min": "6",
-              "max": "6"
+              "min": 6,
+              "max": 6
             }
           },
           {
-            "name": "Taillow",
+            "species": "taillow",
             "rate": 20,
             "level": {
-              "min": "6",
-              "max": "8"
+              "min": 6,
+              "max": 8
             }
           },
           {
-            "name": "Nincada",
+            "species": "nincada",
             "rate": 20,
             "level": {
-              "min": "6",
-              "max": "7"
+              "min": 6,
+              "max": 7
             }
           },
           {
-            "name": "Abra",
+            "species": "abra",
             "rate": 10,
             "level": {
-              "min": "7",
-              "max": "7"
+              "min": 7,
+              "max": 7
             }
           },
           {
-            "name": "Skitty",
+            "species": "skitty",
             "rate": 2,
             "level": {
-              "min": "7",
-              "max": "8"
+              "min": 7,
+              "max": 8
             }
           }
         ]
@@ -567,27 +583,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 60,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 35,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Pelipper",
+            "species": "pelipper",
             "rate": 5,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -596,19 +612,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -617,27 +633,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -646,11 +662,11 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 100,
             "level": {
-              "min": "20",
-              "max": "45"
+              "min": 20,
+              "max": 45
             }
           }
         ]
@@ -676,59 +692,59 @@
         "method": "grass",
         "pokemon": [
           {
-            "name": "Electrike",
+            "species": "electrike",
             "rate": 30,
             "level": {
-              "min": "12",
-              "max": "13"
+              "min": 12,
+              "max": 13
             }
           },
           {
-            "name": "Poochyena",
+            "species": "poochyena",
             "rate": 20,
             "level": {
-              "min": "12",
-              "max": "12"
+              "min": 12,
+              "max": 12
             }
           },
           {
-            "name": "Minun",
+            "species": "minun",
             "rate": 15,
             "level": {
-              "min": "13",
-              "max": "13"
+              "min": 13,
+              "max": 13
             }
           },
           {
-            "name": "Gulpin",
+            "species": "gulpin",
             "rate": 15,
             "level": {
-              "min": "12",
-              "max": "13"
+              "min": 12,
+              "max": 13
             }
           },
           {
-            "name": "Oddish",
+            "species": "oddish",
             "rate": 10,
             "level": {
-              "min": "13",
-              "max": "13"
+              "min": 13,
+              "max": 13
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 8,
             "level": {
-              "min": "12",
-              "max": "12"
+              "min": 12,
+              "max": 12
             }
           },
           {
-            "name": "Plusle",
+            "species": "plusle",
             "rate": 2,
             "level": {
-              "min": "12",
-              "max": "13"
+              "min": 12,
+              "max": 13
             }
           }
         ]
@@ -737,27 +753,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 60,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 35,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Pelipper",
+            "species": "pelipper",
             "rate": 5,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -766,19 +782,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -787,27 +803,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -816,11 +832,11 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 100,
             "level": {
-              "min": "20",
-              "max": "45"
+              "min": 20,
+              "max": 45
             }
           }
         ]
@@ -854,51 +870,51 @@
         "method": "grass",
         "pokemon": [
           {
-            "name": "Oddish",
+            "species": "oddish",
             "rate": 40,
             "level": {
-              "min": "13",
-              "max": "14"
+              "min": 13,
+              "max": 14
             }
           },
           {
-            "name": "Poochyena",
+            "species": "poochyena",
             "rate": 30,
             "level": {
-              "min": "13",
-              "max": "14"
+              "min": 13,
+              "max": 14
             }
           },
           {
-            "name": "Illumise",
+            "species": "illumise",
             "rate": 18,
             "level": {
-              "min": "13",
-              "max": "14"
+              "min": 13,
+              "max": 14
             }
           },
           {
-            "name": "Marill",
+            "species": "marill",
             "rate": 10,
             "level": {
-              "min": "13",
-              "max": "13"
+              "min": 13,
+              "max": 13
             }
           },
           {
-            "name": "Volbeat",
+            "species": "volbeat",
             "rate": 1,
             "level": {
-              "min": "13",
-              "max": "13"
+              "min": 13,
+              "max": 13
             }
           },
           {
-            "name": "Seedot",
+            "species": "seedot",
             "rate": 1,
             "level": {
-              "min": "13",
-              "max": "13"
+              "min": 13,
+              "max": 13
             }
           }
         ]
@@ -907,19 +923,19 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Marill",
+            "species": "marill",
             "rate": 99,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Goldeen",
+            "species": "goldeen",
             "rate": 1,
             "level": {
-              "min": "20",
-              "max": "30"
+              "min": 20,
+              "max": 30
             }
           }
         ]
@@ -928,19 +944,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Goldeen",
+            "species": "goldeen",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -949,27 +965,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Goldeen",
+            "species": "goldeen",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Corphish",
+            "species": "corphish",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -978,11 +994,11 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Corphish",
+            "species": "corphish",
             "rate": 100,
             "level": {
-              "min": "20",
-              "max": "45"
+              "min": 20,
+              "max": 45
             }
           }
         ]
@@ -1008,19 +1024,19 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Marill",
+            "species": "marill",
             "rate": 99,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Goldeen",
+            "species": "goldeen",
             "rate": 1,
             "level": {
-              "min": "20",
-              "max": "30"
+              "min": 20,
+              "max": 30
             }
           }
         ]
@@ -1029,19 +1045,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Goldeen",
+            "species": "goldeen",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -1050,27 +1066,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Goldeen",
+            "species": "goldeen",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Barboach",
+            "species": "barboach",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -1079,11 +1095,11 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Barboach",
+            "species": "barboach",
             "rate": 100,
             "level": {
-              "min": "20",
-              "max": "45"
+              "min": 20,
+              "max": 45
             }
           }
         ]
@@ -1092,35 +1108,35 @@
         "method": "grass",
         "pokemon": [
           {
-            "name": "Sandshrew",
+            "species": "sandshrew",
             "rate": 35,
             "level": {
-              "min": "19",
-              "max": "21"
+              "min": 19,
+              "max": 21
             }
           },
           {
-            "name": "Trapinch",
+            "species": "trapinch",
             "rate": 35,
             "level": {
-              "min": "19",
-              "max": "21"
+              "min": 19,
+              "max": 21
             }
           },
           {
-            "name": "Baltoy",
+            "species": "baltoy",
             "rate": 24,
             "level": {
-              "min": "19",
-              "max": "21"
+              "min": 19,
+              "max": 21
             }
           },
           {
-            "name": "Cacnea",
+            "species": "cacnea",
             "rate": 6,
             "level": {
-              "min": "20",
-              "max": "22"
+              "min": 20,
+              "max": 22
             }
           }
         ]
@@ -1143,19 +1159,19 @@
         "method": "grass",
         "pokemon": [
           {
-            "name": "Numel",
+            "species": "numel",
             "rate": 75,
             "level": {
-              "min": "14",
-              "max": "16"
+              "min": 14,
+              "max": 16
             }
           },
           {
-            "name": "Marill",
+            "species": "marill",
             "rate": 25,
             "level": {
-              "min": "14",
-              "max": "16"
+              "min": 14,
+              "max": 16
             }
           }
         ]
@@ -1181,27 +1197,27 @@
         "method": "grass",
         "pokemon": [
           {
-            "name": "Spinda",
+            "species": "spinda",
             "rate": 70,
             "level": {
-              "min": "14",
-              "max": "16"
+              "min": 14,
+              "max": 16
             }
           },
           {
-            "name": "Slugma",
+            "species": "slugma",
             "rate": 25,
             "level": {
-              "min": "14",
-              "max": "16"
+              "min": 14,
+              "max": 16
             }
           },
           {
-            "name": "Skarmory",
+            "species": "skarmory",
             "rate": 5,
             "level": {
-              "min": "16",
-              "max": "16"
+              "min": 16,
+              "max": 16
             }
           }
         ]
@@ -1227,67 +1243,67 @@
         "method": "grass",
         "pokemon": [
           {
-            "name": "Swablu",
+            "species": "swablu",
             "rate": 40,
             "level": {
-              "min": "15",
-              "max": "17"
+              "min": 15,
+              "max": 17
             }
           },
           {
-            "name": "Lotad",
+            "species": "lotad",
             "rate": 30,
             "level": {
-              "min": "15",
-              "max": "16"
+              "min": 15,
+              "max": 16
             }
           },
           {
-            "name": "Lombre",
+            "species": "lombre",
             "rate": 20,
             "level": {
-              "min": "16",
-              "max": "18"
+              "min": 16,
+              "max": 18
             }
           },
           {
-            "name": "Seviper",
+            "species": "seviper",
             "rate": 9,
             "level": {
-              "min": "15",
-              "max": "17"
+              "min": 15,
+              "max": 17
             }
           },
           {
-            "name": "Nuzleaf",
+            "species": "nuzleaf",
             "rate": 1,
             "level": {
-              "min": "15",
-              "max": "15"
+              "min": 15,
+              "max": 15
             }
           },
           {
-            "name": "Geodude",
+            "species": "geodude",
             "rate": 100,
             "level": {
-              "min": "5",
-              "max": "20"
+              "min": 5,
+              "max": 20
             }
           },
           {
-            "name": "Geodude",
+            "species": "geodude",
             "rate": 100,
             "level": {
-              "min": "5",
-              "max": "20"
+              "min": 5,
+              "max": 20
             }
           },
           {
-            "name": "Geodude",
+            "species": "geodude",
             "rate": 100,
             "level": {
-              "min": "5",
-              "max": "20"
+              "min": 5,
+              "max": 20
             }
           }
         ]
@@ -1299,19 +1315,19 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Marill",
+            "species": "marill",
             "rate": 99,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Goldeen",
+            "species": "goldeen",
             "rate": 1,
             "level": {
-              "min": "20",
-              "max": "30"
+              "min": 20,
+              "max": 30
             }
           }
         ]
@@ -1320,19 +1336,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Goldeen",
+            "species": "goldeen",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -1341,27 +1357,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Goldeen",
+            "species": "goldeen",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Barboach",
+            "species": "barboach",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -1370,11 +1386,11 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Barboach",
+            "species": "barboach",
             "rate": 100,
             "level": {
-              "min": "20",
-              "max": "45"
+              "min": 20,
+              "max": 45
             }
           }
         ]
@@ -1400,43 +1416,43 @@
         "method": "grass",
         "pokemon": [
           {
-            "name": "Taillow",
+            "species": "taillow",
             "rate": 40,
             "level": {
-              "min": "23",
-              "max": "25"
+              "min": 23,
+              "max": 25
             }
           },
           {
-            "name": "Swablu",
+            "species": "swablu",
             "rate": 30,
             "level": {
-              "min": "23",
-              "max": "25"
+              "min": 23,
+              "max": 25
             }
           },
           {
-            "name": "Jigglypuff",
+            "species": "jigglypuff",
             "rate": 10,
             "level": {
-              "min": "24",
-              "max": "25"
+              "min": 24,
+              "max": 25
             }
           },
           {
-            "name": "Swellow",
+            "species": "swellow",
             "rate": 10,
             "level": {
-              "min": "25",
-              "max": "25"
+              "min": 25,
+              "max": 25
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 10,
             "level": {
-              "min": "24",
-              "max": "26"
+              "min": 24,
+              "max": 26
             }
           }
         ]
@@ -1445,27 +1461,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 60,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 35,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Pelipper",
+            "species": "pelipper",
             "rate": 5,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -1474,19 +1490,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -1495,27 +1511,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -1524,11 +1540,11 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 100,
             "level": {
-              "min": "20",
-              "max": "45"
+              "min": 20,
+              "max": 45
             }
           }
         ]
@@ -1586,51 +1602,51 @@
         "method": "grass",
         "pokemon": [
           {
-            "name": "Zigzagoon",
+            "species": "zigzagoon",
             "rate": 30,
             "level": {
-              "min": "24",
-              "max": "26"
+              "min": 24,
+              "max": 26
             }
           },
           {
-            "name": "Electrike",
+            "species": "electrike",
             "rate": 30,
             "level": {
-              "min": "24",
-              "max": "26"
+              "min": 24,
+              "max": 26
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 19,
             "level": {
-              "min": "25",
-              "max": "27"
+              "min": 25,
+              "max": 27
             }
           },
           {
-            "name": "Linoone",
+            "species": "linoone",
             "rate": 10,
             "level": {
-              "min": "26",
-              "max": "26"
+              "min": 26,
+              "max": 26
             }
           },
           {
-            "name": "Manectric",
+            "species": "manectric",
             "rate": 10,
             "level": {
-              "min": "26",
-              "max": "26"
+              "min": 26,
+              "max": 26
             }
           },
           {
-            "name": "Kecleon",
+            "species": "kecleon",
             "rate": 1,
             "level": {
-              "min": "25",
-              "max": "25"
+              "min": 25,
+              "max": 25
             }
           }
         ]
@@ -1639,27 +1655,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 60,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 35,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Pelipper",
+            "species": "pelipper",
             "rate": 5,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -1668,19 +1684,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Goldeen",
+            "species": "goldeen",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -1689,27 +1705,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Carvanha",
+            "species": "carvanha",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -1718,19 +1734,19 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Carvanha",
+            "species": "carvanha",
             "rate": 60,
             "level": {
-              "min": "20",
-              "max": "45"
+              "min": 20,
+              "max": 45
             }
           },
           {
-            "name": "Sharpedo",
+            "species": "sharpedo",
             "rate": 40,
             "level": {
-              "min": "30",
-              "max": "35"
+              "min": 30,
+              "max": 35
             }
           }
         ]
@@ -1748,43 +1764,43 @@
         "method": "grass",
         "pokemon": [
           {
-            "name": "Oddish",
+            "species": "oddish",
             "rate": 30,
             "level": {
-              "min": "24",
-              "max": "27"
+              "min": 24,
+              "max": 27
             }
           },
           {
-            "name": "Zigzagoon",
+            "species": "zigzagoon",
             "rate": 30,
             "level": {
-              "min": "25",
-              "max": "27"
+              "min": 25,
+              "max": 27
             }
           },
           {
-            "name": "Linoone",
+            "species": "linoone",
             "rate": 30,
             "level": {
-              "min": "25",
-              "max": "27"
+              "min": 25,
+              "max": 27
             }
           },
           {
-            "name": "Tropius",
+            "species": "tropius",
             "rate": 9,
             "level": {
-              "min": "25",
-              "max": "27"
+              "min": 25,
+              "max": 27
             }
           },
           {
-            "name": "Kecleon",
+            "species": "kecleon",
             "rate": 1,
             "level": {
-              "min": "25",
-              "max": "25"
+              "min": 25,
+              "max": 25
             }
           }
         ]
@@ -1793,27 +1809,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 60,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 35,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Pelipper",
+            "species": "pelipper",
             "rate": 5,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -1822,19 +1838,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Goldeen",
+            "species": "goldeen",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -1843,27 +1859,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Carvanha",
+            "species": "carvanha",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -1872,19 +1888,19 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Feebas",
-            "rate": null,
+            "species": "feebas",
+            "rate": "N/A",
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Carvanha",
+            "species": "carvanha",
             "rate": 100,
             "level": {
-              "min": "20",
-              "max": "45"
+              "min": 20,
+              "max": 45
             }
           }
         ]
@@ -1893,14 +1909,11 @@
     "trades": [],
     "gifts": [
       {
-        "name": "",
-        "level": 0,
-        "requirement": ""
-      },
-      {
-        "name": "",
-        "level": 0,
-        "requirement": ""
+        "species": "castform",
+        "level": {
+          "min": 25,
+          "max": 25
+        }
       }
     ],
     "static": []
@@ -1921,59 +1934,59 @@
         "method": "grass",
         "pokemon": [
           {
-            "name": "Mightyena",
+            "species": "mightyena",
             "rate": 30,
             "level": {
-              "min": "25",
-              "max": "27"
+              "min": 25,
+              "max": 27
             }
           },
           {
-            "name": "Oddish",
+            "species": "oddish",
             "rate": 25,
             "level": {
-              "min": "25",
-              "max": "27"
+              "min": 25,
+              "max": 27
             }
           },
           {
-            "name": "Poochyena",
+            "species": "poochyena",
             "rate": 20,
             "level": {
-              "min": "25",
-              "max": "25"
+              "min": 25,
+              "max": 25
             }
           },
           {
-            "name": "Marill",
+            "species": "marill",
             "rate": 15,
             "level": {
-              "min": "25",
-              "max": "27"
+              "min": 25,
+              "max": 27
             }
           },
           {
-            "name": "Absol",
+            "species": "absol",
             "rate": 8,
             "level": {
-              "min": "25",
-              "max": "27"
+              "min": 25,
+              "max": 27
             }
           },
           {
-            "name": "Seedot",
+            "species": "seedot",
             "rate": 1,
             "level": {
-              "min": "25",
-              "max": "25"
+              "min": 25,
+              "max": 25
             }
           },
           {
-            "name": "Kecleon",
+            "species": "kecleon",
             "rate": 1,
             "level": {
-              "min": "25",
-              "max": "25"
+              "min": 25,
+              "max": 25
             }
           }
         ]
@@ -1982,19 +1995,19 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Marill",
+            "species": "marill",
             "rate": 99,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Goldeen",
+            "species": "goldeen",
             "rate": 1,
             "level": {
-              "min": "20",
-              "max": "30"
+              "min": 20,
+              "max": 30
             }
           }
         ]
@@ -2003,19 +2016,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Goldeen",
+            "species": "goldeen",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -2024,27 +2037,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Goldeen",
+            "species": "goldeen",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Barboach",
+            "species": "barboach",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -2053,11 +2066,11 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Barboach",
+            "species": "barboach",
             "rate": 100,
             "level": {
-              "min": "20",
-              "max": "45"
+              "min": 20,
+              "max": 45
             }
           }
         ]
@@ -2088,59 +2101,59 @@
         "method": "grass",
         "pokemon": [
           {
-            "name": "Shuppet",
+            "species": "shuppet",
             "rate": 30,
             "level": {
-              "min": "26",
-              "max": "28"
+              "min": 26,
+              "max": 28
             }
           },
           {
-            "name": "Poochyena",
+            "species": "poochyena",
             "rate": 20,
             "level": {
-              "min": "26",
-              "max": "26"
+              "min": 26,
+              "max": 26
             }
           },
           {
-            "name": "Mightyena",
+            "species": "mightyena",
             "rate": 20,
             "level": {
-              "min": "26",
-              "max": "28"
+              "min": 26,
+              "max": 28
             }
           },
           {
-            "name": "Oddish",
+            "species": "oddish",
             "rate": 15,
             "level": {
-              "min": "26",
-              "max": "28"
+              "min": 26,
+              "max": 28
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 9,
             "level": {
-              "min": "26",
-              "max": "28"
+              "min": 26,
+              "max": 28
             }
           },
           {
-            "name": "Gloom",
+            "species": "gloom",
             "rate": 5,
             "level": {
-              "min": "28",
-              "max": "28"
+              "min": 28,
+              "max": 28
             }
           },
           {
-            "name": "Kecleon",
+            "species": "kecleon",
             "rate": 1,
             "level": {
-              "min": "25",
-              "max": "25"
+              "min": 25,
+              "max": 25
             }
           }
         ]
@@ -2149,27 +2162,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 60,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 35,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Pelipper",
+            "species": "pelipper",
             "rate": 5,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -2178,19 +2191,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -2199,27 +2212,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -2228,11 +2241,11 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 100,
             "level": {
-              "min": "20",
-              "max": "45"
+              "min": 20,
+              "max": 45
             }
           }
         ]
@@ -2266,27 +2279,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 60,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 35,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Pelipper",
+            "species": "pelipper",
             "rate": 5,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -2295,19 +2308,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -2316,27 +2329,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -2345,19 +2358,19 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 60,
             "level": {
-              "min": "25",
-              "max": "45"
+              "min": 25,
+              "max": 45
             }
           },
           {
-            "name": "Sharpedo",
+            "species": "sharpedo",
             "rate": 40,
             "level": {
-              "min": "30",
-              "max": "35"
+              "min": 30,
+              "max": 35
             }
           }
         ]
@@ -2383,59 +2396,59 @@
         "method": "grass",
         "pokemon": [
           {
-            "name": "Shuppet",
+            "species": "shuppet",
             "rate": 30,
             "level": {
-              "min": "26",
-              "max": "28"
+              "min": 26,
+              "max": 28
             }
           },
           {
-            "name": "Poochyena",
+            "species": "poochyena",
             "rate": 20,
             "level": {
-              "min": "26",
-              "max": "26"
+              "min": 26,
+              "max": 26
             }
           },
           {
-            "name": "Mightyena",
+            "species": "mightyena",
             "rate": 20,
             "level": {
-              "min": "26",
-              "max": "28"
+              "min": 26,
+              "max": 28
             }
           },
           {
-            "name": "Oddish",
+            "species": "oddish",
             "rate": 15,
             "level": {
-              "min": "26",
-              "max": "28"
+              "min": 26,
+              "max": 28
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 9,
             "level": {
-              "min": "26",
-              "max": "28"
+              "min": 26,
+              "max": 28
             }
           },
           {
-            "name": "Gloom",
+            "species": "gloom",
             "rate": 5,
             "level": {
-              "min": "28",
-              "max": "28"
+              "min": 28,
+              "max": 28
             }
           },
           {
-            "name": "Kecleon",
+            "species": "kecleon",
             "rate": 1,
             "level": {
-              "min": "25",
-              "max": "25"
+              "min": 25,
+              "max": 25
             }
           }
         ]
@@ -2444,27 +2457,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 60,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 35,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Pelipper",
+            "species": "pelipper",
             "rate": 5,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -2473,19 +2486,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -2494,27 +2507,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -2523,11 +2536,11 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 100,
             "level": {
-              "min": "20",
-              "max": "45"
+              "min": 20,
+              "max": 45
             }
           }
         ]
@@ -2561,27 +2574,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Clamperl",
+            "species": "clamperl",
             "rate": 65,
             "level": {
-              "min": "20",
-              "max": "35"
+              "min": 20,
+              "max": 35
             }
           },
           {
-            "name": "Chinchou",
+            "species": "chinchou",
             "rate": 30,
             "level": {
-              "min": "20",
-              "max": "30"
+              "min": 20,
+              "max": 30
             }
           },
           {
-            "name": "Relicanth",
+            "species": "relicanth",
             "rate": 5,
             "level": {
-              "min": "30",
-              "max": "35"
+              "min": 30,
+              "max": 35
             }
           }
         ]
@@ -2590,19 +2603,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -2611,27 +2624,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -2640,48 +2653,19 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 60,
             "level": {
-              "min": "25",
-              "max": "45"
+              "min": 25,
+              "max": 45
             }
           },
           {
-            "name": "Sharpedo",
+            "species": "sharpedo",
             "rate": 40,
             "level": {
-              "min": "30",
-              "max": "35"
-            }
-          }
-        ]
-      },
-      {
-        "method": "surf",
-        "pokemon": [
-          {
-            "name": "Clamperl",
-            "rate": 65,
-            "level": {
-              "min": "20",
-              "max": "35"
-            }
-          },
-          {
-            "name": "Chinchou",
-            "rate": 30,
-            "level": {
-              "min": "20",
-              "max": "30"
-            }
-          },
-          {
-            "name": "Relicanth",
-            "rate": 5,
-            "level": {
-              "min": "30",
-              "max": "35"
+              "min": 30,
+              "max": 35
             }
           }
         ]
@@ -2707,27 +2691,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 60,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 35,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Pelipper",
+            "species": "pelipper",
             "rate": 5,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -2736,19 +2720,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -2757,27 +2741,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -2786,19 +2770,19 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 60,
             "level": {
-              "min": "25",
-              "max": "45"
+              "min": 25,
+              "max": 45
             }
           },
           {
-            "name": "Sharpedo",
+            "species": "sharpedo",
             "rate": 40,
             "level": {
-              "min": "30",
-              "max": "35"
+              "min": 30,
+              "max": 35
             }
           }
         ]
@@ -2824,27 +2808,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Clamperl",
+            "species": "clamperl",
             "rate": 65,
             "level": {
-              "min": "20",
-              "max": "35"
+              "min": 20,
+              "max": 35
             }
           },
           {
-            "name": "Chinchou",
+            "species": "chinchou",
             "rate": 30,
             "level": {
-              "min": "20",
-              "max": "30"
+              "min": 20,
+              "max": 30
             }
           },
           {
-            "name": "Relicanth",
+            "species": "relicanth",
             "rate": 5,
             "level": {
-              "min": "30",
-              "max": "35"
+              "min": 30,
+              "max": 35
             }
           }
         ]
@@ -2853,19 +2837,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -2874,27 +2858,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -2903,48 +2887,19 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 60,
             "level": {
-              "min": "25",
-              "max": "45"
+              "min": 25,
+              "max": 45
             }
           },
           {
-            "name": "Sharpedo",
+            "species": "sharpedo",
             "rate": 40,
             "level": {
-              "min": "30",
-              "max": "35"
-            }
-          }
-        ]
-      },
-      {
-        "method": "surf",
-        "pokemon": [
-          {
-            "name": "Clamperl",
-            "rate": 65,
-            "level": {
-              "min": "20",
-              "max": "35"
-            }
-          },
-          {
-            "name": "Chinchou",
-            "rate": 30,
-            "level": {
-              "min": "20",
-              "max": "30"
-            }
-          },
-          {
-            "name": "Relicanth",
-            "rate": 5,
-            "level": {
-              "min": "30",
-              "max": "35"
+              "min": 30,
+              "max": 35
             }
           }
         ]
@@ -2962,27 +2917,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Clamperl",
+            "species": "clamperl",
             "rate": 65,
             "level": {
-              "min": "20",
-              "max": "35"
+              "min": 20,
+              "max": 35
             }
           },
           {
-            "name": "Chinchou",
+            "species": "chinchou",
             "rate": 30,
             "level": {
-              "min": "20",
-              "max": "30"
+              "min": 20,
+              "max": 30
             }
           },
           {
-            "name": "Relicanth",
+            "species": "relicanth",
             "rate": 5,
             "level": {
-              "min": "30",
-              "max": "35"
+              "min": 30,
+              "max": 35
             }
           }
         ]
@@ -2991,19 +2946,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -3012,27 +2967,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Luvdisc",
+            "species": "luvdisc",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -3041,56 +2996,27 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 45,
             "level": {
-              "min": "30",
-              "max": "35"
+              "min": 30,
+              "max": 35
             }
           },
           {
-            "name": "Luvdisc",
+            "species": "luvdisc",
             "rate": 40,
             "level": {
-              "min": "30",
-              "max": "35"
+              "min": 30,
+              "max": 35
             }
           },
           {
-            "name": "Corsola",
+            "species": "corsola",
             "rate": 15,
             "level": {
-              "min": "30",
-              "max": "35"
-            }
-          }
-        ]
-      },
-      {
-        "method": "surf",
-        "pokemon": [
-          {
-            "name": "Clamperl",
-            "rate": 65,
-            "level": {
-              "min": "20",
-              "max": "35"
-            }
-          },
-          {
-            "name": "Chinchou",
-            "rate": 30,
-            "level": {
-              "min": "20",
-              "max": "30"
-            }
-          },
-          {
-            "name": "Relicanth",
-            "rate": 5,
-            "level": {
-              "min": "30",
-              "max": "35"
+              "min": 30,
+              "max": 35
             }
           }
         ]
@@ -3116,27 +3042,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Clamperl",
+            "species": "clamperl",
             "rate": 65,
             "level": {
-              "min": "20",
-              "max": "35"
+              "min": 20,
+              "max": 35
             }
           },
           {
-            "name": "Chinchou",
+            "species": "chinchou",
             "rate": 30,
             "level": {
-              "min": "20",
-              "max": "30"
+              "min": 20,
+              "max": 30
             }
           },
           {
-            "name": "Relicanth",
+            "species": "relicanth",
             "rate": 5,
             "level": {
-              "min": "30",
-              "max": "35"
+              "min": 30,
+              "max": 35
             }
           }
         ]
@@ -3145,19 +3071,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -3166,27 +3092,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -3195,48 +3121,19 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 60,
             "level": {
-              "min": "25",
-              "max": "45"
+              "min": 25,
+              "max": 45
             }
           },
           {
-            "name": "Sharpedo",
+            "species": "sharpedo",
             "rate": 40,
             "level": {
-              "min": "30",
-              "max": "35"
-            }
-          }
-        ]
-      },
-      {
-        "method": "surf",
-        "pokemon": [
-          {
-            "name": "Clamperl",
-            "rate": 65,
-            "level": {
-              "min": "20",
-              "max": "35"
-            }
-          },
-          {
-            "name": "Chinchou",
-            "rate": 30,
-            "level": {
-              "min": "20",
-              "max": "30"
-            }
-          },
-          {
-            "name": "Relicanth",
-            "rate": 5,
-            "level": {
-              "min": "30",
-              "max": "35"
+              "min": 30,
+              "max": 35
             }
           }
         ]
@@ -3270,35 +3167,35 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 60,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 35,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Pelipper",
+            "species": "pelipper",
             "rate": 4,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           },
           {
-            "name": "Wailord",
+            "species": "wailord",
             "rate": 1,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -3307,19 +3204,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -3328,27 +3225,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -3357,19 +3254,19 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 60,
             "level": {
-              "min": "25",
-              "max": "45"
+              "min": 25,
+              "max": 45
             }
           },
           {
-            "name": "Sharpedo",
+            "species": "sharpedo",
             "rate": 40,
             "level": {
-              "min": "30",
-              "max": "35"
+              "min": 30,
+              "max": 35
             }
           }
         ]
@@ -3387,27 +3284,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 60,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 35,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Pelipper",
+            "species": "pelipper",
             "rate": 5,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -3416,19 +3313,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -3437,27 +3334,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -3466,19 +3363,19 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 60,
             "level": {
-              "min": "25",
-              "max": "45"
+              "min": 25,
+              "max": 45
             }
           },
           {
-            "name": "Sharpedo",
+            "species": "sharpedo",
             "rate": 40,
             "level": {
-              "min": "30",
-              "max": "35"
+              "min": 30,
+              "max": 35
             }
           }
         ]
@@ -3496,27 +3393,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 60,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 35,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Pelipper",
+            "species": "pelipper",
             "rate": 5,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -3525,19 +3422,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -3546,27 +3443,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -3575,19 +3472,19 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 60,
             "level": {
-              "min": "25",
-              "max": "45"
+              "min": 25,
+              "max": 45
             }
           },
           {
-            "name": "Sharpedo",
+            "species": "sharpedo",
             "rate": 40,
             "level": {
-              "min": "30",
-              "max": "35"
+              "min": 30,
+              "max": 35
             }
           }
         ]
@@ -3621,27 +3518,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 60,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 35,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Pelipper",
+            "species": "pelipper",
             "rate": 5,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -3650,19 +3547,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -3671,27 +3568,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -3700,27 +3597,27 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 45,
             "level": {
-              "min": "30",
-              "max": "45"
+              "min": 30,
+              "max": 45
             }
           },
           {
-            "name": "Sharpedo",
+            "species": "sharpedo",
             "rate": 40,
             "level": {
-              "min": "30",
-              "max": "35"
+              "min": 30,
+              "max": 35
             }
           },
           {
-            "name": "Horsea",
+            "species": "horsea",
             "rate": 15,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -3738,27 +3635,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 60,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 35,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Pelipper",
+            "species": "pelipper",
             "rate": 5,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -3767,19 +3664,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -3788,27 +3685,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -3817,27 +3714,27 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 45,
             "level": {
-              "min": "30",
-              "max": "45"
+              "min": 30,
+              "max": 45
             }
           },
           {
-            "name": "Sharpedo",
+            "species": "sharpedo",
             "rate": 40,
             "level": {
-              "min": "30",
-              "max": "35"
+              "min": 30,
+              "max": 35
             }
           },
           {
-            "name": "Horsea",
+            "species": "horsea",
             "rate": 15,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -3855,27 +3752,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 60,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 35,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Pelipper",
+            "species": "pelipper",
             "rate": 5,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -3884,19 +3781,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -3905,27 +3802,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -3934,27 +3831,27 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 45,
             "level": {
-              "min": "30",
-              "max": "45"
+              "min": 30,
+              "max": 45
             }
           },
           {
-            "name": "Sharpedo",
+            "species": "sharpedo",
             "rate": 40,
             "level": {
-              "min": "30",
-              "max": "35"
+              "min": 30,
+              "max": 35
             }
           },
           {
-            "name": "Horsea",
+            "species": "horsea",
             "rate": 15,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -3980,27 +3877,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 60,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 35,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Pelipper",
+            "species": "pelipper",
             "rate": 5,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -4009,19 +3906,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -4030,27 +3927,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -4059,11 +3956,11 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 100,
             "level": {
-              "min": "20",
-              "max": "45"
+              "min": 20,
+              "max": 45
             }
           }
         ]
@@ -4086,27 +3983,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 60,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 35,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Pelipper",
+            "species": "pelipper",
             "rate": 5,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -4115,19 +4012,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -4136,27 +4033,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -4165,11 +4062,11 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 100,
             "level": {
-              "min": "20",
-              "max": "45"
+              "min": 20,
+              "max": 45
             }
           }
         ]
@@ -4187,27 +4084,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 60,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 35,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Pelipper",
+            "species": "pelipper",
             "rate": 5,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -4216,19 +4113,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -4237,27 +4134,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -4266,11 +4163,11 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 100,
             "level": {
-              "min": "20",
-              "max": "45"
+              "min": 20,
+              "max": 45
             }
           }
         ]
@@ -4288,27 +4185,27 @@
         "method": "surf",
         "pokemon": [
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 60,
             "level": {
-              "min": "5",
-              "max": "35"
+              "min": 5,
+              "max": 35
             }
           },
           {
-            "name": "Wingull",
+            "species": "wingull",
             "rate": 35,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Pelipper",
+            "species": "pelipper",
             "rate": 5,
             "level": {
-              "min": "25",
-              "max": "30"
+              "min": 25,
+              "max": 30
             }
           }
         ]
@@ -4317,19 +4214,19 @@
         "method": "fish-oldrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 70,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 30,
             "level": {
-              "min": "5",
-              "max": "10"
+              "min": 5,
+              "max": 10
             }
           }
         ]
@@ -4338,27 +4235,27 @@
         "method": "fish-goodrod",
         "pokemon": [
           {
-            "name": "Magikarp",
+            "species": "magikarp",
             "rate": 60,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Tentacool",
+            "species": "tentacool",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           },
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 20,
             "level": {
-              "min": "10",
-              "max": "30"
+              "min": 10,
+              "max": 30
             }
           }
         ]
@@ -4367,11 +4264,11 @@
         "method": "fish-superrod",
         "pokemon": [
           {
-            "name": "Wailmer",
+            "species": "wailmer",
             "rate": 100,
             "level": {
-              "min": "20",
-              "max": "45"
+              "min": 20,
+              "max": 45
             }
           }
         ]

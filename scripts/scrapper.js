@@ -2,22 +2,14 @@ import * as cheerio from "cheerio";
 import fs from "node:fs";
 import { exit } from "node:process";
 
-// Utils
+// Utils & Constants
 import { cleanPercentage, formatLevels } from "./utils/helpers.js";
+import { GAME, METHOD } from "./utils/constants.js";
 
 // Data
 import routes from "./data/routes.json" with { type: "json" };
 
 const availableMethods = {};
-const METHODS = {
-  grass: "grass",
-  surfing: "surf",
-  fishing: "fish",
-  rocksmash: "rocksmash",
-  gift: "gift",
-  static: "interact",
-  trades: "trade",
-};
 
 const TESTING = true;
 
@@ -25,7 +17,7 @@ if (TESTING) {
   let routeIndex = 0;
   routes.find((item, index) => {
     routeIndex = index;
-    return item.id === "route119";
+    return item.id === "route114";
   });
 
   console.log("routeIndex", routeIndex);
@@ -77,13 +69,14 @@ function getEncounters($, encounterMethods) {
     $(table)
       .find("td")
       .each((_, td) => {
-        const tdClass = $(td).attr("class");
+        let tdClass = $(td).attr("class");
+        if (tdClass === "swarm") tdClass = METHOD.ROCKSMASH;
 
-        if (tdClass === "emerald") currentGame = "emerald";
+        if (tdClass === GAME.EMERALD) currentGame = GAME.EMERALD;
 
-        if (encounterMethods.includes(tdClass) || tdClass === METHODS.fishing) {
+        if (encounterMethods.includes(tdClass) || tdClass === METHOD.FISHING) {
           const rod =
-            tdClass === METHODS.fishing
+            tdClass === METHOD.FISHING
               ? `fish-${$(td).find("a").attr("name")}`
               : null;
 
@@ -92,19 +85,19 @@ function getEncounters($, encounterMethods) {
           data[currentMethod] = [];
         }
 
-        if (tdClass === METHODS.gift) {
-          const game = $(td)
+        if (tdClass === METHOD.GIFT) {
+          const gameRow = $(td)
             .find("a")
             .text()
             .split("-")[1]
             .trim()
             .toLowerCase();
 
-          if (game === "emerald") currentGame = "emerald";
+          if (gameRow === GAME.EMERALD) currentGame = GAME.EMERALD;
         }
 
         if (currentMethod === prevIterationMethod) {
-          const isEmerald = currentGame === "emerald";
+          const isEmerald = currentGame === GAME.EMERALD;
 
           if (!isEmerald) {
             prevIterationMethod = currentMethod;
@@ -129,8 +122,8 @@ function getEncounters($, encounterMethods) {
       let encountersObject = {};
 
       switch (currentMethod) {
-        case METHODS.gift:
-        case METHODS.static:
+        case METHOD.GIFT:
+        case METHOD.STATIC:
           encountersObject = {
             species,
             level,
@@ -159,8 +152,8 @@ function getRouteEncounterMethods($, route) {
     return anchorTd.length > 0;
   });
 
-  const methodsClasses = Object.keys(METHODS)
-    .map((key) => `td.${METHODS[key]}`)
+  const methodsClasses = Object.keys(METHOD)
+    .map((key) => `td.${METHOD[key]}`)
     .join(",");
 
   const methodsElements = $(methodsTable).find("td");
@@ -179,7 +172,7 @@ function getRouteEncounterMethods($, route) {
     .map((_, method) => {
       const methodClass = $(method).attr("class");
 
-      if (methodClass !== "fish") return methodClass;
+      if (methodClass !== METHOD.FISHING) return methodClass;
 
       const rod = $(method).find("a").attr("href").replace("#", "");
       return `${methodClass}-${rod}`;
@@ -192,15 +185,15 @@ function getRouteEncounterMethods($, route) {
 function buildRouteObject(route, encounterMethods, encounters) {
   const areas = [];
   const trades = [];
-  let gifts = [];
   const statics = [];
+  let gifts = [];
 
   encounterMethods.forEach((method) => {
-    if (method === METHODS.static) return statics.push({ name: "", level: "" });
+    if (method === METHOD.STATIC) return statics.push({ name: "", level: "" });
 
-    if (method === METHODS.gift) return (gifts = encounters[method]);
+    if (method === METHOD.GIFT) return (gifts = encounters[method]);
 
-    if (method === METHODS.trades)
+    if (method === METHOD.TRADE)
       return trades.push({
         give: "",
         receive: [{ name: "", item: "" }],
@@ -242,6 +235,8 @@ function saveFile(path, filename, content) {
   );
 }
 
+function patchEncounters() {}
+
 // [
 //   {
 //     "id": "",
@@ -253,12 +248,9 @@ function saveFile(path, filename, content) {
 //         "receive": { "name": "", "item": "" }
 //       }
 //     ],
-//     "gifts": [{ "name": "", "level": 24 }],
 //     "static": [{ "name": "", "level": 14 }]
 //   }
 // ]
 //
 //
-// gift: [ 'route101', 'route119', 'route119' ],
 // interact: [ 'route105', 'route120', 'route111' ],
-// rocksmash: [ 'route114' ]

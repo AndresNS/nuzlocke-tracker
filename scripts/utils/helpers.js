@@ -6,7 +6,8 @@ export function cleanPercentage(percentage) {
 }
 
 export function formatLevels(levels) {
-  if (Number(levels) !== NaN) return { min: levels, max: levels };
+  if (!Number.isNaN(Number(levels)))
+    return { min: Number(levels), max: Number(levels) };
 
   const levelsArray = levels.split("-");
 
