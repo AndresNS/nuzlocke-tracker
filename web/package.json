@@ -8,8 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "tsc -b && vite build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "yarn build && gh-pages -d dist"
   },
   "dependencies": {
     "@heroui/react": "^3.2.4",
