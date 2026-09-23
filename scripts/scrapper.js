@@ -2,6 +2,10 @@ import * as cheerio from "cheerio";
 import fs from "node:fs";
 import { exit } from "node:process";
 
+// Utils
+import { cleanPercentage, formatLevels } from "./utils/helpers.js";
+
+// Data
 import routes from "./data/routes.json" with { type: "json" };
 
 const availableMethods = {};
@@ -18,7 +22,15 @@ const METHODS = {
 const TESTING = true;
 
 if (TESTING) {
-  console.dir(await generateRouteObject(routes[3]), { depth: null });
+  let routeIndex = 0;
+  routes.find((item, index) => {
+    routeIndex = index;
+    return item.id === "route119";
+  });
+
+  console.log("routeIndex", routeIndex);
+
+  console.dir(await generateRouteObject(routes[routeIndex]), { depth: null });
 
   exit();
 }
@@ -30,6 +42,8 @@ await Promise.all(routes.map((route) => generateRouteObject(route))).then(
     console.dir(data, { depth: null });
 
     saveFile(OUTPUT_PATH, "encounters.json", data);
+
+    console.log("availableMethods", availableMethods);
   },
 );
 
@@ -64,15 +78,29 @@ function getEncounters($, encounterMethods) {
       .find("td")
       .each((_, td) => {
         const tdClass = $(td).attr("class");
+
         if (tdClass === "emerald") currentGame = "emerald";
 
-        if (encounterMethods.includes(tdClass) || tdClass === "fish") {
+        if (encounterMethods.includes(tdClass) || tdClass === METHODS.fishing) {
           const rod =
-            tdClass === "fish" ? `fish-${$(td).find("a").attr("name")}` : null;
+            tdClass === METHODS.fishing
+              ? `fish-${$(td).find("a").attr("name")}`
+              : null;
 
           currentMethod = rod ?? tdClass;
           currentGame = "";
           data[currentMethod] = [];
+        }
+
+        if (tdClass === METHODS.gift) {
+          const game = $(td)
+            .find("a")
+            .text()
+            .split("-")[1]
+            .trim()
+            .toLowerCase();
+
+          if (game === "emerald") currentGame = "emerald";
         }
 
         if (currentMethod === prevIterationMethod) {
@@ -94,11 +122,26 @@ function getEncounters($, encounterMethods) {
     pokemonNames.forEach((_, index) => {
       if (!data[currentMethod]) data[currentMethod] = [];
 
-      data[currentMethod].push({
-        name: pokemonNames[index],
-        rate: pokemonRates[index],
-        level: pokemonLevels[index],
-      });
+      const species = pokemonNames[index].toLowerCase();
+      const rate = cleanPercentage(pokemonRates[index]);
+      const level = formatLevels(pokemonLevels[index]);
+
+      let encountersObject = {};
+
+      switch (currentMethod) {
+        case METHODS.gift:
+        case METHODS.static:
+          encountersObject = {
+            species,
+            level,
+          };
+          break;
+
+        default:
+          encountersObject = { species, rate, level };
+      }
+
+      data[currentMethod].push(encountersObject);
     });
   });
 
@@ -143,20 +186,19 @@ function getRouteEncounterMethods($, route) {
     })
     .toArray();
 
-  return encounterMethods;
+  return [...new Set(encounterMethods)];
 }
 
 function buildRouteObject(route, encounterMethods, encounters) {
   const areas = [];
   const trades = [];
-  const gifts = [];
+  let gifts = [];
   const statics = [];
 
   encounterMethods.forEach((method) => {
     if (method === METHODS.static) return statics.push({ name: "", level: "" });
 
-    if (method === METHODS.gift)
-      return gifts.push({ name: "", level: 0, requirement: "" });
+    if (method === METHODS.gift) return (gifts = encounters[method]);
 
     if (method === METHODS.trades)
       return trades.push({
@@ -204,28 +246,19 @@ function saveFile(path, filename, content) {
 //   {
 //     "id": "",
 //     "name": "",
-//       "areas": [
-//         {
-//           "method": "grass",
-//           "pokemon": [
-//             { "species": "264", "minLvl": 12, "maxLvl": 14, "rate": 20 }
-//           ]
-//         },
-//         {
-//           "method": "fishing-old-rod",
-//           "pokemon": [{ "species": "", "minLvl": 12, "maxLvl": 14, "rate": 15 }]
-//         }
-//       ]
 //     ,
 //     "trades": [
 //       {
 //         "give": "ralts",
-//         "receive": [{ "name": "", "item": "" }]
+//         "receive": { "name": "", "item": "" }
 //       }
 //     ],
-//     "gifts": [{ "name": "", "level": 24, "requirement": "" }],
+//     "gifts": [{ "name": "", "level": 24 }],
 //     "static": [{ "name": "", "level": 14 }]
 //   }
 // ]
 //
 //
+// gift: [ 'route101', 'route119', 'route119' ],
+// interact: [ 'route105', 'route120', 'route111' ],
+// rocksmash: [ 'route114' ]
