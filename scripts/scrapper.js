@@ -7,11 +7,11 @@ import { cleanPercentage, formatLevels } from "./utils/helpers.js";
 import { GAME, METHOD } from "./utils/constants.js";
 
 // Data
-import routes from "./data/routes.json" with { type: "json" };
+import routes from "./data/pokemon-routes.json" with { type: "json" };
 
 const availableMethods = {};
 
-const TESTING = true;
+const TESTING = false;
 
 if (TESTING) {
   let routeIndex = 0;
@@ -35,7 +35,17 @@ await Promise.all(routes.map((route) => generateRouteObject(route))).then(
 
     saveFile(OUTPUT_PATH, "encounters.json", data);
 
-    console.log("availableMethods", availableMethods);
+    const emptyRoutes = data.filter(
+      (route) =>
+        route.areas.length === 0 &&
+        route.gifts.length === 0 &&
+        route.static.length === 0 &&
+        route.trades.length === 0,
+    );
+
+    console.log("EMPTY", emptyRoutes);
+
+    // console.log("availableMethods", availableMethods);
   },
 );
 
