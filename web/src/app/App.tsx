@@ -3,7 +3,7 @@ import { DisclosureGroup, Typography } from "@heroui/react";
 
 // Components
 import Header from "../components/Header";
-import RouteRow from "../components/RouteRow";
+import RouteRow, { type Route } from "../components/RouteRow";
 
 // Hooks
 import { useLocalStorage } from "../hooks/useLocalStorage";
@@ -12,7 +12,7 @@ import { useLocalStorage } from "../hooks/useLocalStorage";
 import { STORAGE_KEYS } from "../utils/constants";
 
 // Data
-import routes from "../../data/routes.json";
+import routes from "../../data/encounters.json";
 
 function App() {
   const [encounters, setEncounters] = useLocalStorage<
@@ -44,7 +44,7 @@ function App() {
                 <RouteRow
                   isExpanded={expandedKeys.has(route.id)}
                   key={route.id}
-                  route={route}
+                  route={route as Route}
                   encounters={encounters}
                   setEncounters={setEncounters}
                 />

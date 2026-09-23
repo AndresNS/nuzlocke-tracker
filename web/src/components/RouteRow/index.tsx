@@ -2,7 +2,6 @@ import {
   Button,
   cn,
   Disclosure,
-  Label,
   Separator,
   Tag,
   TagGroup,
@@ -12,13 +11,38 @@ import { getEvolutionLine } from "../../utils/helpers";
 
 type SetValue<T> = T | ((val: T) => T);
 
+type Pokemon = {
+  species: string;
+  rate?: number;
+  level: { min: number; max: number };
+};
+
+type Area = {
+  method: string;
+  pokemon: Pokemon[];
+};
+
+type Trade = {
+  give: string;
+  receive: Pokemon;
+};
+
+export type Route = {
+  id: string;
+  name: string;
+  areas: Area[];
+  trades: Trade[];
+  gifts: Pokemon[];
+  static: Pokemon[];
+};
+
 const RouteRow = memo(function RouteRow({
   route,
   isExpanded,
   encounters,
   setEncounters,
 }: {
-  route: { id: string; name: string; encounters: string[] };
+  route: Route;
   isExpanded: boolean;
   encounters: Record<string, string | undefined>;
   setEncounters: (value: SetValue<Record<string, string | undefined>>) => void;
@@ -51,6 +75,9 @@ const RouteRow = memo(function RouteRow({
   );
 
   const encounterClaimed = Array.from(getClaimedEncounter(route.id)).length > 0;
+
+  // TODO
+  // - Add sections and remake onChange handler
 
   return (
     <Fragment>
@@ -86,20 +113,48 @@ const RouteRow = memo(function RouteRow({
                   )
                 }
               >
-                <Label>Available Encounters</Label>
                 <TagGroup.List>
-                  {route.encounters.map((encounter) => (
-                    <Tag
-                      id={encounter}
-                      key={encounter}
-                      isDisabled={!isValidEncounter(encounter, route.id)}
-                    >
-                      {encounter}
+                  {route.areas.map((area) =>
+                    area.pokemon.map((pokemon) => (
+                      <Tag
+                        key={`${route.id}-${area.method}-${pokemon.species}`}
+                        id={pokemon.species}
+                        isDisabled={
+                          !isValidEncounter(pokemon.species, route.id)
+                        }
+                      >
+                        {pokemon.species}
+                      </Tag>
+                    )),
+                  )}
+
+                  {route.static.length > 0 &&
+                    route.static.map((staticEncounter) => (
+                      <Tag
+                        key={`${route.id}-static-${staticEncounter.species}`}
+                        id={staticEncounter.species}
+                        isDisabled={
+                          !isValidEncounter(staticEncounter.species, route.id)
+                        }
+                      >
+                        {staticEncounter.species}
+                      </Tag>
+                    ))}
+                  {route.gifts.length > 0 &&
+                    route.gifts.map((gift) => (
+                      <Tag
+                        key={`${route.id}-gift-${gift.species}`}
+                        id={gift.species}
+                        isDisabled={!isValidEncounter(gift.species, route.id)}
+                      >
+                        {gift.species}
+                      </Tag>
+                    ))}
+                  <div className="w-full">
+                    <Tag id={"missed"} key={"missed"}>
+                      Missed
                     </Tag>
-                  ))}
-                  <Tag id={"missed"} key={"missed"}>
-                    Missed
-                  </Tag>
+                  </div>
                 </TagGroup.List>
               </TagGroup>
             )}

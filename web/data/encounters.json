@@ -1,28 +1,6107 @@
 [
   {
-    "id": "",
-    "name": "",
-    "encounters": {
-      "areas": [
-        {
-          "method": "grass",
-          "pokemon": [
-            { "species": "264", "minLvl": 12, "maxLvl": 14, "rate": 20 }
-          ]
-        },
-        {
-          "method": "fishing-old-rod",
-          "pokemon": [{ "species": "", "minLvl": 12, "maxLvl": 14, "rate": 15 }]
-        }
-      ]
-    },
-    "trades": [
+    "id": "route101",
+    "name": "Route 101",
+    "areas": [
       {
-        "give": "ralts",
-        "receive": [{ "name": "", "item": "" }]
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "wurmple",
+            "rate": 45,
+            "level": {
+              "min": 2,
+              "max": 3
+            }
+          },
+          {
+            "species": "poochyena",
+            "rate": 45,
+            "level": {
+              "min": 2,
+              "max": 3
+            }
+          },
+          {
+            "species": "zigzagoon",
+            "rate": 10,
+            "level": {
+              "min": 2,
+              "max": 3
+            }
+          }
+        ]
       }
     ],
-    "gifts": [{ "name": "", "level": 24, "requirement": "" }],
-    "static": [{ "name": "", "level": 14 }]
+    "trades": [],
+    "gifts": [
+      {
+        "species": "treecko",
+        "level": {
+          "min": 5,
+          "max": 5
+        }
+      },
+      {
+        "species": "torchic",
+        "level": {
+          "min": 5,
+          "max": 5
+        }
+      },
+      {
+        "species": "mudkip",
+        "level": {
+          "min": 5,
+          "max": 5
+        }
+      }
+    ],
+    "static": []
+  },
+  {
+    "id": "route103",
+    "name": "Route 103",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "poochyena",
+            "rate": 60,
+            "level": {
+              "min": 2,
+              "max": 4
+            }
+          },
+          {
+            "species": "zigzagoon",
+            "rate": 30,
+            "level": {
+              "min": 2,
+              "max": 4
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 10,
+            "level": {
+              "min": 2,
+              "max": 4
+            }
+          }
+        ]
+      },
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 60,
+            "level": {
+              "min": 25,
+              "max": 45
+            }
+          },
+          {
+            "species": "sharpedo",
+            "rate": 40,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route102",
+    "name": "Route 102",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "wurmple",
+            "rate": 30,
+            "level": {
+              "min": 3,
+              "max": 4
+            }
+          },
+          {
+            "species": "poochyena",
+            "rate": 30,
+            "level": {
+              "min": 3,
+              "max": 4
+            }
+          },
+          {
+            "species": "lotad",
+            "rate": 20,
+            "level": {
+              "min": 3,
+              "max": 4
+            }
+          },
+          {
+            "species": "zigzagoon",
+            "rate": 15,
+            "level": {
+              "min": 3,
+              "max": 4
+            }
+          },
+          {
+            "species": "ralts",
+            "rate": 4,
+            "level": {
+              "min": 4,
+              "max": 4
+            }
+          },
+          {
+            "species": "seedot",
+            "rate": 1,
+            "level": {
+              "min": 3,
+              "max": 3
+            }
+          }
+        ]
+      },
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "marill",
+            "rate": 99,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 1,
+            "level": {
+              "min": 20,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "corphish",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "corphish",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "petalburgcity",
+    "name": "Petalburg City",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "marill",
+            "rate": 100,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "corphish",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "corphish",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route104",
+    "name": "Route 104",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "poochyena",
+            "rate": 40,
+            "level": {
+              "min": 4,
+              "max": 5
+            }
+          },
+          {
+            "species": "marill",
+            "rate": 20,
+            "level": {
+              "min": 4,
+              "max": 5
+            }
+          },
+          {
+            "species": "wurmple",
+            "rate": 20,
+            "level": {
+              "min": 4,
+              "max": 5
+            }
+          },
+          {
+            "species": "taillow",
+            "rate": 10,
+            "level": {
+              "min": 4,
+              "max": 5
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 10,
+            "level": {
+              "min": 3,
+              "max": 5
+            }
+          }
+        ]
+      },
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "wingull",
+            "rate": 95,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 100,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 100,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "petalburgwoods",
+    "name": "Petalburg Woods",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "poochyena",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 6
+            }
+          },
+          {
+            "species": "wurmple",
+            "rate": 25,
+            "level": {
+              "min": 5,
+              "max": 6
+            }
+          },
+          {
+            "species": "shroomish",
+            "rate": 15,
+            "level": {
+              "min": 5,
+              "max": 6
+            }
+          },
+          {
+            "species": "silcoon",
+            "rate": 10,
+            "level": {
+              "min": 5,
+              "max": 5
+            }
+          },
+          {
+            "species": "cascoon",
+            "rate": 10,
+            "level": {
+              "min": 5,
+              "max": 5
+            }
+          },
+          {
+            "species": "taillow",
+            "rate": 5,
+            "level": {
+              "min": 5,
+              "max": 6
+            }
+          },
+          {
+            "species": "slakoth",
+            "rate": 5,
+            "level": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "rustborocity",
+    "name": "Rustboro City",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route116",
+    "name": "Route 116",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "poochyena",
+            "rate": 28,
+            "level": {
+              "min": 6,
+              "max": 8
+            }
+          },
+          {
+            "species": "whismur",
+            "rate": 20,
+            "level": {
+              "min": 6,
+              "max": 6
+            }
+          },
+          {
+            "species": "taillow",
+            "rate": 20,
+            "level": {
+              "min": 6,
+              "max": 8
+            }
+          },
+          {
+            "species": "nincada",
+            "rate": 20,
+            "level": {
+              "min": 6,
+              "max": 7
+            }
+          },
+          {
+            "species": "abra",
+            "rate": 10,
+            "level": {
+              "min": 7,
+              "max": 7
+            }
+          },
+          {
+            "species": "skitty",
+            "rate": 2,
+            "level": {
+              "min": 7,
+              "max": 8
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "rusturftunnel",
+    "name": "Rusturf Tunnel",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "whismur",
+            "rate": 100,
+            "level": {
+              "min": 5,
+              "max": 8
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "dewfordtown",
+    "name": "Dewford Town",
+    "areas": [
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "granitecave",
+    "name": "Granite Cave",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "aron",
+            "rate": 40,
+            "level": {
+              "min": 10,
+              "max": 12
+            }
+          },
+          {
+            "species": "zubat",
+            "rate": 30,
+            "level": {
+              "min": 10,
+              "max": 11
+            }
+          },
+          {
+            "species": "sableye",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 12
+            }
+          },
+          {
+            "species": "abra",
+            "rate": 10,
+            "level": {
+              "min": 10,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "rocksmash",
+        "pokemon": [
+          {
+            "species": "geodude",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 20
+            }
+          },
+          {
+            "species": "nosepass",
+            "rate": 30,
+            "level": {
+              "min": 10,
+              "max": 20
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route109",
+    "name": "Route 109",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "slateportcity",
+    "name": "Slateport City",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route110",
+    "name": "Route 110",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "electrike",
+            "rate": 30,
+            "level": {
+              "min": 12,
+              "max": 13
+            }
+          },
+          {
+            "species": "poochyena",
+            "rate": 20,
+            "level": {
+              "min": 12,
+              "max": 12
+            }
+          },
+          {
+            "species": "minun",
+            "rate": 15,
+            "level": {
+              "min": 13,
+              "max": 13
+            }
+          },
+          {
+            "species": "gulpin",
+            "rate": 15,
+            "level": {
+              "min": 12,
+              "max": 13
+            }
+          },
+          {
+            "species": "oddish",
+            "rate": 10,
+            "level": {
+              "min": 13,
+              "max": 13
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 8,
+            "level": {
+              "min": 12,
+              "max": 12
+            }
+          },
+          {
+            "species": "plusle",
+            "rate": 2,
+            "level": {
+              "min": 12,
+              "max": 13
+            }
+          }
+        ]
+      },
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route117",
+    "name": "Route 117",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "oddish",
+            "rate": 40,
+            "level": {
+              "min": 13,
+              "max": 14
+            }
+          },
+          {
+            "species": "poochyena",
+            "rate": 30,
+            "level": {
+              "min": 13,
+              "max": 14
+            }
+          },
+          {
+            "species": "illumise",
+            "rate": 18,
+            "level": {
+              "min": 13,
+              "max": 14
+            }
+          },
+          {
+            "species": "marill",
+            "rate": 10,
+            "level": {
+              "min": 13,
+              "max": 13
+            }
+          },
+          {
+            "species": "volbeat",
+            "rate": 1,
+            "level": {
+              "min": 13,
+              "max": 13
+            }
+          },
+          {
+            "species": "seedot",
+            "rate": 1,
+            "level": {
+              "min": 13,
+              "max": 13
+            }
+          }
+        ]
+      },
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "marill",
+            "rate": 99,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 1,
+            "level": {
+              "min": 20,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "corphish",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "corphish",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route111",
+    "name": "Route 111",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "marill",
+            "rate": 99,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 1,
+            "level": {
+              "min": 20,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "barboach",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "barboach",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          }
+        ]
+      },
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "sandshrew",
+            "rate": 35,
+            "level": {
+              "min": 19,
+              "max": 21
+            }
+          },
+          {
+            "species": "trapinch",
+            "rate": 35,
+            "level": {
+              "min": 19,
+              "max": 21
+            }
+          },
+          {
+            "species": "baltoy",
+            "rate": 24,
+            "level": {
+              "min": 19,
+              "max": 21
+            }
+          },
+          {
+            "species": "cacnea",
+            "rate": 6,
+            "level": {
+              "min": 20,
+              "max": 22
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": [
+      {
+        "name": "",
+        "level": ""
+      }
+    ]
+  },
+  {
+    "id": "route112",
+    "name": "Route 112",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "numel",
+            "rate": 75,
+            "level": {
+              "min": 14,
+              "max": 16
+            }
+          },
+          {
+            "species": "marill",
+            "rate": 25,
+            "level": {
+              "min": 14,
+              "max": 16
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "fierypath",
+    "name": "Fiery Path",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "numel",
+            "rate": 30,
+            "level": {
+              "min": 15,
+              "max": 16
+            }
+          },
+          {
+            "species": "koffing",
+            "rate": 25,
+            "level": {
+              "min": 15,
+              "max": 16
+            }
+          },
+          {
+            "species": "torkoal",
+            "rate": 18,
+            "level": {
+              "min": 14,
+              "max": 16
+            }
+          },
+          {
+            "species": "machop",
+            "rate": 15,
+            "level": {
+              "min": 15,
+              "max": 16
+            }
+          },
+          {
+            "species": "slugma",
+            "rate": 10,
+            "level": {
+              "min": 15,
+              "max": 15
+            }
+          },
+          {
+            "species": "grimer",
+            "rate": 2,
+            "level": {
+              "min": 14,
+              "max": 14
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route113",
+    "name": "Route 113",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "spinda",
+            "rate": 70,
+            "level": {
+              "min": 14,
+              "max": 16
+            }
+          },
+          {
+            "species": "slugma",
+            "rate": 25,
+            "level": {
+              "min": 14,
+              "max": 16
+            }
+          },
+          {
+            "species": "skarmory",
+            "rate": 5,
+            "level": {
+              "min": 16,
+              "max": 16
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route114",
+    "name": "Route 114",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "swablu",
+            "rate": 40,
+            "level": {
+              "min": 15,
+              "max": 17
+            }
+          },
+          {
+            "species": "lotad",
+            "rate": 30,
+            "level": {
+              "min": 15,
+              "max": 16
+            }
+          },
+          {
+            "species": "lombre",
+            "rate": 20,
+            "level": {
+              "min": 16,
+              "max": 18
+            }
+          },
+          {
+            "species": "seviper",
+            "rate": 9,
+            "level": {
+              "min": 15,
+              "max": 17
+            }
+          },
+          {
+            "species": "nuzleaf",
+            "rate": 1,
+            "level": {
+              "min": 15,
+              "max": 15
+            }
+          }
+        ]
+      },
+      {
+        "method": "rocksmash",
+        "pokemon": [
+          {
+            "species": "geodude",
+            "rate": 100,
+            "level": {
+              "min": 5,
+              "max": 20
+            }
+          }
+        ]
+      },
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "marill",
+            "rate": 99,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 1,
+            "level": {
+              "min": 20,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "barboach",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "barboach",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "meteorfalls",
+    "name": "Meteor Falls",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "golbat",
+            "rate": 65,
+            "level": {
+              "min": 33,
+              "max": 40
+            }
+          },
+          {
+            "species": "solrock",
+            "rate": 35,
+            "level": {
+              "min": 33,
+              "max": 39
+            }
+          }
+        ]
+      },
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "golbat",
+            "rate": 90,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "solrock",
+            "rate": 10,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "barboach",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "barboach",
+            "rate": 80,
+            "level": {
+              "min": 25,
+              "max": 35
+            }
+          },
+          {
+            "species": "whiscash",
+            "rate": 20,
+            "level": {
+              "min": 30,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route115",
+    "name": "Route 115",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "taillow",
+            "rate": 40,
+            "level": {
+              "min": 23,
+              "max": 25
+            }
+          },
+          {
+            "species": "swablu",
+            "rate": 30,
+            "level": {
+              "min": 23,
+              "max": 25
+            }
+          },
+          {
+            "species": "jigglypuff",
+            "rate": 10,
+            "level": {
+              "min": 24,
+              "max": 25
+            }
+          },
+          {
+            "species": "swellow",
+            "rate": 10,
+            "level": {
+              "min": 25,
+              "max": 25
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 10,
+            "level": {
+              "min": 24,
+              "max": 26
+            }
+          }
+        ]
+      },
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "jaggedpass",
+    "name": "Jagged Pass",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "numel",
+            "rate": 55,
+            "level": {
+              "min": 20,
+              "max": 22
+            }
+          },
+          {
+            "species": "machop",
+            "rate": 25,
+            "level": {
+              "min": 20,
+              "max": 22
+            }
+          },
+          {
+            "species": "spoink",
+            "rate": 20,
+            "level": {
+              "min": 20,
+              "max": 22
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "lavaridgetown",
+    "name": "Lavaridge Town",
+    "areas": [],
+    "trades": [],
+    "gifts": [
+      {
+        "species": "wynaut",
+        "level": {
+          "min": 5,
+          "max": 5
+        }
+      }
+    ],
+    "static": []
+  },
+  {
+    "id": "newmauville",
+    "name": "New Mauville",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "magnemite",
+            "rate": 49,
+            "level": {
+              "min": 22,
+              "max": 26
+            }
+          },
+          {
+            "species": "voltorb",
+            "rate": 49,
+            "level": {
+              "min": 22,
+              "max": 26
+            }
+          },
+          {
+            "species": "magneton",
+            "rate": 1,
+            "level": {
+              "min": 26,
+              "max": 26
+            }
+          },
+          {
+            "species": "electrode",
+            "rate": 1,
+            "level": {
+              "min": 26,
+              "max": 26
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": [
+      {
+        "name": "",
+        "level": ""
+      }
+    ]
+  },
+  {
+    "id": "route118",
+    "name": "Route 118",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "zigzagoon",
+            "rate": 30,
+            "level": {
+              "min": 24,
+              "max": 26
+            }
+          },
+          {
+            "species": "electrike",
+            "rate": 30,
+            "level": {
+              "min": 24,
+              "max": 26
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 19,
+            "level": {
+              "min": 25,
+              "max": 27
+            }
+          },
+          {
+            "species": "linoone",
+            "rate": 10,
+            "level": {
+              "min": 26,
+              "max": 26
+            }
+          },
+          {
+            "species": "manectric",
+            "rate": 10,
+            "level": {
+              "min": 26,
+              "max": 26
+            }
+          },
+          {
+            "species": "kecleon",
+            "rate": 1,
+            "level": {
+              "min": 25,
+              "max": 25
+            }
+          }
+        ]
+      },
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "carvanha",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "carvanha",
+            "rate": 60,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          },
+          {
+            "species": "sharpedo",
+            "rate": 40,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route119",
+    "name": "Route 119",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "oddish",
+            "rate": 30,
+            "level": {
+              "min": 24,
+              "max": 27
+            }
+          },
+          {
+            "species": "zigzagoon",
+            "rate": 30,
+            "level": {
+              "min": 25,
+              "max": 27
+            }
+          },
+          {
+            "species": "linoone",
+            "rate": 30,
+            "level": {
+              "min": 25,
+              "max": 27
+            }
+          },
+          {
+            "species": "tropius",
+            "rate": 9,
+            "level": {
+              "min": 25,
+              "max": 27
+            }
+          },
+          {
+            "species": "kecleon",
+            "rate": 1,
+            "level": {
+              "min": 25,
+              "max": 25
+            }
+          }
+        ]
+      },
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "carvanha",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "feebas",
+            "rate": "N/A",
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "carvanha",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [
+      {
+        "species": "castform",
+        "level": {
+          "min": 25,
+          "max": 25
+        }
+      }
+    ],
+    "static": []
+  },
+  {
+    "id": "route120",
+    "name": "Route 120",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "mightyena",
+            "rate": 30,
+            "level": {
+              "min": 25,
+              "max": 27
+            }
+          },
+          {
+            "species": "oddish",
+            "rate": 25,
+            "level": {
+              "min": 25,
+              "max": 27
+            }
+          },
+          {
+            "species": "poochyena",
+            "rate": 20,
+            "level": {
+              "min": 25,
+              "max": 25
+            }
+          },
+          {
+            "species": "marill",
+            "rate": 15,
+            "level": {
+              "min": 25,
+              "max": 27
+            }
+          },
+          {
+            "species": "absol",
+            "rate": 8,
+            "level": {
+              "min": 25,
+              "max": 27
+            }
+          },
+          {
+            "species": "seedot",
+            "rate": 1,
+            "level": {
+              "min": 25,
+              "max": 25
+            }
+          },
+          {
+            "species": "kecleon",
+            "rate": 1,
+            "level": {
+              "min": 25,
+              "max": 25
+            }
+          }
+        ]
+      },
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "marill",
+            "rate": 99,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 1,
+            "level": {
+              "min": 20,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "barboach",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "barboach",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": [
+      {
+        "name": "",
+        "level": ""
+      }
+    ]
+  },
+  {
+    "id": "route121",
+    "name": "Route 121",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "shuppet",
+            "rate": 30,
+            "level": {
+              "min": 26,
+              "max": 28
+            }
+          },
+          {
+            "species": "poochyena",
+            "rate": 20,
+            "level": {
+              "min": 26,
+              "max": 26
+            }
+          },
+          {
+            "species": "mightyena",
+            "rate": 20,
+            "level": {
+              "min": 26,
+              "max": 28
+            }
+          },
+          {
+            "species": "oddish",
+            "rate": 15,
+            "level": {
+              "min": 26,
+              "max": 28
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 9,
+            "level": {
+              "min": 26,
+              "max": 28
+            }
+          },
+          {
+            "species": "gloom",
+            "rate": 5,
+            "level": {
+              "min": 28,
+              "max": 28
+            }
+          },
+          {
+            "species": "kecleon",
+            "rate": 1,
+            "level": {
+              "min": 25,
+              "max": 25
+            }
+          }
+        ]
+      },
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "safarizone",
+    "name": "Safari Zone",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "mareep",
+            "rate": 30,
+            "level": {
+              "min": 34,
+              "max": 36
+            }
+          },
+          {
+            "species": "sunkern",
+            "rate": 30,
+            "level": {
+              "min": 33,
+              "max": 35
+            }
+          },
+          {
+            "species": "spinarak",
+            "rate": 10,
+            "level": {
+              "min": 33,
+              "max": 33
+            }
+          },
+          {
+            "species": "aipom",
+            "rate": 10,
+            "level": {
+              "min": 34,
+              "max": 34
+            }
+          },
+          {
+            "species": "hoothoot",
+            "rate": 5,
+            "level": {
+              "min": 35,
+              "max": 35
+            }
+          },
+          {
+            "species": "gligar",
+            "rate": 5,
+            "level": {
+              "min": 37,
+              "max": 40
+            }
+          },
+          {
+            "species": "snubbull",
+            "rate": 5,
+            "level": {
+              "min": 34,
+              "max": 34
+            }
+          },
+          {
+            "species": "stantler",
+            "rate": 5,
+            "level": {
+              "min": 36,
+              "max": 39
+            }
+          }
+        ]
+      },
+      {
+        "method": "rocksmash",
+        "pokemon": [
+          {
+            "species": "shuckle",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 40
+            }
+          }
+        ]
+      },
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "wooper",
+            "rate": 60,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          },
+          {
+            "species": "marill",
+            "rate": 39,
+            "level": {
+              "min": 25,
+              "max": 35
+            }
+          },
+          {
+            "species": "quagsire",
+            "rate": 1,
+            "level": {
+              "min": 35,
+              "max": 40
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "remoraid",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "remoraid",
+            "rate": 59,
+            "level": {
+              "min": 25,
+              "max": 35
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 40,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          },
+          {
+            "species": "octillery",
+            "rate": 1,
+            "level": {
+              "min": 35,
+              "max": 40
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "lilycovecity",
+    "name": "Lilycove City",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 85,
+            "level": {
+              "min": 25,
+              "max": 45
+            }
+          },
+          {
+            "species": "staryu",
+            "rate": 15,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route122",
+    "name": "Route 122",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 60,
+            "level": {
+              "min": 25,
+              "max": 45
+            }
+          },
+          {
+            "species": "sharpedo",
+            "rate": 40,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "mt.pyre",
+    "name": "Mt. Pyre",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "shuppet",
+            "rate": 85,
+            "level": {
+              "min": 24,
+              "max": 30
+            }
+          },
+          {
+            "species": "duskull",
+            "rate": 13,
+            "level": {
+              "min": 26,
+              "max": 30
+            }
+          },
+          {
+            "species": "chimecho",
+            "rate": 2,
+            "level": {
+              "min": 28,
+              "max": 28
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route123",
+    "name": "Route 123",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "shuppet",
+            "rate": 30,
+            "level": {
+              "min": 26,
+              "max": 28
+            }
+          },
+          {
+            "species": "poochyena",
+            "rate": 20,
+            "level": {
+              "min": 26,
+              "max": 26
+            }
+          },
+          {
+            "species": "mightyena",
+            "rate": 20,
+            "level": {
+              "min": 26,
+              "max": 28
+            }
+          },
+          {
+            "species": "oddish",
+            "rate": 15,
+            "level": {
+              "min": 26,
+              "max": 28
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 9,
+            "level": {
+              "min": 26,
+              "max": 28
+            }
+          },
+          {
+            "species": "gloom",
+            "rate": 5,
+            "level": {
+              "min": 28,
+              "max": 28
+            }
+          },
+          {
+            "species": "kecleon",
+            "rate": 1,
+            "level": {
+              "min": 25,
+              "max": 25
+            }
+          }
+        ]
+      },
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "magmahideout",
+    "name": "Team Magma Hideout",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "geodude",
+            "rate": 55,
+            "level": {
+              "min": 27,
+              "max": 30
+            }
+          },
+          {
+            "species": "torkoal",
+            "rate": 30,
+            "level": {
+              "min": 28,
+              "max": 30
+            }
+          },
+          {
+            "species": "graveler",
+            "rate": 15,
+            "level": {
+              "min": 30,
+              "max": 33
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "aquahideout",
+    "name": "Team Aqua Hideout",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": [
+      {
+        "name": "",
+        "level": ""
+      }
+    ]
+  },
+  {
+    "id": "route124",
+    "name": "Route 124",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "clamperl",
+            "rate": 65,
+            "level": {
+              "min": 20,
+              "max": 35
+            }
+          },
+          {
+            "species": "chinchou",
+            "rate": 30,
+            "level": {
+              "min": 20,
+              "max": 30
+            }
+          },
+          {
+            "species": "relicanth",
+            "rate": 5,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 60,
+            "level": {
+              "min": 25,
+              "max": 45
+            }
+          },
+          {
+            "species": "sharpedo",
+            "rate": 40,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "mossdeepcity",
+    "name": "Mossdeep City",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 60,
+            "level": {
+              "min": 25,
+              "max": 45
+            }
+          },
+          {
+            "species": "sharpedo",
+            "rate": 40,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [
+      {
+        "species": "beldum",
+        "level": {
+          "min": 5,
+          "max": 5
+        }
+      }
+    ],
+    "static": []
+  },
+  {
+    "id": "route125",
+    "name": "Route 125",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 60,
+            "level": {
+              "min": 25,
+              "max": 45
+            }
+          },
+          {
+            "species": "sharpedo",
+            "rate": 40,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "shoalcave",
+    "name": "Shoal Cave",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "spheal",
+            "rate": 45,
+            "level": {
+              "min": 26,
+              "max": 32
+            }
+          },
+          {
+            "species": "zubat",
+            "rate": 40,
+            "level": {
+              "min": 26,
+              "max": 30
+            }
+          },
+          {
+            "species": "snorunt",
+            "rate": 10,
+            "level": {
+              "min": 26,
+              "max": 30
+            }
+          },
+          {
+            "species": "golbat",
+            "rate": 5,
+            "level": {
+              "min": 30,
+              "max": 32
+            }
+          }
+        ]
+      },
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "zubat",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "spheal",
+            "rate": 10,
+            "level": {
+              "min": 25,
+              "max": 35
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route127",
+    "name": "Route 127",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "clamperl",
+            "rate": 65,
+            "level": {
+              "min": 20,
+              "max": 35
+            }
+          },
+          {
+            "species": "chinchou",
+            "rate": 30,
+            "level": {
+              "min": 20,
+              "max": 30
+            }
+          },
+          {
+            "species": "relicanth",
+            "rate": 5,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 60,
+            "level": {
+              "min": 25,
+              "max": 45
+            }
+          },
+          {
+            "species": "sharpedo",
+            "rate": 40,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route128",
+    "name": "Route 128",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "clamperl",
+            "rate": 65,
+            "level": {
+              "min": 20,
+              "max": 35
+            }
+          },
+          {
+            "species": "chinchou",
+            "rate": 30,
+            "level": {
+              "min": 20,
+              "max": 30
+            }
+          },
+          {
+            "species": "relicanth",
+            "rate": 5,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "luvdisc",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 45,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          },
+          {
+            "species": "luvdisc",
+            "rate": 40,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          },
+          {
+            "species": "corsola",
+            "rate": 15,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "seafloorcavern",
+    "name": "Seafloor Cavern",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "zubat",
+            "rate": 90,
+            "level": {
+              "min": 28,
+              "max": 35
+            }
+          },
+          {
+            "species": "golbat",
+            "rate": 10,
+            "level": {
+              "min": 33,
+              "max": 36
+            }
+          }
+        ]
+      },
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "zubat",
+            "rate": 35,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "golbat",
+            "rate": 5,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route126",
+    "name": "Route 126",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "clamperl",
+            "rate": 65,
+            "level": {
+              "min": 20,
+              "max": 35
+            }
+          },
+          {
+            "species": "chinchou",
+            "rate": 30,
+            "level": {
+              "min": 20,
+              "max": 30
+            }
+          },
+          {
+            "species": "relicanth",
+            "rate": 5,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 60,
+            "level": {
+              "min": 25,
+              "max": 45
+            }
+          },
+          {
+            "species": "sharpedo",
+            "rate": 40,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "sootopoliscity",
+    "name": "Sootopolis City",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 100,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 100,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 80,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          },
+          {
+            "species": "gyarados",
+            "rate": 20,
+            "level": {
+              "min": 5,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "caveoforigin",
+    "name": "Cave of Origin",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": [
+      {
+        "name": "",
+        "level": ""
+      }
+    ]
+  },
+  {
+    "id": "route129",
+    "name": "Route 129",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 4,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailord",
+            "rate": 1,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 60,
+            "level": {
+              "min": 25,
+              "max": 45
+            }
+          },
+          {
+            "species": "sharpedo",
+            "rate": 40,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route130",
+    "name": "Route 130",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 60,
+            "level": {
+              "min": 25,
+              "max": 45
+            }
+          },
+          {
+            "species": "sharpedo",
+            "rate": 40,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route131",
+    "name": "Route 131",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 60,
+            "level": {
+              "min": 25,
+              "max": 45
+            }
+          },
+          {
+            "species": "sharpedo",
+            "rate": 40,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "skypillar",
+    "name": "Sky Pillar",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "golbat",
+            "rate": 30,
+            "level": {
+              "min": 34,
+              "max": 35
+            }
+          },
+          {
+            "species": "sableye",
+            "rate": 30,
+            "level": {
+              "min": 33,
+              "max": 34
+            }
+          },
+          {
+            "species": "claydol",
+            "rate": 19,
+            "level": {
+              "min": 36,
+              "max": 37
+            }
+          },
+          {
+            "species": "banette",
+            "rate": 15,
+            "level": {
+              "min": 37,
+              "max": 38
+            }
+          },
+          {
+            "species": "altaria",
+            "rate": 6,
+            "level": {
+              "min": 38,
+              "max": 39
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": [
+      {
+        "name": "",
+        "level": ""
+      }
+    ]
+  },
+  {
+    "id": "pacifidlogtown",
+    "name": "Pacifidlog Town",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 60,
+            "level": {
+              "min": 30,
+              "max": 45
+            }
+          },
+          {
+            "species": "sharpedo",
+            "rate": 40,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route132",
+    "name": "Route 132",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 45,
+            "level": {
+              "min": 30,
+              "max": 45
+            }
+          },
+          {
+            "species": "sharpedo",
+            "rate": 40,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          },
+          {
+            "species": "horsea",
+            "rate": 15,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route133",
+    "name": "Route 133",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 45,
+            "level": {
+              "min": 30,
+              "max": 45
+            }
+          },
+          {
+            "species": "sharpedo",
+            "rate": 40,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          },
+          {
+            "species": "horsea",
+            "rate": 15,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route134",
+    "name": "Route 134",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 45,
+            "level": {
+              "min": 30,
+              "max": 45
+            }
+          },
+          {
+            "species": "sharpedo",
+            "rate": 40,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          },
+          {
+            "species": "horsea",
+            "rate": 15,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route105",
+    "name": "Route 105",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": [
+      {
+        "name": "",
+        "level": ""
+      }
+    ]
+  },
+  {
+    "id": "route106",
+    "name": "Route 106",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route107",
+    "name": "Route 107",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route108",
+    "name": "Route 108",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "abandonedship",
+    "name": "Abandoned Ship",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 99,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "tentacruel",
+            "rate": 1,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 40,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 80,
+            "level": {
+              "min": 25,
+              "max": 35
+            }
+          },
+          {
+            "species": "tentacruel",
+            "rate": 20,
+            "level": {
+              "min": 20,
+              "max": 35
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "evergrandecity",
+    "name": "Ever Grande City",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "luvdisc",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "wailmer",
+            "rate": 45,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          },
+          {
+            "species": "luvdisc",
+            "rate": 40,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          },
+          {
+            "species": "corsola",
+            "rate": 15,
+            "level": {
+              "min": 30,
+              "max": 35
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "victoryroad",
+    "name": "Victory Road",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": [
+          {
+            "species": "golbat",
+            "rate": 35,
+            "level": {
+              "min": 40,
+              "max": 44
+            }
+          },
+          {
+            "species": "sableye",
+            "rate": 35,
+            "level": {
+              "min": 40,
+              "max": 44
+            }
+          },
+          {
+            "species": "lairon",
+            "rate": 25,
+            "level": {
+              "min": 40,
+              "max": 44
+            }
+          },
+          {
+            "species": "mawile",
+            "rate": 5,
+            "level": {
+              "min": 42,
+              "max": 44
+            }
+          }
+        ]
+      },
+      {
+        "method": "rocksmash",
+        "pokemon": [
+          {
+            "species": "geodude",
+            "rate": 70,
+            "level": {
+              "min": 30,
+              "max": 40
+            }
+          },
+          {
+            "species": "graveler",
+            "rate": 30,
+            "level": {
+              "min": 30,
+              "max": 40
+            }
+          }
+        ]
+      },
+      {
+        "method": "surf",
+        "pokemon": [
+          {
+            "species": "golbat",
+            "rate": 100,
+            "level": {
+              "min": 25,
+              "max": 40
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "pokemon": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "barboach",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "pokemon": [
+          {
+            "species": "barboach",
+            "rate": 80,
+            "level": {
+              "min": 25,
+              "max": 35
+            }
+          },
+          {
+            "species": "whiscash",
+            "rate": 20,
+            "level": {
+              "min": 30,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
   }
 ]
