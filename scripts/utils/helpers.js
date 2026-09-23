@@ -1,5 +1,8 @@
 export function cleanPercentage(percentage) {
-  return Number(percentage.replace("%", "").trim());
+  const percentageNumber = Number(percentage.replace("%", "").trim());
+
+  if (Number.isNaN(percentageNumber)) return "N/A";
+  return percentageNumber;
 }
 
 export function formatLevels(levels) {
