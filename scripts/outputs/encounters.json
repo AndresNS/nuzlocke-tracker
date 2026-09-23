@@ -1,0 +1,1220 @@
+[
+  {
+    "id": "route101",
+    "name": "Route 101",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [
+      {
+        "name": "",
+        "level": 0,
+        "requirement": ""
+      }
+    ],
+    "static": []
+  },
+  {
+    "id": "oldale-town",
+    "name": "Oldale Town",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route103",
+    "name": "Route 103",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": []
+      },
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route102",
+    "name": "Route 102",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": []
+      },
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "petalburg-city",
+    "name": "Petalburg City",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route104",
+    "name": "Route 104",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": []
+      },
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "petalburg-woods",
+    "name": "Petalburg Woods",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "rustboro-city",
+    "name": "Rustboro City",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route116",
+    "name": "Route 116",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "rusturf-tunnel",
+    "name": "Rusturf Tunnel",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "dewford-town",
+    "name": "Dewford Town",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "granite-cave",
+    "name": "Granite Cave",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route109",
+    "name": "Route 109",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "slateport-city",
+    "name": "Slateport City",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route110",
+    "name": "Route 110",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": []
+      },
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "trick-house",
+    "name": "Trick House",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "mauville-city",
+    "name": "Mauville City",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route117",
+    "name": "Route 117",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": []
+      },
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "verdanturf-town",
+    "name": "Verdanturf Town",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route111",
+    "name": "Route 111",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "grass",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": [
+      {
+        "name": "",
+        "level": ""
+      }
+    ]
+  },
+  {
+    "id": "route112",
+    "name": "Route 112",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "fiery-path",
+    "name": "Fiery Path",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route113",
+    "name": "Route 113",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "fallarbor-town",
+    "name": "Fallarbor Town",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route114",
+    "name": "Route 114",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": []
+      },
+      {
+        "method": "rocksmash",
+        "pokemon": []
+      },
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "meteor-falls",
+    "name": "Meteor Falls",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route115",
+    "name": "Route 115",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": []
+      },
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "mt-chimney",
+    "name": "Mt. Chimney",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "jagged-pass",
+    "name": "Jagged Pass",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "lavaridge-town",
+    "name": "Lavaridge Town",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "petalburg-gym",
+    "name": "Petalburg Gym",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "new-mauville",
+    "name": "New Mauville",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route118",
+    "name": "Route 118",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": []
+      },
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route119",
+    "name": "Route 119",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": []
+      },
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [
+      {
+        "name": "",
+        "level": 0,
+        "requirement": ""
+      },
+      {
+        "name": "",
+        "level": 0,
+        "requirement": ""
+      }
+    ],
+    "static": []
+  },
+  {
+    "id": "fortree-city",
+    "name": "Fortree City",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route120",
+    "name": "Route 120",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": []
+      },
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": [
+      {
+        "name": "",
+        "level": ""
+      }
+    ]
+  },
+  {
+    "id": "scorched-slab",
+    "name": "Scorched Slab",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route121",
+    "name": "Route 121",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": []
+      },
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "safari-zone",
+    "name": "Safari Zone",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "lilycove-city",
+    "name": "Lilycove City",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route122",
+    "name": "Route 122",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "mt-pyre",
+    "name": "Mt. Pyre",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route123",
+    "name": "Route 123",
+    "areas": [
+      {
+        "method": "grass",
+        "pokemon": []
+      },
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "team-magma-hideout",
+    "name": "Team Magma Hideout",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "team-aqua-hideout",
+    "name": "Team Aqua Hideout",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route124",
+    "name": "Route 124",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "surf",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "mossdeep-city",
+    "name": "Mossdeep City",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route125",
+    "name": "Route 125",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "shoal-cave",
+    "name": "Shoal Cave",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route127",
+    "name": "Route 127",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "surf",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route128",
+    "name": "Route 128",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "surf",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "seafloor-cavern",
+    "name": "Seafloor Cavern",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route126",
+    "name": "Route 126",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "surf",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "sootopolis-city",
+    "name": "Sootopolis City",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "cave-of-origin",
+    "name": "Cave of Origin",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route129",
+    "name": "Route 129",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route130",
+    "name": "Route 130",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route131",
+    "name": "Route 131",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "sky-pillar",
+    "name": "Sky Pillar",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "pacifidlog-town",
+    "name": "Pacifidlog Town",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route132",
+    "name": "Route 132",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route133",
+    "name": "Route 133",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route134",
+    "name": "Route 134",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "capturing-the-regis",
+    "name": "Capturing the Regis",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route105",
+    "name": "Route 105",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": [
+      {
+        "name": "",
+        "level": ""
+      }
+    ]
+  },
+  {
+    "id": "route106",
+    "name": "Route 106",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route107",
+    "name": "Route 107",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route108",
+    "name": "Route 108",
+    "areas": [
+      {
+        "method": "surf",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      },
+      {
+        "method": "fish",
+        "pokemon": []
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "abandoned-ship",
+    "name": "Abandoned Ship",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "the-pokemon-league",
+    "name": "The Pokémon League",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "ever-grande-city",
+    "name": "Ever Grande City",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "victory-road",
+    "name": "Victory Road",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "the-elite-four",
+    "name": "The Elite Four",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  }
+]
