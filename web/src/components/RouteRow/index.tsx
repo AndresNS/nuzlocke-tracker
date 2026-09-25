@@ -1,12 +1,7 @@
-import {
-  Button,
-  cn,
-  Disclosure,
-  Separator,
-  Tag,
-  TagGroup,
-} from "@heroui/react";
 import { Fragment, memo, useCallback } from "react";
+import { Button, cn, Disclosure, Label, Separator } from "@heroui/react";
+
+// Helpers
 import { getEvolutionLine } from "../../utils/helpers";
 
 type SetValue<T> = T | ((val: T) => T);
@@ -47,37 +42,41 @@ const RouteRow = memo(function RouteRow({
   encounters: Record<string, string | undefined>;
   setEncounters: (value: SetValue<Record<string, string | undefined>>) => void;
 }) {
-  const handleTagSelectionChange = (route: string, encounter: string) => {
+  const encounterClaimed = (route: string) => encounters[route];
+
+  const handleButtonClick = (
+    route: string,
+    method: string | null,
+    pokemon: string,
+  ) => {
+    const encounter = pokemon !== "missed" ? `${method}-${pokemon}` : "missed";
+    if (encounters[route] === encounter)
+      return setEncounters({ ...encounters, [route]: undefined });
     setEncounters({ ...encounters, [route]: encounter });
   };
 
-  const getClaimedEncounter = useCallback(
-    (routeId: string) => {
-      const claimedEncounter = encounters[routeId];
-      if (!claimedEncounter) return [];
-
-      return new Set([claimedEncounter]);
-    },
-    [encounters],
-  );
+  const isClaimedEncounter = (
+    route: string,
+    method: string | null,
+    pokemon: string,
+  ) => {
+    if (pokemon === "missed") return encounters[route] === "missed";
+    return encounters[route] === `${method}-${pokemon}`;
+  };
 
   const isValidEncounter = useCallback(
-    (pokemon: string, routeId: string) => {
-      const evolutionLine = getEvolutionLine(pokemon);
+    (species: string) => {
+      const evolutionLine = getEvolutionLine(species);
       const isCaught = Object.entries(encounters).find((entry) => {
-        if (entry[0] === routeId) return false;
-        return evolutionLine.includes(entry[1]!);
+        if (!entry[1]) return false;
+        const pokemon = entry[1].split("-");
+        return evolutionLine.includes(pokemon[pokemon.length - 1]);
       });
 
       return !isCaught;
     },
     [encounters],
   );
-
-  const encounterClaimed = Array.from(getClaimedEncounter(route.id)).length > 0;
-
-  // TODO
-  // - Add sections and remake onChange handler
 
   return (
     <Fragment>
@@ -91,10 +90,14 @@ const RouteRow = memo(function RouteRow({
             })}
           >
             <div className="flex w-full justify-between gap-2">
-              <p className={cn({ "text-muted": encounterClaimed })}>
+              <p
+                className={cn({
+                  "text-muted": encounterClaimed(route.id) && !isExpanded,
+                })}
+              >
                 {route.name}
               </p>
-              <p>{encounterClaimed ? "Claimed" : "Available"}</p>
+              <p>{encounterClaimed(route.id) ? "Claimed" : "Available"}</p>
             </div>
             <Disclosure.Indicator className="text-muted" />
           </Button>
@@ -102,65 +105,154 @@ const RouteRow = memo(function RouteRow({
         <Disclosure.Content>
           <Disclosure.Body className="flex flex-col gap-2 p-4 bg-surface rounded-3xl">
             {isExpanded && (
-              <TagGroup
-                selectedKeys={getClaimedEncounter(route.id)}
-                selectionMode="single"
-                size="lg"
-                onSelectionChange={(keys) =>
-                  handleTagSelectionChange(
-                    route.id,
-                    Array.from(keys)[0] as string,
-                  )
-                }
-              >
-                <TagGroup.List>
-                  {route.areas.map((area) =>
-                    area.pokemon.map((pokemon) => (
-                      <Tag
-                        key={`${route.id}-${area.method}-${pokemon.species}`}
-                        id={pokemon.species}
-                        isDisabled={
-                          !isValidEncounter(pokemon.species, route.id)
-                        }
-                      >
-                        {pokemon.species}
-                      </Tag>
-                    )),
+              <>
+                <div className="flex flex-col gap-4">
+                  {route.areas.map(
+                    (area) =>
+                      area.pokemon.length > 0 && (
+                        <div
+                          key={`${route.id}-${area.method}`}
+                          className="flex flex-col gap-2"
+                        >
+                          <Label>{area.method}</Label>
+                          <div className="flex gap-2">
+                            {area.pokemon.map((pokemon) => (
+                              <Button
+                                key={`${route.id}-${area.method}-${pokemon.species}`}
+                                variant={
+                                  isClaimedEncounter(
+                                    route.id,
+                                    area.method,
+                                    pokemon.species,
+                                  )
+                                    ? "tertiary"
+                                    : "outline"
+                                }
+                                isDisabled={
+                                  !isValidEncounter(pokemon.species) &&
+                                  !isClaimedEncounter(
+                                    route.id,
+                                    area.method,
+                                    pokemon.species,
+                                  )
+                                }
+                                onClick={() =>
+                                  handleButtonClick(
+                                    route.id,
+                                    area.method,
+                                    pokemon.species,
+                                  )
+                                }
+                              >
+                                {pokemon.species}
+                              </Button>
+                            ))}
+                          </div>
+                        </div>
+                      ),
                   )}
+                </div>
 
-                  {route.static.length > 0 &&
-                    route.static.map((staticEncounter) => (
-                      <Tag
-                        key={`${route.id}-static-${staticEncounter.species}`}
-                        id={staticEncounter.species}
-                        isDisabled={
-                          !isValidEncounter(staticEncounter.species, route.id)
-                        }
-                      >
-                        {staticEncounter.species}
-                      </Tag>
-                    ))}
-                  {route.gifts.length > 0 &&
-                    route.gifts.map((gift) => (
-                      <Tag
-                        key={`${route.id}-gift-${gift.species}`}
-                        id={gift.species}
-                        isDisabled={!isValidEncounter(gift.species, route.id)}
-                      >
-                        {gift.species}
-                      </Tag>
-                    ))}
-                  <div className="w-full">
-                    <Tag id={"missed"} key={"missed"}>
-                      Missed
-                    </Tag>
+                {route.static.length > 0 && (
+                  <div>
+                    <Label>Static</Label>
+                    <div className="flex gap-2">
+                      {route.static.map((pokemon) => (
+                        <Button
+                          key={`${route.id}-static-${pokemon.species}`}
+                          variant={
+                            isClaimedEncounter(
+                              route.id,
+                              "static",
+                              pokemon.species,
+                            )
+                              ? "tertiary"
+                              : "outline"
+                          }
+                          isDisabled={
+                            !isValidEncounter(pokemon.species) &&
+                            !isClaimedEncounter(
+                              route.id,
+                              "static",
+                              pokemon.species,
+                            )
+                          }
+                          onClick={() =>
+                            handleButtonClick(
+                              route.id,
+                              "static",
+                              pokemon.species,
+                            )
+                          }
+                        >
+                          {pokemon.species}
+                        </Button>
+                      ))}
+                    </div>
                   </div>
-                </TagGroup.List>
-              </TagGroup>
+                )}
+
+                {route.gifts.length > 0 && (
+                  <div>
+                    <Label>Gift</Label>
+                    <div className="flex gap-2">
+                      {route.gifts.map((pokemon) => (
+                        <Button
+                          key={`${route.id}-static-${pokemon.species}`}
+                          variant={
+                            isClaimedEncounter(
+                              route.id,
+                              "static",
+                              pokemon.species,
+                            )
+                              ? "tertiary"
+                              : "outline"
+                          }
+                          isDisabled={
+                            !isValidEncounter(pokemon.species) &&
+                            !isClaimedEncounter(
+                              route.id,
+                              "static",
+                              pokemon.species,
+                            )
+                          }
+                          onClick={() =>
+                            handleButtonClick(
+                              route.id,
+                              "static",
+                              pokemon.species,
+                            )
+                          }
+                        >
+                          {pokemon.species}
+                        </Button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                <div className="mt-4">
+                  <Button
+                    variant={
+                      isClaimedEncounter(route.id, null, "missed")
+                        ? "tertiary"
+                        : "outline"
+                    }
+                    isDisabled={
+                      !isValidEncounter("missed") &&
+                      !isClaimedEncounter(route.id, null, "missed")
+                    }
+                    onClick={() => handleButtonClick(route.id, null, "missed")}
+                  >
+                    Missed
+                  </Button>
+                </div>
+              </>
             )}
           </Disclosure.Body>
         </Disclosure.Content>
       </Disclosure>
+
       <Separator className="my-2" />
     </Fragment>
   );
