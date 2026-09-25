@@ -23,15 +23,16 @@ function App() {
   );
 
   const handleExpandedChange = (value: Set<string | number>) => {
-    const routeId = [...value][0];
-    const claimedEncounter = encounters[routeId];
-    console.log(claimedEncounter);
     setExpandedKeys(value);
+  };
+
+  const handleResetRunClick = () => {
+    setEncounters({});
   };
 
   return (
     <>
-      <Header />
+      <Header onResetRunClick={handleResetRunClick} />
       <main className="container m-auto">
         <Typography type="h3">Routes</Typography>
         <div className="w-full">
