@@ -1,9 +1,10 @@
-import { useState } from "react";
 import { DisclosureGroup, Typography } from "@heroui/react";
+import { useState } from "react";
 
 // Components
+import routes from "../../data/encounters.json";
 import Header from "../components/Header";
-import RouteRow, { type Route } from "../components/RouteRow";
+import RouteRow, { type Route } from "../components/route-row";
 
 // Hooks
 import { useLocalStorage } from "../hooks/useLocalStorage";
@@ -12,7 +13,6 @@ import { useLocalStorage } from "../hooks/useLocalStorage";
 import { STORAGE_KEYS } from "../utils/constants";
 
 // Data
-import routes from "../../data/encounters.json";
 
 function App() {
   const [encounters, setEncounters] = useLocalStorage<

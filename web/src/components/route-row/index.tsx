@@ -1,35 +1,36 @@
-import { Fragment, memo, useCallback } from "react";
 import { Button, cn, Disclosure, Label, Separator } from "@heroui/react";
+import { Fragment, memo, useCallback } from "react";
+
+import { getEvolutionLine } from "../../utils/helpers";
 
 // Helpers
-import { getEvolutionLine } from "../../utils/helpers";
 
 type SetValue<T> = T | ((val: T) => T);
 
-type Pokemon = {
+interface Pokemon {
   species: string;
   rate?: number;
   level: { min: number; max: number };
-};
+}
 
-type Area = {
+interface Area {
   method: string;
   pokemon: Pokemon[];
-};
+}
 
-type Trade = {
+interface Trade {
   give: string;
   receive: Pokemon;
-};
+}
 
-export type Route = {
+export interface Route {
   id: string;
   name: string;
   areas: Area[];
   trades: Trade[];
   gifts: Pokemon[];
   static: Pokemon[];
-};
+}
 
 const RouteRow = memo(function RouteRow({
   route,
@@ -50,8 +51,10 @@ const RouteRow = memo(function RouteRow({
     pokemon: string,
   ) => {
     const encounter = pokemon !== "missed" ? `${method}-${pokemon}` : "missed";
-    if (encounters[route] === encounter)
-      return setEncounters({ ...encounters, [route]: undefined });
+    if (encounters[route] === encounter) {
+      setEncounters({ ...encounters, [route]: undefined });
+      return;
+    }
     setEncounters({ ...encounters, [route]: encounter });
   };
 
@@ -103,7 +106,7 @@ const RouteRow = memo(function RouteRow({
           </Button>
         </Disclosure.Heading>
         <Disclosure.Content>
-          <Disclosure.Body className="flex flex-col gap-2 p-4 bg-surface rounded-3xl">
+          <Disclosure.Body className="flex flex-col gap-2 rounded-3xl bg-surface p-4">
             {isExpanded && (
               <>
                 <div className="flex flex-col gap-4">
@@ -136,13 +139,13 @@ const RouteRow = memo(function RouteRow({
                                     pokemon.species,
                                   )
                                 }
-                                onClick={() =>
+                                onClick={() => {
                                   handleButtonClick(
                                     route.id,
                                     area.method,
                                     pokemon.species,
-                                  )
-                                }
+                                  );
+                                }}
                               >
                                 {pokemon.species}
                               </Button>
@@ -177,13 +180,13 @@ const RouteRow = memo(function RouteRow({
                               pokemon.species,
                             )
                           }
-                          onClick={() =>
+                          onClick={() => {
                             handleButtonClick(
                               route.id,
                               "static",
                               pokemon.species,
-                            )
-                          }
+                            );
+                          }}
                         >
                           {pokemon.species}
                         </Button>
@@ -216,13 +219,13 @@ const RouteRow = memo(function RouteRow({
                               pokemon.species,
                             )
                           }
-                          onClick={() =>
+                          onClick={() => {
                             handleButtonClick(
                               route.id,
                               "static",
                               pokemon.species,
-                            )
-                          }
+                            );
+                          }}
                         >
                           {pokemon.species}
                         </Button>
@@ -242,7 +245,9 @@ const RouteRow = memo(function RouteRow({
                       !isValidEncounter("missed") &&
                       !isClaimedEncounter(route.id, null, "missed")
                     }
-                    onClick={() => handleButtonClick(route.id, null, "missed")}
+                    onClick={() => {
+                      handleButtonClick(route.id, null, "missed");
+                    }}
                   >
                     Missed
                   </Button>
