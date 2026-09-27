@@ -245,7 +245,7 @@ function saveFile(path, filename, content) {
   );
 }
 
-function patchEncounters() {}
+function patchEncounters() { }
 
 // [
 //   {
