@@ -211,7 +211,7 @@ function buildRouteObject(route, encounterMethods, encounters) {
 
     const pokemon = encounters[method];
 
-    return areas.push({ method, pokemon });
+    return areas.push({ method, encounters: pokemon });
   });
 
   return {
