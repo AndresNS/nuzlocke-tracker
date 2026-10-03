@@ -1,8 +1,10 @@
-import { Button, Typography } from "@heroui/react";
+import { Button, Typography } from '@heroui/react';
 
-const Header: React.FC<{
+interface HeaderProps {
   onResetRunClick: () => void;
-}> = ({ onResetRunClick }) => {
+}
+
+const Header: React.FC<HeaderProps> = ({ onResetRunClick }) => {
   return (
     <header className="container m-auto flex justify-between py-4">
       <Typography type="h1">Nuzlocke Tracker</Typography>

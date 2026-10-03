@@ -1,8 +1,8 @@
-import { useState } from "react";
+import { useState } from 'react';
 
-type SetValue<T> = T | ((val: T) => T);
+export type SetValue<T> = T | ((val: T) => T);
 
-export function useLocalStorage<T>(
+function useLocalStorage<T>(
   key: string,
   initialValue: T,
 ): [T, (value: SetValue<T>) => void] {
@@ -29,3 +29,5 @@ export function useLocalStorage<T>(
 
   return [storedValue, setValue];
 }
+
+export default useLocalStorage;

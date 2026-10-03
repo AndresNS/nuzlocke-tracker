@@ -34,11 +34,11 @@ Follows [Bulletproof React](https://github.com/alan2207/bulletproof-react) conve
 ```
 src/
 ├── app/          # app entry, routes, providers
-├── features/     # feature-based modules (colocated components/hooks/api/types)
+├── assets/       # images
 ├── components/   # shared/reusable UI components
+├── features/     # feature-based modules (colocated components/hooks/api/types)
 ├── hooks/        # shared hooks
 ├── lib/          # shared utilities/config
-└── types/        # shared types
+├── types/        # shared types
+└── constants.ts  # shared constants
 ```
-
-<!-- Adjust the tree above to match your actual structure once it settles. -->

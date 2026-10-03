@@ -1,4 +1,4 @@
-import pokemonEvolutionLines from "../../data/pokemon-evolution-lines.json";
+import pokemonEvolutionLines from '../data/pokemon-evolution-lines.json';
 
 type EvolutionLine = string[];
 

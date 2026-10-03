@@ -52,8 +52,12 @@ export default defineConfig([
         'error',
         {
           zones: [
-            // one zone per feature you create — none yet, so this is empty for now
             { target: './src/features', from: './src/app' },
+            {
+              target: './src/features/encounters',
+              from: './src/features/',
+              except: ['./encounters'],
+            },
             {
               target: [
                 './src/components',
@@ -93,6 +97,7 @@ export default defineConfig([
         'error',
         { 'src/**/!(__tests__)/': 'KEBAB_CASE' },
       ],
+      '@typescript-eslint/no-unused-vars': 'off',
     },
   },
 ]);

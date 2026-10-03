@@ -5,7 +5,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wurmple",
             "rate": 45,
@@ -65,7 +65,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "poochyena",
             "rate": 60,
@@ -94,7 +94,7 @@
       },
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -123,7 +123,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -144,7 +144,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -173,7 +173,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 60,
@@ -203,7 +203,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wurmple",
             "rate": 30,
@@ -256,7 +256,7 @@
       },
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "marill",
             "rate": 99,
@@ -277,7 +277,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -298,7 +298,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -327,92 +327,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
-          {
-            "species": "corphish",
-            "rate": 100,
-            "level": {
-              "min": 20,
-              "max": 45
-            }
-          }
-        ]
-      }
-    ],
-    "trades": [],
-    "gifts": [],
-    "static": []
-  },
-  {
-    "id": "petalburgcity",
-    "name": "Petalburg City",
-    "areas": [
-      {
-        "method": "surf",
-        "pokemon": [
-          {
-            "species": "marill",
-            "rate": 100,
-            "level": {
-              "min": 5,
-              "max": 35
-            }
-          }
-        ]
-      },
-      {
-        "method": "fish-oldrod",
-        "pokemon": [
-          {
-            "species": "magikarp",
-            "rate": 70,
-            "level": {
-              "min": 5,
-              "max": 10
-            }
-          },
-          {
-            "species": "goldeen",
-            "rate": 30,
-            "level": {
-              "min": 5,
-              "max": 10
-            }
-          }
-        ]
-      },
-      {
-        "method": "fish-goodrod",
-        "pokemon": [
-          {
-            "species": "magikarp",
-            "rate": 60,
-            "level": {
-              "min": 10,
-              "max": 30
-            }
-          },
-          {
-            "species": "goldeen",
-            "rate": 20,
-            "level": {
-              "min": 10,
-              "max": 30
-            }
-          },
-          {
-            "species": "corphish",
-            "rate": 20,
-            "level": {
-              "min": 10,
-              "max": 30
-            }
-          }
-        ]
-      },
-      {
-        "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "corphish",
             "rate": 100,
@@ -434,7 +349,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "poochyena",
             "rate": 40,
@@ -479,7 +394,7 @@
       },
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wingull",
             "rate": 95,
@@ -500,7 +415,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 100,
@@ -513,7 +428,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 100,
@@ -526,7 +441,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 100,
@@ -548,7 +463,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "poochyena",
             "rate": 30,
@@ -613,20 +528,12 @@
     "static": []
   },
   {
-    "id": "rustborocity",
-    "name": "Rustboro City",
-    "areas": [],
-    "trades": [],
-    "gifts": [],
-    "static": []
-  },
-  {
     "id": "route116",
     "name": "Route 116",
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "poochyena",
             "rate": 28,
@@ -688,7 +595,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "whismur",
             "rate": 100,
@@ -710,7 +617,7 @@
     "areas": [
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -731,7 +638,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -760,7 +667,108 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
+          {
+            "species": "wailmer",
+            "rate": 100,
+            "level": {
+              "min": 20,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "route106",
+    "name": "Route 106",
+    "areas": [
+      {
+        "method": "surf",
+        "encounters": [
+          {
+            "species": "tentacool",
+            "rate": 60,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          },
+          {
+            "species": "wingull",
+            "rate": 35,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "pelipper",
+            "rate": 5,
+            "level": {
+              "min": 25,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "encounters": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "encounters": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "tentacool",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "wailmer",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 100,
@@ -782,7 +790,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "aron",
             "rate": 40,
@@ -819,7 +827,7 @@
       },
       {
         "method": "rocksmash",
-        "pokemon": [
+        "encounters": [
           {
             "species": "geodude",
             "rate": 70,
@@ -849,7 +857,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -878,7 +886,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -899,7 +907,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -928,7 +936,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 100,
@@ -950,7 +958,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -979,7 +987,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -1000,7 +1008,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -1029,7 +1037,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 100,
@@ -1051,7 +1059,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "electrike",
             "rate": 30,
@@ -1112,7 +1120,7 @@
       },
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -1141,7 +1149,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -1162,7 +1170,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -1191,7 +1199,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 100,
@@ -1213,7 +1221,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "oddish",
             "rate": 40,
@@ -1266,7 +1274,7 @@
       },
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "marill",
             "rate": 99,
@@ -1287,7 +1295,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -1308,7 +1316,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -1337,7 +1345,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "corphish",
             "rate": 100,
@@ -1359,7 +1367,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "marill",
             "rate": 99,
@@ -1380,7 +1388,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -1401,7 +1409,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -1430,7 +1438,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "barboach",
             "rate": 100,
@@ -1443,7 +1451,7 @@
       },
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "sandshrew",
             "rate": 35,
@@ -1494,7 +1502,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "numel",
             "rate": 75,
@@ -1524,7 +1532,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "numel",
             "rate": 30,
@@ -1586,7 +1594,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "spinda",
             "rate": 70,
@@ -1624,7 +1632,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "swablu",
             "rate": 40,
@@ -1669,7 +1677,7 @@
       },
       {
         "method": "rocksmash",
-        "pokemon": [
+        "encounters": [
           {
             "species": "geodude",
             "rate": 100,
@@ -1682,7 +1690,7 @@
       },
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "marill",
             "rate": 99,
@@ -1703,7 +1711,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -1724,7 +1732,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -1753,7 +1761,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "barboach",
             "rate": 100,
@@ -1775,7 +1783,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "golbat",
             "rate": 65,
@@ -1796,7 +1804,7 @@
       },
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "golbat",
             "rate": 90,
@@ -1817,7 +1825,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -1838,7 +1846,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -1867,7 +1875,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "barboach",
             "rate": 80,
@@ -1897,7 +1905,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "taillow",
             "rate": 40,
@@ -1942,7 +1950,7 @@
       },
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -1971,7 +1979,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -1992,7 +2000,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -2021,7 +2029,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 100,
@@ -2043,7 +2051,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "numel",
             "rate": 55,
@@ -2097,7 +2105,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magnemite",
             "rate": 49,
@@ -2148,7 +2156,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "zigzagoon",
             "rate": 30,
@@ -2201,7 +2209,7 @@
       },
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -2230,7 +2238,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -2251,7 +2259,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -2280,7 +2288,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "carvanha",
             "rate": 60,
@@ -2310,7 +2318,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "oddish",
             "rate": 30,
@@ -2355,7 +2363,7 @@
       },
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -2384,7 +2392,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -2405,7 +2413,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -2434,7 +2442,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "feebas",
             "rate": "N/A",
@@ -2472,7 +2480,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "mightyena",
             "rate": 30,
@@ -2533,7 +2541,7 @@
       },
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "marill",
             "rate": 99,
@@ -2554,7 +2562,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -2575,7 +2583,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -2604,7 +2612,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "barboach",
             "rate": 100,
@@ -2631,7 +2639,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "shuppet",
             "rate": 30,
@@ -2692,7 +2700,7 @@
       },
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -2721,7 +2729,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -2742,7 +2750,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -2771,7 +2779,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 100,
@@ -2793,7 +2801,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "mareep",
             "rate": 30,
@@ -2862,7 +2870,7 @@
       },
       {
         "method": "rocksmash",
-        "pokemon": [
+        "encounters": [
           {
             "species": "shuckle",
             "rate": 100,
@@ -2875,7 +2883,7 @@
       },
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wooper",
             "rate": 60,
@@ -2904,7 +2912,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -2925,7 +2933,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -2954,7 +2962,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "remoraid",
             "rate": 59,
@@ -2992,7 +3000,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -3021,7 +3029,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -3042,7 +3050,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -3071,7 +3079,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 85,
@@ -3101,7 +3109,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -3130,7 +3138,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -3151,7 +3159,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -3180,7 +3188,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 60,
@@ -3210,7 +3218,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "shuppet",
             "rate": 85,
@@ -3248,7 +3256,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "shuppet",
             "rate": 30,
@@ -3309,7 +3317,7 @@
       },
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -3338,7 +3346,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -3359,7 +3367,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -3388,7 +3396,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 100,
@@ -3410,7 +3418,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "geodude",
             "rate": 55,
@@ -3461,7 +3469,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "clamperl",
             "rate": 65,
@@ -3490,7 +3498,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -3511,7 +3519,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -3540,7 +3548,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 60,
@@ -3570,7 +3578,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -3599,7 +3607,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -3620,7 +3628,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -3649,7 +3657,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 60,
@@ -3687,7 +3695,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -3716,7 +3724,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -3737,7 +3745,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -3766,7 +3774,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 60,
@@ -3796,7 +3804,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "spheal",
             "rate": 45,
@@ -3833,7 +3841,7 @@
       },
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -3862,7 +3870,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -3883,7 +3891,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -3912,7 +3920,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 100,
@@ -3934,7 +3942,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "clamperl",
             "rate": 65,
@@ -3963,7 +3971,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -3984,7 +3992,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -4013,7 +4021,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 60,
@@ -4043,7 +4051,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "clamperl",
             "rate": 65,
@@ -4072,7 +4080,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -4093,7 +4101,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -4122,7 +4130,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 45,
@@ -4160,7 +4168,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "zubat",
             "rate": 90,
@@ -4181,7 +4189,7 @@
       },
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -4210,7 +4218,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -4231,7 +4239,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -4260,7 +4268,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 100,
@@ -4282,7 +4290,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "clamperl",
             "rate": 65,
@@ -4311,7 +4319,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -4332,7 +4340,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -4361,7 +4369,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 60,
@@ -4391,7 +4399,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 100,
@@ -4404,7 +4412,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -4425,7 +4433,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 100,
@@ -4438,7 +4446,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 80,
@@ -4468,7 +4476,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": []
+        "encounters": []
       }
     ],
     "trades": [],
@@ -4486,7 +4494,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -4523,7 +4531,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -4544,7 +4552,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -4573,7 +4581,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 60,
@@ -4603,7 +4611,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -4632,7 +4640,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -4653,7 +4661,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -4682,7 +4690,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 60,
@@ -4712,7 +4720,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -4741,7 +4749,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -4762,7 +4770,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -4791,7 +4799,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 60,
@@ -4821,7 +4829,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "golbat",
             "rate": 30,
@@ -4880,7 +4888,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -4909,7 +4917,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -4930,7 +4938,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -4959,7 +4967,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 60,
@@ -4989,7 +4997,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -5018,7 +5026,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -5039,7 +5047,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -5068,7 +5076,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 45,
@@ -5106,7 +5114,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -5135,7 +5143,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -5156,7 +5164,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -5185,7 +5193,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 45,
@@ -5223,7 +5231,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -5252,7 +5260,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -5273,7 +5281,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -5302,7 +5310,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 45,
@@ -5340,7 +5348,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -5369,7 +5377,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -5390,7 +5398,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -5419,7 +5427,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 100,
@@ -5441,113 +5449,12 @@
     ]
   },
   {
-    "id": "route106",
-    "name": "Route 106",
-    "areas": [
-      {
-        "method": "surf",
-        "pokemon": [
-          {
-            "species": "tentacool",
-            "rate": 60,
-            "level": {
-              "min": 5,
-              "max": 35
-            }
-          },
-          {
-            "species": "wingull",
-            "rate": 35,
-            "level": {
-              "min": 10,
-              "max": 30
-            }
-          },
-          {
-            "species": "pelipper",
-            "rate": 5,
-            "level": {
-              "min": 25,
-              "max": 30
-            }
-          }
-        ]
-      },
-      {
-        "method": "fish-oldrod",
-        "pokemon": [
-          {
-            "species": "magikarp",
-            "rate": 70,
-            "level": {
-              "min": 5,
-              "max": 10
-            }
-          },
-          {
-            "species": "tentacool",
-            "rate": 30,
-            "level": {
-              "min": 5,
-              "max": 10
-            }
-          }
-        ]
-      },
-      {
-        "method": "fish-goodrod",
-        "pokemon": [
-          {
-            "species": "magikarp",
-            "rate": 60,
-            "level": {
-              "min": 10,
-              "max": 30
-            }
-          },
-          {
-            "species": "tentacool",
-            "rate": 20,
-            "level": {
-              "min": 10,
-              "max": 30
-            }
-          },
-          {
-            "species": "wailmer",
-            "rate": 20,
-            "level": {
-              "min": 10,
-              "max": 30
-            }
-          }
-        ]
-      },
-      {
-        "method": "fish-superrod",
-        "pokemon": [
-          {
-            "species": "wailmer",
-            "rate": 100,
-            "level": {
-              "min": 20,
-              "max": 45
-            }
-          }
-        ]
-      }
-    ],
-    "trades": [],
-    "gifts": [],
-    "static": []
-  },
-  {
     "id": "route107",
     "name": "Route 107",
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -5576,7 +5483,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -5597,7 +5504,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -5626,7 +5533,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 100,
@@ -5648,7 +5555,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -5677,7 +5584,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -5698,7 +5605,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -5727,7 +5634,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 100,
@@ -5749,7 +5656,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 99,
@@ -5770,7 +5677,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -5791,7 +5698,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -5812,7 +5719,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 80,
@@ -5842,7 +5749,7 @@
     "areas": [
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "tentacool",
             "rate": 60,
@@ -5871,7 +5778,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -5892,7 +5799,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -5921,7 +5828,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "wailmer",
             "rate": 45,
@@ -5959,7 +5866,7 @@
     "areas": [
       {
         "method": "grass",
-        "pokemon": [
+        "encounters": [
           {
             "species": "golbat",
             "rate": 35,
@@ -5996,7 +5903,7 @@
       },
       {
         "method": "rocksmash",
-        "pokemon": [
+        "encounters": [
           {
             "species": "geodude",
             "rate": 70,
@@ -6017,7 +5924,7 @@
       },
       {
         "method": "surf",
-        "pokemon": [
+        "encounters": [
           {
             "species": "golbat",
             "rate": 100,
@@ -6030,7 +5937,7 @@
       },
       {
         "method": "fish-oldrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 70,
@@ -6051,7 +5958,7 @@
       },
       {
         "method": "fish-goodrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "magikarp",
             "rate": 60,
@@ -6080,7 +5987,7 @@
       },
       {
         "method": "fish-superrod",
-        "pokemon": [
+        "encounters": [
           {
             "species": "barboach",
             "rate": 80,
@@ -6094,6 +6001,99 @@
             "rate": 20,
             "level": {
               "min": 30,
+              "max": 45
+            }
+          }
+        ]
+      }
+    ],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "rustborocity",
+    "name": "Rustboro City",
+    "areas": [],
+    "trades": [],
+    "gifts": [],
+    "static": []
+  },
+  {
+    "id": "petalburgcity",
+    "name": "Petalburg City",
+    "areas": [
+      {
+        "method": "surf",
+        "encounters": [
+          {
+            "species": "marill",
+            "rate": 100,
+            "level": {
+              "min": 5,
+              "max": 35
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-oldrod",
+        "encounters": [
+          {
+            "species": "magikarp",
+            "rate": 70,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 30,
+            "level": {
+              "min": 5,
+              "max": 10
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-goodrod",
+        "encounters": [
+          {
+            "species": "magikarp",
+            "rate": 60,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "goldeen",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          },
+          {
+            "species": "corphish",
+            "rate": 20,
+            "level": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        ]
+      },
+      {
+        "method": "fish-superrod",
+        "encounters": [
+          {
+            "species": "corphish",
+            "rate": 100,
+            "level": {
+              "min": 20,
               "max": 45
             }
           }
