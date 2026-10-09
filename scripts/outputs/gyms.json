@@ -1,0 +1,942 @@
+[
+  {
+    "leader": "Roxanne",
+    "sprite": "https://img.pokemondb.net/sprites/trainers/ruby-sapphire/roxanne.png",
+    "type": "rock",
+    "badge": "Stone",
+    "team": [
+      {
+        "id": "074",
+        "name": "Geodude",
+        "level": 12,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/geodude.png",
+        "types": ["Rock", "Ground"],
+        "moves": [
+          {
+            "name": "Tackle",
+            "url": ""
+          },
+          {
+            "name": "Defense Curl",
+            "url": ""
+          },
+          {
+            "name": "Rock Throw",
+            "url": ""
+          },
+          {
+            "name": "Rock Tomb",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "074",
+        "name": "Geodude",
+        "level": 12,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/geodude.png",
+        "types": ["Rock", "Ground"],
+        "moves": [
+          {
+            "name": "Tackle",
+            "url": ""
+          },
+          {
+            "name": "Defense Curl",
+            "url": ""
+          },
+          {
+            "name": "Rock Throw",
+            "url": ""
+          },
+          {
+            "name": "Rock Tomb",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "299",
+        "name": "Nosepass",
+        "level": 15,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/nosepass.png",
+        "types": ["Rock"],
+        "item": {
+          "name": "Oran Berry",
+          "url": ""
+        },
+        "moves": [
+          {
+            "name": "Block",
+            "url": ""
+          },
+          {
+            "name": "Harden",
+            "url": ""
+          },
+          {
+            "name": "Tackle",
+            "url": ""
+          },
+          {
+            "name": "Rock Tomb",
+            "url": ""
+          }
+        ]
+      }
+    ],
+    "isDouble": false,
+    "location": {
+      "name": "",
+      "id": ""
+    }
+  },
+  {
+    "leader": "Brawly",
+    "sprite": "https://img.pokemondb.net/sprites/trainers/ruby-sapphire/brawly.png",
+    "type": "fighting",
+    "badge": "Knuckle",
+    "team": [
+      {
+        "id": "066",
+        "name": "Machop",
+        "level": 16,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/machop.png",
+        "types": ["Fighting"],
+        "moves": [
+          {
+            "name": "Karate Chop",
+            "url": ""
+          },
+          {
+            "name": "Low Kick",
+            "url": ""
+          },
+          {
+            "name": "Seismic Toss",
+            "url": ""
+          },
+          {
+            "name": "Bulk Up",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "307",
+        "name": "Meditite",
+        "level": 16,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/meditite.png",
+        "types": ["Fighting", "Psychic"],
+        "moves": [
+          {
+            "name": "Focus Punch",
+            "url": ""
+          },
+          {
+            "name": "Light Screen",
+            "url": ""
+          },
+          {
+            "name": "Reflect",
+            "url": ""
+          },
+          {
+            "name": "Bulk Up",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "296",
+        "name": "Makuhita",
+        "level": 19,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/makuhita.png",
+        "types": ["Fighting"],
+        "item": {
+          "name": "Sitrus Berry",
+          "url": ""
+        },
+        "moves": [
+          {
+            "name": "Arm Thrust",
+            "url": ""
+          },
+          {
+            "name": "Vital Throw",
+            "url": ""
+          },
+          {
+            "name": "Reversal",
+            "url": ""
+          },
+          {
+            "name": "Bulk Up",
+            "url": ""
+          }
+        ]
+      }
+    ],
+    "isDouble": false,
+    "location": {
+      "name": "",
+      "id": ""
+    }
+  },
+  {
+    "leader": "Wattson",
+    "sprite": "https://img.pokemondb.net/sprites/trainers/ruby-sapphire/wattson.png",
+    "type": "electric",
+    "badge": "Dynamo",
+    "team": [
+      {
+        "id": "100",
+        "name": "Voltorb",
+        "level": 20,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/voltorb.png",
+        "types": ["Electric"],
+        "moves": [
+          {
+            "name": "Rollout",
+            "url": ""
+          },
+          {
+            "name": "Spark",
+            "url": ""
+          },
+          {
+            "name": "Self-Destruct",
+            "url": ""
+          },
+          {
+            "name": "Shock Wave",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "082",
+        "name": "Magneton",
+        "level": 22,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/magneton.png",
+        "types": ["Electric", "Steel"],
+        "moves": [
+          {
+            "name": "Shock Wave",
+            "url": ""
+          },
+          {
+            "name": "Leer",
+            "url": ""
+          },
+          {
+            "name": "Quick Attack",
+            "url": ""
+          },
+          {
+            "name": "Howl",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "309",
+        "name": "Electrike",
+        "level": 20,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/electrike.png",
+        "types": ["Electric"],
+        "moves": [
+          {
+            "name": "Supersonic",
+            "url": ""
+          },
+          {
+            "name": "Shock Wave",
+            "url": ""
+          },
+          {
+            "name": "Thunder Wave",
+            "url": ""
+          },
+          {
+            "name": "Sonic Boom",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "310",
+        "name": "Manectric",
+        "level": 24,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/manectric.png",
+        "types": ["Electric"],
+        "item": {
+          "name": "Sitrus Berry",
+          "url": ""
+        },
+        "moves": [
+          {
+            "name": "Quick Attack",
+            "url": ""
+          },
+          {
+            "name": "Thunder Wave",
+            "url": ""
+          },
+          {
+            "name": "Shock Wave",
+            "url": ""
+          },
+          {
+            "name": "Howl",
+            "url": ""
+          }
+        ]
+      }
+    ],
+    "isDouble": false,
+    "location": {
+      "name": "",
+      "id": ""
+    }
+  },
+  {
+    "leader": "Flannery",
+    "sprite": "https://img.pokemondb.net/sprites/trainers/ruby-sapphire/flannery.png",
+    "type": "fire",
+    "badge": "Heat",
+    "team": [
+      {
+        "id": "322",
+        "name": "Numel",
+        "level": 24,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/numel.png",
+        "types": ["Fire", "Ground"],
+        "moves": [
+          {
+            "name": "Overheat",
+            "url": ""
+          },
+          {
+            "name": "Take Down",
+            "url": ""
+          },
+          {
+            "name": "Magnitude",
+            "url": ""
+          },
+          {
+            "name": "Sunny Day",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "218",
+        "name": "Slugma",
+        "level": 24,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/slugma.png",
+        "types": ["Fire"],
+        "moves": [
+          {
+            "name": "Overheat",
+            "url": ""
+          },
+          {
+            "name": "Smog",
+            "url": ""
+          },
+          {
+            "name": "Light Screen",
+            "url": ""
+          },
+          {
+            "name": "Sunny Day",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "323",
+        "name": "Camerupt",
+        "level": 26,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/camerupt.png",
+        "types": ["Fire", "Ground"],
+        "moves": [
+          {
+            "name": "Overheat",
+            "url": ""
+          },
+          {
+            "name": "Tackle",
+            "url": ""
+          },
+          {
+            "name": "Sunny Day",
+            "url": ""
+          },
+          {
+            "name": "Attract",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "324",
+        "name": "Torkoal",
+        "level": 29,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/torkoal.png",
+        "types": ["Fire"],
+        "item": {
+          "name": "White Herb",
+          "url": ""
+        },
+        "moves": [
+          {
+            "name": "Overheat",
+            "url": ""
+          },
+          {
+            "name": "Sunny Day",
+            "url": ""
+          },
+          {
+            "name": "Body Slam",
+            "url": ""
+          },
+          {
+            "name": "Attract",
+            "url": ""
+          }
+        ]
+      }
+    ],
+    "isDouble": false,
+    "location": {
+      "name": "",
+      "id": ""
+    }
+  },
+  {
+    "leader": "Norman",
+    "sprite": "https://img.pokemondb.net/sprites/trainers/ruby-sapphire/norman.png",
+    "type": "normal",
+    "badge": "Balance",
+    "team": [
+      {
+        "id": "327",
+        "name": "Spinda",
+        "level": 27,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/spinda.png",
+        "types": ["Normal"],
+        "moves": [
+          {
+            "name": "Teeter Dance",
+            "url": ""
+          },
+          {
+            "name": "Psybeam",
+            "url": ""
+          },
+          {
+            "name": "Facade",
+            "url": ""
+          },
+          {
+            "name": "Encore",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "288",
+        "name": "Vigoroth",
+        "level": 27,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/vigoroth.png",
+        "types": ["Normal"],
+        "moves": [
+          {
+            "name": "Slash",
+            "url": ""
+          },
+          {
+            "name": "Facade",
+            "url": ""
+          },
+          {
+            "name": "Encore",
+            "url": ""
+          },
+          {
+            "name": "Feint Attack",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "264",
+        "name": "Linoone",
+        "level": 29,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/linoone.png",
+        "types": ["Normal"],
+        "moves": [
+          {
+            "name": "Slash",
+            "url": ""
+          },
+          {
+            "name": "Belly Drum",
+            "url": ""
+          },
+          {
+            "name": "Facade",
+            "url": ""
+          },
+          {
+            "name": "Headbutt",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "289",
+        "name": "Slaking",
+        "level": 31,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/slaking.png",
+        "types": ["Normal"],
+        "item": {
+          "name": "Sitrus Berry",
+          "url": ""
+        },
+        "moves": [
+          {
+            "name": "Counter",
+            "url": ""
+          },
+          {
+            "name": "Yawn",
+            "url": ""
+          },
+          {
+            "name": "Facade",
+            "url": ""
+          },
+          {
+            "name": "Feint Attack",
+            "url": ""
+          }
+        ]
+      }
+    ],
+    "isDouble": false,
+    "location": {
+      "name": "",
+      "id": ""
+    }
+  },
+  {
+    "leader": "Winona",
+    "sprite": "https://img.pokemondb.net/sprites/trainers/ruby-sapphire/winona.png",
+    "type": "flying",
+    "badge": "Feather",
+    "team": [
+      {
+        "id": "333",
+        "name": "Swablu",
+        "level": 29,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/swablu.png",
+        "types": ["Normal", "Flying"],
+        "moves": [
+          {
+            "name": "Perish Song",
+            "url": ""
+          },
+          {
+            "name": "Mirror Move",
+            "url": ""
+          },
+          {
+            "name": "Safeguard",
+            "url": ""
+          },
+          {
+            "name": "Aerial Ace",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "357",
+        "name": "Tropius",
+        "level": 29,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/tropius.png",
+        "types": ["Grass", "Flying"],
+        "moves": [
+          {
+            "name": "Sunny Day",
+            "url": ""
+          },
+          {
+            "name": "Aerial Ace",
+            "url": ""
+          },
+          {
+            "name": "Solar Beam",
+            "url": ""
+          },
+          {
+            "name": "Synthesis",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "279",
+        "name": "Pelipper",
+        "level": 30,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/pelipper.png",
+        "types": ["Water", "Flying"],
+        "moves": [
+          {
+            "name": "Water Gun",
+            "url": ""
+          },
+          {
+            "name": "Supersonic",
+            "url": ""
+          },
+          {
+            "name": "Protect",
+            "url": ""
+          },
+          {
+            "name": "Aerial Ace",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "227",
+        "name": "Skarmory",
+        "level": 31,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/skarmory.png",
+        "types": ["Steel", "Flying"],
+        "moves": [
+          {
+            "name": "Sand Attack",
+            "url": ""
+          },
+          {
+            "name": "Fury Attack",
+            "url": ""
+          },
+          {
+            "name": "Steel Wing",
+            "url": ""
+          },
+          {
+            "name": "Aerial Ace",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "334",
+        "name": "Altaria",
+        "level": 33,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/altaria.png",
+        "types": ["Dragon", "Flying"],
+        "item": {
+          "name": "Oran Berry",
+          "url": ""
+        },
+        "moves": [
+          {
+            "name": "Earthquake",
+            "url": ""
+          },
+          {
+            "name": "Dragon Breath",
+            "url": ""
+          },
+          {
+            "name": "Dragon Dance",
+            "url": ""
+          },
+          {
+            "name": "Aerial Ace",
+            "url": ""
+          }
+        ]
+      }
+    ],
+    "isDouble": false,
+    "location": {
+      "name": "",
+      "id": ""
+    }
+  },
+  {
+    "leader": "Tate & Liza",
+    "sprite": "https://img.pokemondb.net/sprites/trainers/ruby-sapphire/tate-liza.png",
+    "type": "psychic",
+    "badge": "Mind",
+    "team": [
+      {
+        "id": "344",
+        "name": "Claydol",
+        "level": 41,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/claydol.png",
+        "types": ["Ground", "Psychic"],
+        "moves": [
+          {
+            "name": "Earthquake",
+            "url": ""
+          },
+          {
+            "name": "Ancient Power",
+            "url": ""
+          },
+          {
+            "name": "Psychic",
+            "url": ""
+          },
+          {
+            "name": "Light Screen",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "178",
+        "name": "Xatu",
+        "level": 41,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/xatu.png",
+        "types": ["Psychic", "Flying"],
+        "moves": [
+          {
+            "name": "Psychic",
+            "url": ""
+          },
+          {
+            "name": "Sunny Day",
+            "url": ""
+          },
+          {
+            "name": "Confuse Ray",
+            "url": ""
+          },
+          {
+            "name": "Calm Mind",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "337",
+        "name": "Lunatone",
+        "level": 42,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/lunatone.png",
+        "types": ["Rock", "Psychic"],
+        "item": {
+          "name": "Sitrus Berry",
+          "url": ""
+        },
+        "moves": [
+          {
+            "name": "Light Screen",
+            "url": ""
+          },
+          {
+            "name": "Psychic",
+            "url": ""
+          },
+          {
+            "name": "Hypnosis",
+            "url": ""
+          },
+          {
+            "name": "Calm Mind",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "338",
+        "name": "Solrock",
+        "level": 42,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/solrock.png",
+        "types": ["Rock", "Psychic"],
+        "item": {
+          "name": "Sitrus Berry",
+          "url": ""
+        },
+        "moves": [
+          {
+            "name": "Sunny Day",
+            "url": ""
+          },
+          {
+            "name": "Solar Beam",
+            "url": ""
+          },
+          {
+            "name": "Psychic",
+            "url": ""
+          },
+          {
+            "name": "Flamethrower",
+            "url": ""
+          }
+        ]
+      }
+    ],
+    "isDouble": true,
+    "location": {
+      "name": "",
+      "id": ""
+    }
+  },
+  {
+    "leader": "Juan",
+    "sprite": "https://img.pokemondb.net/sprites/trainers/emerald/juan.png",
+    "type": "water",
+    "badge": "Rain",
+    "team": [
+      {
+        "id": "370",
+        "name": "Luvdisc",
+        "level": 41,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/luvdisc.png",
+        "types": ["Water"],
+        "moves": [
+          {
+            "name": "Water Pulse",
+            "url": ""
+          },
+          {
+            "name": "Attract",
+            "url": ""
+          },
+          {
+            "name": "Sweet Kiss",
+            "url": ""
+          },
+          {
+            "name": "Flail",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "340",
+        "name": "Whiscash",
+        "level": 41,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/whiscash.png",
+        "types": ["Water", "Ground"],
+        "moves": [
+          {
+            "name": "Rain Dance",
+            "url": ""
+          },
+          {
+            "name": "Water Pulse",
+            "url": ""
+          },
+          {
+            "name": "Amnesia",
+            "url": ""
+          },
+          {
+            "name": "Earthquake",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "364",
+        "name": "Sealeo",
+        "level": 43,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/sealeo.png",
+        "types": ["Ice", "Water"],
+        "moves": [
+          {
+            "name": "Encore",
+            "url": ""
+          },
+          {
+            "name": "Body Slam",
+            "url": ""
+          },
+          {
+            "name": "Aurora Beam",
+            "url": ""
+          },
+          {
+            "name": "Water Pulse",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "342",
+        "name": "Crawdaunt",
+        "level": 43,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/crawdaunt.png",
+        "types": ["Water", "Dark"],
+        "moves": [
+          {
+            "name": "Water Pulse",
+            "url": ""
+          },
+          {
+            "name": "Crabhammer",
+            "url": ""
+          },
+          {
+            "name": "Taunt",
+            "url": ""
+          },
+          {
+            "name": "Leer",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": "230",
+        "name": "Kingdra",
+        "level": 46,
+        "sprite": "https://img.pokemondb.net/sprites/emerald/normal/kingdra.png",
+        "types": ["Water", "Dragon"],
+        "item": {
+          "name": "Chesto Berry",
+          "url": ""
+        },
+        "moves": [
+          {
+            "name": "Water Pulse",
+            "url": ""
+          },
+          {
+            "name": "Double Team",
+            "url": ""
+          },
+          {
+            "name": "Ice Beam",
+            "url": ""
+          },
+          {
+            "name": "Rest",
+            "url": ""
+          }
+        ]
+      }
+    ],
+    "isDouble": false,
+    "location": {
+      "name": "",
+      "id": ""
+    }
+  }
+]

@@ -1,5 +1,5 @@
 export const METHOD = {
-  GRASS: 'grass',
+  WALKING: 'walking',
   SURF: 'surf',
   FISH: 'fish',
   FISH_OLD_ROD: 'fish-oldrod',
@@ -14,7 +14,7 @@ export const METHOD = {
 export type Method = (typeof METHOD)[keyof typeof METHOD];
 
 export const METHOD_LABELS: Record<Method, string> = {
-  grass: 'Grass',
+  walking: 'Walking (in Grass or Caves)',
   surf: 'Surfing',
   fish: 'Fishing',
   'fish-oldrod': 'Fishing - Old Rod',

@@ -1,0 +1,29 @@
+{
+  "rustborocity": [
+    {
+      "give": "ralts",
+      "receive": {
+        "species": "seedot",
+        "item": "Chesto Berry"
+      }
+    }
+  ],
+  "fortreecity": [
+    {
+      "give": "volbeat",
+      "receive": {
+        "species": "plusle",
+        "item": "Wood Mail"
+      }
+    }
+  ],
+  "pacifidlogtown": [
+    {
+      "give": "bagon",
+      "receive": {
+        "species": "horse",
+        "item": "Wave Mail"
+      }
+    }
+  ]
+}

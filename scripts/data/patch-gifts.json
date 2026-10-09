@@ -1,0 +1,50 @@
+{
+  "route101": [
+    {
+      "species": "treecko",
+      "level": {
+        "min": 5,
+        "max": 5
+      }
+    },
+    {
+      "species": "torchic",
+      "level": {
+        "min": 5,
+        "max": 5
+      }
+    },
+    {
+      "species": "mudkip",
+      "level": {
+        "min": 5,
+        "max": 5
+      }
+    }
+  ],
+  "route119": [
+    {
+      "species": "castform",
+      "level": {
+        "min": 25,
+        "max": 25
+      }
+    }
+  ],
+  "rustborocity": [
+    {
+      "species": "lileep",
+      "level": {
+        "min": 20,
+        "max": 20
+      }
+    },
+    {
+      "species": "anorith",
+      "level": {
+        "min": 20,
+        "max": 20
+      }
+    }
+  ]
+}

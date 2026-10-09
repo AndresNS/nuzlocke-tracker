@@ -1,0 +1,70 @@
+{
+  "Roxanne": [
+    "route101",
+    "route103",
+    "route102",
+    "route104",
+    "petalburgwoods",
+    "route116",
+    "rusturftunnel"
+  ],
+  "Brawly": ["dewfordtown", "route106", "granitecave"],
+  "Wattson": ["route109", "slateportcity", "route110"],
+  "Flannery": [
+    "route117",
+    "route111",
+    "route112",
+    "fierypath",
+    "route113",
+    "route114",
+    "meteorfalls",
+    "route115",
+    "jaggedpass",
+    "lavaridgetown"
+  ],
+  "Norman": ["petalburgcity"],
+  "Winona": [
+    "rustborocity",
+    "newmauville",
+    "route118",
+    "route119",
+    "fortreecity",
+    "route120"
+  ],
+  "Tate & Liza": [
+    "route121",
+    "safarizone",
+    "lilycovecity",
+    "route122",
+    "mt.pyre",
+    "route123",
+    "magmahideout",
+    "aquahideout",
+    "route124",
+    "mossdeepcity"
+  ],
+  "Juan": [
+    "route125",
+    "shoalcave",
+    "route127",
+    "route128",
+    "seafloorcavern",
+    "route126",
+    "sootopoliscity",
+    "caveoforigin",
+    "route129",
+    "route130",
+    "route131",
+    "skypillar",
+    "pacifidlogtown",
+    "route132",
+    "route133",
+    "route134",
+    "route105",
+    "route107",
+    "route108",
+    "abandonedship",
+    "evergrandecity",
+    "victoryroad"
+  ]
+}

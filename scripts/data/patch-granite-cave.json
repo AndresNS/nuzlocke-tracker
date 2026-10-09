@@ -1,0 +1,191 @@
+{
+  "id": "granitecave",
+  "name": "Granite Cave",
+  "areas": [
+    {
+      "method": "walking",
+      "floor": "1F",
+      "encounters": [
+        {
+          "species": "Makuhita",
+          "rate": 50,
+          "level": {
+            "min": 6,
+            "max": 10
+          }
+        },
+        {
+          "species": "Zubat",
+          "rate": 30,
+          "level": {
+            "min": 7,
+            "max": 8
+          }
+        },
+        {
+          "species": "Abra",
+          "rate": 10,
+          "level": {
+            "min": 8,
+            "max": 8
+          }
+        },
+        {
+          "species": "Geodude",
+          "rate": 10,
+          "level": {
+            "min": 6,
+            "max": 9
+          }
+        }
+      ]
+    },
+    {
+      "method": "walking",
+      "floor": "1F-2",
+      "encounters": [
+        {
+          "species": "Makuhita",
+          "rate": 50,
+          "level": {
+            "min": 6,
+            "max": 10
+          }
+        },
+        {
+          "species": "Zubat",
+          "rate": 30,
+          "level": {
+            "min": 7,
+            "max": 8
+          }
+        },
+        {
+          "species": "Abra",
+          "rate": 10,
+          "level": {
+            "min": 8,
+            "max": 8
+          }
+        },
+        {
+          "species": "Aron",
+          "rate": 10,
+          "level": {
+            "min": 7,
+            "max": 8
+          }
+        }
+      ]
+    },
+    {
+      "method": "walking",
+      "floor": "B1F",
+      "encounters": [
+        {
+          "species": "Aron",
+          "rate": 40,
+          "level": {
+            "min": 9,
+            "max": 11
+          }
+        },
+        {
+          "species": "Zubat",
+          "rate": 30,
+          "level": {
+            "min": 9,
+            "max": 10
+          }
+        },
+        {
+          "species": "Abra",
+          "rate": 10,
+          "level": {
+            "min": 9,
+            "max": 9
+          }
+        },
+        {
+          "species": "Makuhita",
+          "rate": 10,
+          "level": {
+            "min": 10,
+            "max": 11
+          }
+        },
+        {
+          "species": "Sableye",
+          "rate": 10,
+          "level": {
+            "min": 9,
+            "max": 11
+          }
+        }
+      ]
+    },
+    {
+      "method": "walking",
+      "floor": "B2F",
+      "encounters": [
+        {
+          "species": "Aron",
+          "rate": 40,
+          "level": {
+            "min": 10,
+            "max": 12
+          }
+        },
+        {
+          "species": "Zubat",
+          "rate": 30,
+          "level": {
+            "min": 10,
+            "max": 11
+          }
+        },
+        {
+          "species": "Sableye",
+          "rate": 20,
+          "level": {
+            "min": 10,
+            "max": 12
+          }
+        },
+        {
+          "species": "Abra",
+          "rate": 10,
+          "level": {
+            "min": 10,
+            "max": 10
+          }
+        }
+      ]
+    },
+    {
+      "method": "rocksmash",
+      "floor": "B2F",
+      "encounters": [
+        {
+          "species": "Geodude",
+          "rate": 70,
+          "level": {
+            "min": 5,
+            "max": 20
+          }
+        },
+        {
+          "species": "Nosepass",
+          "rate": 30,
+          "level": {
+            "min": 10,
+            "max": 20
+          }
+        }
+      ]
+    }
+  ],
+  "trades": [],
+  "gifts": [],
+  "static": []
+}

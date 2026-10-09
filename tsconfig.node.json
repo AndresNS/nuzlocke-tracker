@@ -17,7 +17,22 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Allow JSON imports */
+    "resolveJsonModule": true,
+
+    /* Absolute Imports */
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
-  "include": ["vite.config.ts"]
+  "include": [
+    "vite.config.ts",
+    "scripts",
+    "src/types.ts",
+    "src/constants.ts",
+    "src/features/**/types.ts",
+    "src/features/**/constants.ts"
+  ]
 }

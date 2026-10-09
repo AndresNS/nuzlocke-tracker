@@ -6,29 +6,32 @@ export interface PokemonEncounter {
 }
 
 export interface AreaEncounter extends PokemonEncounter {
-  rate?: number;
+  rate: number;
 }
 
-interface Trade {
+export interface TradeEncounter {
+  species: string;
+  item: string;
+}
+
+export interface Trade {
   give: string;
-  receive: PokemonEncounter;
+  receive: TradeEncounter;
 }
 
 export interface Area {
   method: Method;
+  floor?: string;
   encounters: AreaEncounter[];
 }
 
-export interface EncounterTypes {
+export interface Route {
+  id: string;
+  name: string;
   areas: Area[];
   trades: Trade[];
   gifts: PokemonEncounter[];
   static: PokemonEncounter[];
-}
-
-export interface Route extends EncounterTypes {
-  id: string;
-  name: string;
 }
 
 export type StorageEncounter = Record<

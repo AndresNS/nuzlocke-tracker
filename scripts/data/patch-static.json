@@ -1,0 +1,20 @@
+{
+  "route119": [
+    {
+      "species": "kecleon",
+      "level": {
+        "min": 30,
+        "max": 30
+      }
+    }
+  ],
+  "route120": [
+    {
+      "species": "kecleon",
+      "level": {
+        "min": 30,
+        "max": 30
+      }
+    }
+  ]
+}
