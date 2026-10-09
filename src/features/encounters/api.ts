@@ -1,4 +1,4 @@
-import routes from './data/encounters.json';
+import routes from './data/routes-encounters.json';
 import type { Route } from './types';
 
 export const getRoutes = (): Route[] => {
