@@ -1,7 +1,8 @@
 import * as cheerio from 'cheerio';
 import type { Element } from 'domhandler';
 
-import type { Gym, Item, Move, PokemonType, TrainerPokemon } from '@/types.ts';
+import type { Gym } from '@/features/gyms/types.ts';
+import type { Item, Move, PokemonType, TrainerPokemon } from '@/types.ts';
 
 import { cheerioQuery } from '../utils/cheerio-query.ts';
 
@@ -68,7 +69,7 @@ const getGymPokemon = (
   pkmnElement: Element,
   leader: string,
   index: number,
-): TrainerPokemon => {
+): Omit<TrainerPokemon, 'stats'> => {
   const pkmnNumber = $(pkmnElement)
     .find('span.infocard-lg-data')
     .children('small')
