@@ -119,7 +119,7 @@ const getRouteAreas = ($: cheerio.CheerioAPI, methods: Method[]): Area[] => {
         .toArray();
 
       const encounters: AreaEncounter[] = pokemonNames.map((species, i) => ({
-        species,
+        species: species.toLowerCase(),
         rate: pokemonRates[i] as number,
         level: pokemonLevels[i],
       }));

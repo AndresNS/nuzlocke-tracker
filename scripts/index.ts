@@ -1,6 +1,6 @@
-import { getGyms } from './scrappers/gyms.ts';
-import { getPokemonDex } from './scrappers/pokemon-dex.ts';
-import { getRoutesEncounters } from './scrappers/routes-encounters.ts';
+import { getGyms } from './scrapers/gyms.ts';
+import { getPokemonDex } from './scrapers/pokemon-dex.ts';
+import { getRoutesEncounters } from './scrapers/routes-encounters.ts';
 import { saveFile } from './utils/storage.ts';
 
 const config = {
@@ -11,7 +11,7 @@ const config = {
   scrapers: {
     gyms: {
       enabled: false,
-      print: true,
+      print: false,
       outputFile: 'gyms.json',
       run: getGyms,
     },
@@ -23,7 +23,7 @@ const config = {
     },
     routesEncounters: {
       enabled: true,
-      print: true,
+      print: false,
       outputFile: 'routes-encounters.json',
       run: getRoutesEncounters,
     },

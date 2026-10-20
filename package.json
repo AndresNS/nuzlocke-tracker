@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "deploy": "yarn build && gh-pages -d dist",
     "postinstall": "husky",
-    "scrapper": "node scripts/index.ts"
+    "scraper": "node scripts/index.ts"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
