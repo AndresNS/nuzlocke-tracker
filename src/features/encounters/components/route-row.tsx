@@ -1,8 +1,12 @@
 import { Button, cn, Disclosure, Separator } from '@heroui/react';
 
-import { METHOD, METHOD_LABELS, ROUTE_STATE, type Method } from '../constants';
-import type { PokemonEncounter, Route, StorageEncounter } from '../types';
-import { toEncounterFormat } from '../utils/encounters-format';
+import { METHOD, METHOD_LABELS, ROUTE_STATUS, type Method } from '../constants';
+import type {
+  PokemonEncounter,
+  Route,
+  StorageEncounter,
+  StorageRouteProgress,
+} from '../types';
 import { getEvolutionLine } from '../utils/evolution-line';
 
 import RouteRowExceptions from './route-row-exceptions';
@@ -11,10 +15,10 @@ import RouteRowSection from './route-row-section';
 interface RouteRowProps {
   route: Route;
   isExpanded: boolean;
-  encounters: StorageEncounter;
+  encounters: StorageRouteProgress;
   onSelectEncounter: (
     routeId: Route['id'],
-    encounter: PokemonEncounter['species'] | undefined,
+    encounter: StorageEncounter | undefined,
   ) => void;
 }
 
@@ -28,21 +32,32 @@ const RouteRow: React.FC<RouteRowProps> = ({
 
   const isChoiceSelected = (
     routeId: Route['id'],
-    method: Method,
     encounter: PokemonEncounter['species'],
+    method?: Method,
+    floor?: string,
   ) => {
-    if (encounter === ROUTE_STATE.MISSED)
-      return encounters[routeId] === ROUTE_STATE.MISSED;
-    return encounters[routeId] === toEncounterFormat(method, encounter);
+    const routeEncounter = encounters[routeId];
+
+    if (!routeEncounter) return false;
+
+    if (encounter === ROUTE_STATUS.MISSED)
+      return routeEncounter.status === ROUTE_STATUS.MISSED;
+
+    return (
+      encounter === routeEncounter.species &&
+      method === routeEncounter.method &&
+      floor === routeEncounter.floor
+    );
   };
 
   const isChoiceDisabled = (species: PokemonEncounter['species']) => {
     const evolutionLine = getEvolutionLine(species);
+
     const isCaught = Object.entries(encounters).find((entry) => {
       if (!entry[1]) return false;
-      const encounter = entry[1].split('-');
+      const routeEncounter = entry[1];
 
-      return evolutionLine.includes(encounter[encounter.length - 1]);
+      return evolutionLine.includes(routeEncounter.species);
     });
 
     return !!isCaught;
@@ -50,15 +65,24 @@ const RouteRow: React.FC<RouteRowProps> = ({
 
   const handleChoiceButtonClick = (
     routeId: Route['id'],
-    method: Method,
     encounter: PokemonEncounter['species'],
+    method?: Method,
+    floor?: string,
   ) => {
-    const routeEncounter =
-      encounter !== ROUTE_STATE.MISSED
-        ? toEncounterFormat(method, encounter)
-        : ROUTE_STATE.MISSED;
+    const routeEncounter: StorageEncounter = {
+      status:
+        encounter === ROUTE_STATUS.MISSED
+          ? ROUTE_STATUS.MISSED
+          : ROUTE_STATUS.CAPTURED,
+      species: encounter,
+      method,
+      floor,
+    };
 
-    if (encounters[routeId] === routeEncounter) {
+    if (
+      encounters[routeId]?.species === routeEncounter.species &&
+      encounters[routeId].floor === floor
+    ) {
       onSelectEncounter(routeId, undefined);
       return;
     }
@@ -96,8 +120,9 @@ const RouteRow: React.FC<RouteRowProps> = ({
                 {/* Areas */}
                 {route.areas.map((area) => (
                   <RouteRowSection
-                    key={`section-${route.id}-${area.method}`}
+                    key={`section-${route.id}-${area.method}${area.floor ? '-' + area.floor : ''}`}
                     method={area.method}
+                    floor={area.floor}
                     routeId={route.id}
                     title={METHOD_LABELS[area.method]}
                     sectionEncounters={area.encounters}
@@ -137,7 +162,6 @@ const RouteRow: React.FC<RouteRowProps> = ({
 
                 {/* Missed */}
                 <RouteRowExceptions
-                  method={METHOD.STATIC}
                   routeId={route.id}
                   isChoiceSelected={isChoiceSelected}
                   handleChoiceButtonClick={handleChoiceButtonClick}

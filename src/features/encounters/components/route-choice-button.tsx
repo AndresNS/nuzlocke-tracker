@@ -5,21 +5,24 @@ import type { PokemonEncounter, Route } from '../types';
 
 interface RouteChoiceButtonProps {
   routeId: Route['id'];
-  method: Method;
+  method?: Method;
+  floor?: string;
   species: PokemonEncounter['species'];
   selected: boolean;
   disabled: boolean;
   label: string;
   onClick: (
     routeId: Route['id'],
-    method: Method,
     species: PokemonEncounter['species'],
+    method?: Method,
+    floor?: string,
   ) => void;
 }
 
 const RouteChoiceButton: React.FC<RouteChoiceButtonProps> = ({
   routeId,
   method,
+  floor,
   species,
   selected,
   disabled,
@@ -31,7 +34,7 @@ const RouteChoiceButton: React.FC<RouteChoiceButtonProps> = ({
       variant={selected ? 'tertiary' : 'outline'}
       isDisabled={disabled}
       onClick={() => {
-        onClick(routeId, method, species);
+        onClick(routeId, species, method, floor);
       }}
     >
       {label}

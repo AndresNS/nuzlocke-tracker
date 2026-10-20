@@ -2,15 +2,15 @@ import { DisclosureGroup, Typography } from '@heroui/react';
 import { useState } from 'react';
 
 import { getRoutes } from '../api';
-import type { PokemonEncounter, Route, StorageEncounter } from '../types';
+import type { Route, StorageEncounter, StorageRouteProgress } from '../types';
 
 import RouteRow from './route-row';
 
 interface RoutesListProps {
-  encounters: StorageEncounter;
+  encounters: StorageRouteProgress;
   onSelectEncounter: (
     routeId: Route['id'],
-    encounter: PokemonEncounter['species'] | undefined,
+    encounter: StorageEncounter | undefined,
   ) => void;
 }
 

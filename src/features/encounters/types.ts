@@ -1,4 +1,4 @@
-import type { Method } from './constants';
+import type { Method, ROUTE_STATUS } from './constants';
 
 export interface PokemonEncounter {
   species: string;
@@ -34,7 +34,16 @@ export interface Route {
   static: PokemonEncounter[];
 }
 
-export type StorageEncounter = Record<
+export type RouteStatus = (typeof ROUTE_STATUS)[keyof typeof ROUTE_STATUS];
+
+export interface StorageEncounter {
+  method?: Method;
+  floor?: string;
+  species: string;
+  status: RouteStatus;
+}
+
+export type StorageRouteProgress = Record<
   Route['id'],
-  PokemonEncounter['species'] | undefined
+  StorageEncounter | undefined
 >;

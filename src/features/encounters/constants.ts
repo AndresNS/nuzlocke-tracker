@@ -26,6 +26,7 @@ export const METHOD_LABELS: Record<Method, string> = {
   trade: 'Trade',
 };
 
-export const ROUTE_STATE = {
+export const ROUTE_STATUS = {
   MISSED: 'missed',
-};
+  CAPTURED: 'captured',
+} as const;

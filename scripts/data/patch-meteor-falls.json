@@ -1,0 +1,503 @@
+{
+  "id": "meteorfalls",
+  "name": "Meteor Falls",
+  "areas": [
+    {
+      "method": "walking",
+      "floor": "1F-1",
+      "encounters": [
+        {
+          "species": "zubat",
+          "rate": 80,
+          "level": {
+            "min": 14,
+            "max": 20
+          }
+        },
+        {
+          "species": "solrock",
+          "rate": 20,
+          "level": {
+            "min": 14,
+            "max": 18
+          }
+        }
+      ]
+    },
+    {
+      "method": "surf",
+      "floor": "1F-1",
+      "encounters": [
+        {
+          "species": "golbat",
+          "rate": 90,
+          "level": {
+            "min": 5,
+            "max": 35
+          }
+        },
+        {
+          "species": "solrock",
+          "rate": 10,
+          "level": {
+            "min": 5,
+            "max": 35
+          }
+        }
+      ]
+    },
+    {
+      "method": "fish-oldrod",
+      "floor": "1F-1",
+      "encounters": [
+        {
+          "species": "magikarp",
+          "rate": 70,
+          "level": {
+            "min": 5,
+            "max": 10
+          }
+        },
+        {
+          "species": "goldeen",
+          "rate": 30,
+          "level": {
+            "min": 5,
+            "max": 10
+          }
+        }
+      ]
+    },
+    {
+      "method": "fish-goodrod",
+      "floor": "1F-1",
+      "encounters": [
+        {
+          "species": "magikarp",
+          "rate": 60,
+          "level": {
+            "min": 10,
+            "max": 30
+          }
+        },
+        {
+          "species": "goldeen",
+          "rate": 20,
+          "level": {
+            "min": 10,
+            "max": 30
+          }
+        },
+        {
+          "species": "barboach",
+          "rate": 20,
+          "level": {
+            "min": 10,
+            "max": 30
+          }
+        }
+      ]
+    },
+    {
+      "method": "fish-superrod",
+      "floor": "1F-1",
+      "encounters": [
+        {
+          "species": "barboach",
+          "rate": 100,
+          "level": {
+            "min": 20,
+            "max": 45
+          }
+        }
+      ]
+    },
+    {
+      "method": "walking",
+      "floor": "1F-2",
+      "encounters": [
+        {
+          "species": "golbat",
+          "rate": 65,
+          "level": {
+            "min": 33,
+            "max": 40
+          }
+        },
+        {
+          "species": "solrock",
+          "rate": 35,
+          "level": {
+            "min": 33,
+            "max": 39
+          }
+        }
+      ]
+    },
+    {
+      "method": "surf",
+      "floor": "1F-2",
+      "encounters": [
+        {
+          "species": "golbat",
+          "rate": 90,
+          "level": {
+            "min": 5,
+            "max": 35
+          }
+        },
+        {
+          "species": "solrock",
+          "rate": 10,
+          "level": {
+            "min": 5,
+            "max": 35
+          }
+        }
+      ]
+    },
+    {
+      "method": "fish-oldrod",
+      "floor": "1F-2",
+      "encounters": [
+        {
+          "species": "magikarp",
+          "rate": 70,
+          "level": {
+            "min": 5,
+            "max": 10
+          }
+        },
+        {
+          "species": "goldeen",
+          "rate": 30,
+          "level": {
+            "min": 5,
+            "max": 10
+          }
+        }
+      ]
+    },
+    {
+      "method": "fish-goodrod",
+      "floor": "1F-2",
+      "encounters": [
+        {
+          "species": "magikarp",
+          "rate": 60,
+          "level": {
+            "min": 10,
+            "max": 30
+          }
+        },
+        {
+          "species": "goldeen",
+          "rate": 20,
+          "level": {
+            "min": 10,
+            "max": 30
+          }
+        },
+        {
+          "species": "barboach",
+          "rate": 20,
+          "level": {
+            "min": 10,
+            "max": 30
+          }
+        }
+      ]
+    },
+    {
+      "method": "fish-superrod",
+      "floor": "1F-2",
+      "encounters": [
+        {
+          "species": "barboach",
+          "rate": 80,
+          "level": {
+            "min": 25,
+            "max": 35
+          }
+        },
+        {
+          "species": "whiscash",
+          "rate": 20,
+          "level": {
+            "min": 30,
+            "max": 45
+          }
+        }
+      ]
+    },
+    {
+      "method": "walking",
+      "floor": "B1F-1",
+      "encounters": [
+        {
+          "species": "golbat",
+          "rate": 65,
+          "level": {
+            "min": 33,
+            "max": 40
+          }
+        },
+        {
+          "species": "solrock",
+          "rate": 35,
+          "level": {
+            "min": 33,
+            "max": 39
+          }
+        }
+      ]
+    },
+    {
+      "method": "surf",
+      "floor": "B1F-1",
+      "encounters": [
+        {
+          "species": "golbat",
+          "rate": 90,
+          "level": {
+            "min": 5,
+            "max": 35
+          }
+        },
+        {
+          "species": "solrock",
+          "rate": 10,
+          "level": {
+            "min": 5,
+            "max": 35
+          }
+        }
+      ]
+    },
+    {
+      "method": "fish-oldrod",
+      "floor": "B1F-1",
+      "encounters": [
+        {
+          "species": "magikarp",
+          "rate": 70,
+          "level": {
+            "min": 5,
+            "max": 10
+          }
+        },
+        {
+          "species": "goldeen",
+          "rate": 30,
+          "level": {
+            "min": 5,
+            "max": 10
+          }
+        }
+      ]
+    },
+    {
+      "method": "fish-goodrod",
+      "floor": "B1F-1",
+      "encounters": [
+        {
+          "species": "magikarp",
+          "rate": 60,
+          "level": {
+            "min": 10,
+            "max": 30
+          }
+        },
+        {
+          "species": "goldeen",
+          "rate": 20,
+          "level": {
+            "min": 10,
+            "max": 30
+          }
+        },
+        {
+          "species": "barboach",
+          "rate": 20,
+          "level": {
+            "min": 10,
+            "max": 30
+          }
+        }
+      ]
+    },
+    {
+      "method": "fish-superrod",
+      "floor": "B1F-1",
+      "encounters": [
+        {
+          "species": "barboach",
+          "rate": 80,
+          "level": {
+            "min": 25,
+            "max": 35
+          }
+        },
+        {
+          "species": "whiscash",
+          "rate": 20,
+          "level": {
+            "min": 30,
+            "max": 45
+          }
+        }
+      ]
+    },
+    {
+      "method": "walking",
+      "floor": "B1F-2",
+      "encounters": [
+        {
+          "species": "golbat",
+          "rate": 50,
+          "level": {
+            "min": 33,
+            "max": 40
+          }
+        },
+        {
+          "species": "solrock",
+          "rate": 25,
+          "level": {
+            "min": 35,
+            "max": 39
+          }
+        },
+        {
+          "species": "bagon",
+          "rate": 25,
+          "level": {
+            "min": 25,
+            "max": 35
+          }
+        }
+      ]
+    },
+    {
+      "method": "surf",
+      "floor": "B1F-2",
+      "encounters": [
+        {
+          "species": "golbat",
+          "rate": 90,
+          "level": {
+            "min": 5,
+            "max": 35
+          }
+        },
+        {
+          "species": "solrock",
+          "rate": 10,
+          "level": {
+            "min": 5,
+            "max": 35
+          }
+        }
+      ]
+    },
+    {
+      "method": "fish-oldrod",
+      "floor": "B1F-2",
+      "encounters": [
+        {
+          "species": "magikarp",
+          "rate": 70,
+          "level": {
+            "min": 5,
+            "max": 10
+          }
+        },
+        {
+          "species": "goldeen",
+          "rate": 30,
+          "level": {
+            "min": 5,
+            "max": 10
+          }
+        }
+      ]
+    },
+    {
+      "method": "fish-goodrod",
+      "floor": "B1F-2",
+      "encounters": [
+        {
+          "species": "magikarp",
+          "rate": 60,
+          "level": {
+            "min": 10,
+            "max": 30
+          }
+        },
+        {
+          "species": "goldeen",
+          "rate": 20,
+          "level": {
+            "min": 10,
+            "max": 30
+          }
+        },
+        {
+          "species": "barboach",
+          "rate": 20,
+          "level": {
+            "min": 10,
+            "max": 30
+          }
+        }
+      ]
+    },
+    {
+      "method": "fish-superrod",
+      "floor": "B1F-2",
+      "encounters": [
+        {
+          "species": "barboach",
+          "rate": 80,
+          "level": {
+            "min": 25,
+            "max": 35
+          }
+        },
+        {
+          "species": "whiscash",
+          "rate": 20,
+          "level": {
+            "min": 30,
+            "max": 45
+          }
+        }
+      ]
+    },
+    {
+      "method": "walking",
+      "floor": "1F-3",
+      "encounters": [
+        {
+          "species": "golbat",
+          "rate": 65,
+          "level": {
+            "min": 33,
+            "max": 40
+          }
+        },
+        {
+          "species": "solrock",
+          "rate": 35,
+          "level": {
+            "min": 33,
+            "max": 39
+          }
+        }
+      ]
+    }
+  ],
+  "trades": [],
+  "gifts": [],
+  "static": []
+}

@@ -1,17 +1,17 @@
 import { STORAGE_KEYS } from '@/constants';
 import useLocalStorage from '@/hooks/use-local-storage';
 
-import type { PokemonEncounter, Route, StorageEncounter } from '../types';
+import type { Route, StorageEncounter, StorageRouteProgress } from '../types';
 
 const useRoutesProgress = () => {
-  const [encounters, setEncounters] = useLocalStorage<StorageEncounter>(
+  const [encounters, setEncounters] = useLocalStorage<StorageRouteProgress>(
     STORAGE_KEYS.ENCOUNTERS,
     {},
   );
 
   const selectEncounter = (
     routeId: Route['id'],
-    encounter: PokemonEncounter['species'] | undefined,
+    encounter: StorageEncounter | undefined,
   ) => {
     setEncounters((prev) => ({ ...prev, [routeId]: encounter }));
   };

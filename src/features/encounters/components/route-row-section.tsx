@@ -9,17 +9,20 @@ interface RouteRowSectionProps {
   title: string;
   routeId: Route['id'];
   method: Method;
+  floor?: string;
   sectionEncounters: AreaEncounter[] | PokemonEncounter[];
   isChoiceSelected: (
     routeId: Route['id'],
-    method: Method,
     encounter: PokemonEncounter['species'],
+    method?: Method,
+    floor?: string,
   ) => boolean;
   isChoiceDisabled: (species: PokemonEncounter['species']) => boolean;
   handleChoiceButtonClick: (
     routeId: Route['id'],
-    method: Method,
     encounter: PokemonEncounter['species'],
+    method?: Method,
+    floor?: string,
   ) => void;
 }
 
@@ -27,6 +30,7 @@ const RouteRowSection: React.FC<RouteRowSectionProps> = ({
   title,
   routeId,
   method,
+  floor,
   sectionEncounters,
   isChoiceSelected,
   isChoiceDisabled,
@@ -34,20 +38,28 @@ const RouteRowSection: React.FC<RouteRowSectionProps> = ({
 }) => {
   return (
     <div className="flex flex-col gap-2">
-      <Label>{title}</Label>
+      <Label>
+        {title} {floor && '(' + floor + ')'}
+      </Label>
       <div className="flex flex-wrap gap-2">
         {sectionEncounters.map((encounter: PokemonEncounter) => (
           <RouteChoiceButton
-            key={`${routeId}-${method}-${encounter.species}`}
+            key={`${routeId}-${floor ? floor + method : method}-${encounter.species}`}
             species={encounter.species}
             method={method}
+            floor={floor}
             label={encounter.species}
             routeId={routeId}
             disabled={
               isChoiceDisabled(encounter.species) &&
-              !isChoiceSelected(routeId, method, encounter.species)
+              !isChoiceSelected(routeId, encounter.species, method, floor)
             }
-            selected={isChoiceSelected(routeId, method, encounter.species)}
+            selected={isChoiceSelected(
+              routeId,
+              encounter.species,
+              method,
+              floor,
+            )}
             onClick={handleChoiceButtonClick}
           />
         ))}
