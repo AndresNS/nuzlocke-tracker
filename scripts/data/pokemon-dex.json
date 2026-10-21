@@ -1,0 +1,3025 @@
+[
+  {
+    "id": "252",
+    "name": "Treecko",
+    "types": ["grass"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/treecko.png",
+    "stats": {
+      "hp": 40,
+      "atk": 45,
+      "def": 35,
+      "spa": 65,
+      "spd": 55,
+      "spe": 70
+    },
+    "abilities": ["Overgrow"]
+  },
+  {
+    "id": "253",
+    "name": "Grovyle",
+    "types": ["grass"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/grovyle.png",
+    "stats": {
+      "hp": 50,
+      "atk": 65,
+      "def": 45,
+      "spa": 85,
+      "spd": 65,
+      "spe": 95
+    },
+    "abilities": ["Overgrow"]
+  },
+  {
+    "id": "254",
+    "name": "Sceptile",
+    "types": ["grass"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/sceptile.png",
+    "stats": {
+      "hp": 70,
+      "atk": 85,
+      "def": 65,
+      "spa": 105,
+      "spd": 85,
+      "spe": 120
+    },
+    "abilities": ["Overgrow"]
+  },
+  {
+    "id": "255",
+    "name": "Torchic",
+    "types": ["fire"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/torchic.png",
+    "stats": {
+      "hp": 45,
+      "atk": 60,
+      "def": 40,
+      "spa": 70,
+      "spd": 50,
+      "spe": 45
+    },
+    "abilities": ["Blaze"]
+  },
+  {
+    "id": "256",
+    "name": "Combusken",
+    "types": ["fire", "fighting"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/combusken.png",
+    "stats": {
+      "hp": 60,
+      "atk": 85,
+      "def": 60,
+      "spa": 85,
+      "spd": 60,
+      "spe": 55
+    },
+    "abilities": ["Blaze"]
+  },
+  {
+    "id": "257",
+    "name": "Blaziken",
+    "types": ["fire", "fighting"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/blaziken.png",
+    "stats": {
+      "hp": 80,
+      "atk": 120,
+      "def": 70,
+      "spa": 110,
+      "spd": 70,
+      "spe": 80
+    },
+    "abilities": ["Blaze"]
+  },
+  {
+    "id": "258",
+    "name": "Mudkip",
+    "types": ["water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/mudkip.png",
+    "stats": {
+      "hp": 50,
+      "atk": 70,
+      "def": 50,
+      "spa": 50,
+      "spd": 50,
+      "spe": 40
+    },
+    "abilities": ["Torrent"]
+  },
+  {
+    "id": "259",
+    "name": "Marshtomp",
+    "types": ["water", "ground"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/marshtomp.png",
+    "stats": {
+      "hp": 70,
+      "atk": 85,
+      "def": 70,
+      "spa": 60,
+      "spd": 70,
+      "spe": 50
+    },
+    "abilities": ["Torrent"]
+  },
+  {
+    "id": "260",
+    "name": "Swampert",
+    "types": ["water", "ground"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/swampert.png",
+    "stats": {
+      "hp": 100,
+      "atk": 110,
+      "def": 90,
+      "spa": 85,
+      "spd": 90,
+      "spe": 60
+    },
+    "abilities": ["Torrent"]
+  },
+  {
+    "id": "261",
+    "name": "Poochyena",
+    "types": ["dark"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/poochyena.png",
+    "stats": {
+      "hp": 35,
+      "atk": 55,
+      "def": 35,
+      "spa": 30,
+      "spd": 30,
+      "spe": 35
+    },
+    "abilities": ["Run Away"]
+  },
+  {
+    "id": "262",
+    "name": "Mightyena",
+    "types": ["dark"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/mightyena.png",
+    "stats": {
+      "hp": 70,
+      "atk": 90,
+      "def": 70,
+      "spa": 60,
+      "spd": 60,
+      "spe": 70
+    },
+    "abilities": ["Intimidate"]
+  },
+  {
+    "id": "263",
+    "name": "Zigzagoon",
+    "types": ["normal"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/zigzagoon.png",
+    "stats": {
+      "hp": 38,
+      "atk": 30,
+      "def": 41,
+      "spa": 30,
+      "spd": 41,
+      "spe": 60
+    },
+    "abilities": ["Pickup"]
+  },
+  {
+    "id": "264",
+    "name": "Linoone",
+    "types": ["normal"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/linoone.png",
+    "stats": {
+      "hp": 78,
+      "atk": 70,
+      "def": 61,
+      "spa": 50,
+      "spd": 61,
+      "spe": 100
+    },
+    "abilities": ["Pickup"]
+  },
+  {
+    "id": "265",
+    "name": "Wurmple",
+    "types": ["bug"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/wurmple.png",
+    "stats": {
+      "hp": 45,
+      "atk": 45,
+      "def": 35,
+      "spa": 20,
+      "spd": 30,
+      "spe": 20
+    },
+    "abilities": ["Shield Dust"]
+  },
+  {
+    "id": "266",
+    "name": "Silcoon",
+    "types": ["bug"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/silcoon.png",
+    "stats": {
+      "hp": 50,
+      "atk": 35,
+      "def": 55,
+      "spa": 25,
+      "spd": 25,
+      "spe": 15
+    },
+    "abilities": ["Shed Skin"]
+  },
+  {
+    "id": "267",
+    "name": "Beautifly",
+    "types": ["bug", "flying"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/beautifly.png",
+    "stats": {
+      "hp": 60,
+      "atk": 70,
+      "def": 50,
+      "spa": 90,
+      "spd": 50,
+      "spe": 65
+    },
+    "abilities": ["Swarm"]
+  },
+  {
+    "id": "268",
+    "name": "Cascoon",
+    "types": ["bug"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/cascoon.png",
+    "stats": {
+      "hp": 50,
+      "atk": 35,
+      "def": 55,
+      "spa": 25,
+      "spd": 25,
+      "spe": 15
+    },
+    "abilities": ["Shed Skin"]
+  },
+  {
+    "id": "269",
+    "name": "Dustox",
+    "types": ["bug", "poison"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/dustox.png",
+    "stats": {
+      "hp": 60,
+      "atk": 50,
+      "def": 70,
+      "spa": 50,
+      "spd": 90,
+      "spe": 65
+    },
+    "abilities": ["Shield Dust"]
+  },
+  {
+    "id": "270",
+    "name": "Lotad",
+    "types": ["water", "grass"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/lotad.png",
+    "stats": {
+      "hp": 40,
+      "atk": 30,
+      "def": 30,
+      "spa": 40,
+      "spd": 50,
+      "spe": 30
+    },
+    "abilities": ["Swift Swim", "Rain Dish"]
+  },
+  {
+    "id": "271",
+    "name": "Lombre",
+    "types": ["water", "grass"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/lombre.png",
+    "stats": {
+      "hp": 60,
+      "atk": 50,
+      "def": 50,
+      "spa": 60,
+      "spd": 70,
+      "spe": 50
+    },
+    "abilities": ["Swift Swim", "Rain Dish"]
+  },
+  {
+    "id": "272",
+    "name": "Ludicolo",
+    "types": ["water", "grass"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/ludicolo.png",
+    "stats": {
+      "hp": 80,
+      "atk": 70,
+      "def": 70,
+      "spa": 90,
+      "spd": 100,
+      "spe": 70
+    },
+    "abilities": ["Swift Swim", "Rain Dish"]
+  },
+  {
+    "id": "273",
+    "name": "Seedot",
+    "types": ["grass"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/seedot.png",
+    "stats": {
+      "hp": 40,
+      "atk": 40,
+      "def": 50,
+      "spa": 30,
+      "spd": 30,
+      "spe": 30
+    },
+    "abilities": ["Chlorophyll", "Early Bird"]
+  },
+  {
+    "id": "274",
+    "name": "Nuzleaf",
+    "types": ["grass", "dark"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/nuzleaf.png",
+    "stats": {
+      "hp": 70,
+      "atk": 70,
+      "def": 40,
+      "spa": 60,
+      "spd": 40,
+      "spe": 60
+    },
+    "abilities": ["Chlorophyll", "Early Bird"]
+  },
+  {
+    "id": "275",
+    "name": "Shiftry",
+    "types": ["grass", "dark"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/shiftry.png",
+    "stats": {
+      "hp": 90,
+      "atk": 100,
+      "def": 60,
+      "spa": 90,
+      "spd": 60,
+      "spe": 80
+    },
+    "abilities": ["Chlorophyll", "Early Bird"]
+  },
+  {
+    "id": "276",
+    "name": "Taillow",
+    "types": ["normal", "flying"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/taillow.png",
+    "stats": {
+      "hp": 40,
+      "atk": 55,
+      "def": 30,
+      "spa": 30,
+      "spd": 30,
+      "spe": 85
+    },
+    "abilities": ["Guts"]
+  },
+  {
+    "id": "277",
+    "name": "Swellow",
+    "types": ["normal", "flying"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/swellow.png",
+    "stats": {
+      "hp": 60,
+      "atk": 85,
+      "def": 60,
+      "spa": 50,
+      "spd": 50,
+      "spe": 125
+    },
+    "abilities": ["Guts"]
+  },
+  {
+    "id": "278",
+    "name": "Wingull",
+    "types": ["water", "flying"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/wingull.png",
+    "stats": {
+      "hp": 40,
+      "atk": 30,
+      "def": 30,
+      "spa": 55,
+      "spd": 30,
+      "spe": 85
+    },
+    "abilities": ["Keen Eye"]
+  },
+  {
+    "id": "279",
+    "name": "Pelipper",
+    "types": ["water", "flying"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/pelipper.png",
+    "stats": {
+      "hp": 60,
+      "atk": 50,
+      "def": 100,
+      "spa": 85,
+      "spd": 70,
+      "spe": 65
+    },
+    "abilities": ["Keen Eye"]
+  },
+  {
+    "id": "280",
+    "name": "Ralts",
+    "types": ["psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/ralts.png",
+    "stats": {
+      "hp": 28,
+      "atk": 25,
+      "def": 25,
+      "spa": 45,
+      "spd": 35,
+      "spe": 40
+    },
+    "abilities": ["Synchronize", "Trace"]
+  },
+  {
+    "id": "281",
+    "name": "Kirlia",
+    "types": ["psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/kirlia.png",
+    "stats": {
+      "hp": 38,
+      "atk": 35,
+      "def": 35,
+      "spa": 65,
+      "spd": 55,
+      "spe": 50
+    },
+    "abilities": ["Synchronize", "Trace"]
+  },
+  {
+    "id": "282",
+    "name": "Gardevoir",
+    "types": ["psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/gardevoir.png",
+    "stats": {
+      "hp": 68,
+      "atk": 65,
+      "def": 65,
+      "spa": 125,
+      "spd": 115,
+      "spe": 80
+    },
+    "abilities": ["Synchronize", "Trace"]
+  },
+  {
+    "id": "283",
+    "name": "Surskit",
+    "types": ["bug", "water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/surskit.png",
+    "stats": {
+      "hp": 40,
+      "atk": 30,
+      "def": 32,
+      "spa": 50,
+      "spd": 52,
+      "spe": 65
+    },
+    "abilities": ["Swift Swim"]
+  },
+  {
+    "id": "284",
+    "name": "Masquerain",
+    "types": ["bug", "flying"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/masquerain.png",
+    "stats": {
+      "hp": 70,
+      "atk": 60,
+      "def": 62,
+      "spa": 80,
+      "spd": 82,
+      "spe": 60
+    },
+    "abilities": ["Intimidate"]
+  },
+  {
+    "id": "285",
+    "name": "Shroomish",
+    "types": ["grass"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/shroomish.png",
+    "stats": {
+      "hp": 60,
+      "atk": 40,
+      "def": 60,
+      "spa": 40,
+      "spd": 60,
+      "spe": 35
+    },
+    "abilities": ["Effect Spore"]
+  },
+  {
+    "id": "286",
+    "name": "Breloom",
+    "types": ["grass", "fighting"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/breloom.png",
+    "stats": {
+      "hp": 60,
+      "atk": 130,
+      "def": 80,
+      "spa": 60,
+      "spd": 60,
+      "spe": 70
+    },
+    "abilities": ["Effect Spore"]
+  },
+  {
+    "id": "287",
+    "name": "Slakoth",
+    "types": ["normal"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/slakoth.png",
+    "stats": {
+      "hp": 60,
+      "atk": 60,
+      "def": 60,
+      "spa": 35,
+      "spd": 35,
+      "spe": 30
+    },
+    "abilities": ["Truant"]
+  },
+  {
+    "id": "288",
+    "name": "Vigoroth",
+    "types": ["normal"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/vigoroth.png",
+    "stats": {
+      "hp": 80,
+      "atk": 80,
+      "def": 80,
+      "spa": 55,
+      "spd": 55,
+      "spe": 90
+    },
+    "abilities": ["Vital Spirit"]
+  },
+  {
+    "id": "289",
+    "name": "Slaking",
+    "types": ["normal"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/slaking.png",
+    "stats": {
+      "hp": 150,
+      "atk": 160,
+      "def": 100,
+      "spa": 95,
+      "spd": 65,
+      "spe": 100
+    },
+    "abilities": ["Truant"]
+  },
+  {
+    "id": "063",
+    "name": "Abra",
+    "types": ["psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/abra.png",
+    "stats": {
+      "hp": 25,
+      "atk": 20,
+      "def": 15,
+      "spa": 105,
+      "spd": 55,
+      "spe": 90
+    },
+    "abilities": ["Synchronize", "Inner Focus"]
+  },
+  {
+    "id": "064",
+    "name": "Kadabra",
+    "types": ["psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/kadabra.png",
+    "stats": {
+      "hp": 40,
+      "atk": 35,
+      "def": 30,
+      "spa": 120,
+      "spd": 70,
+      "spe": 105
+    },
+    "abilities": ["Synchronize", "Inner Focus"]
+  },
+  {
+    "id": "065",
+    "name": "Alakazam",
+    "types": ["psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/alakazam.png",
+    "stats": {
+      "hp": 55,
+      "atk": 50,
+      "def": 45,
+      "spa": 135,
+      "spd": 85,
+      "spe": 120
+    },
+    "abilities": ["Synchronize", "Inner Focus"]
+  },
+  {
+    "id": "290",
+    "name": "Nincada",
+    "types": ["bug", "ground"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/nincada.png",
+    "stats": {
+      "hp": 31,
+      "atk": 45,
+      "def": 90,
+      "spa": 30,
+      "spd": 30,
+      "spe": 40
+    },
+    "abilities": ["Compound Eyes"]
+  },
+  {
+    "id": "291",
+    "name": "Ninjask",
+    "types": ["bug", "flying"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/ninjask.png",
+    "stats": {
+      "hp": 61,
+      "atk": 90,
+      "def": 45,
+      "spa": 50,
+      "spd": 50,
+      "spe": 160
+    },
+    "abilities": ["Speed Boost"]
+  },
+  {
+    "id": "292",
+    "name": "Shedinja",
+    "types": ["bug", "ghost"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/shedinja.png",
+    "stats": { "hp": 1, "atk": 90, "def": 45, "spa": 30, "spd": 30, "spe": 40 },
+    "abilities": ["Wonder Guard"]
+  },
+  {
+    "id": "293",
+    "name": "Whismur",
+    "types": ["normal"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/whismur.png",
+    "stats": {
+      "hp": 64,
+      "atk": 51,
+      "def": 23,
+      "spa": 51,
+      "spd": 23,
+      "spe": 28
+    },
+    "abilities": ["Soundproof"]
+  },
+  {
+    "id": "294",
+    "name": "Loudred",
+    "types": ["normal"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/loudred.png",
+    "stats": {
+      "hp": 84,
+      "atk": 71,
+      "def": 43,
+      "spa": 71,
+      "spd": 43,
+      "spe": 48
+    },
+    "abilities": ["Soundproof"]
+  },
+  {
+    "id": "295",
+    "name": "Exploud",
+    "types": ["normal"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/exploud.png",
+    "stats": {
+      "hp": 104,
+      "atk": 91,
+      "def": 63,
+      "spa": 91,
+      "spd": 63,
+      "spe": 68
+    },
+    "abilities": ["Soundproof"]
+  },
+  {
+    "id": "296",
+    "name": "Makuhita",
+    "types": ["fighting"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/makuhita.png",
+    "stats": {
+      "hp": 72,
+      "atk": 60,
+      "def": 30,
+      "spa": 20,
+      "spd": 30,
+      "spe": 25
+    },
+    "abilities": ["Thick Fat", "Guts"]
+  },
+  {
+    "id": "297",
+    "name": "Hariyama",
+    "types": ["fighting"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/hariyama.png",
+    "stats": {
+      "hp": 144,
+      "atk": 120,
+      "def": 60,
+      "spa": 40,
+      "spd": 60,
+      "spe": 50
+    },
+    "abilities": ["Thick Fat", "Guts"]
+  },
+  {
+    "id": "118",
+    "name": "Goldeen",
+    "types": ["water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/goldeen.png",
+    "stats": {
+      "hp": 45,
+      "atk": 67,
+      "def": 60,
+      "spa": 35,
+      "spd": 50,
+      "spe": 63
+    },
+    "abilities": ["Swift Swim", "Water Veil"]
+  },
+  {
+    "id": "119",
+    "name": "Seaking",
+    "types": ["water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/seaking.png",
+    "stats": {
+      "hp": 80,
+      "atk": 92,
+      "def": 65,
+      "spa": 65,
+      "spd": 80,
+      "spe": 68
+    },
+    "abilities": ["Swift Swim", "Water Veil"]
+  },
+  {
+    "id": "129",
+    "name": "Magikarp",
+    "types": ["water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/magikarp.png",
+    "stats": {
+      "hp": 20,
+      "atk": 10,
+      "def": 55,
+      "spa": 15,
+      "spd": 20,
+      "spe": 80
+    },
+    "abilities": ["Swift Swim"]
+  },
+  {
+    "id": "130",
+    "name": "Gyarados",
+    "types": ["water", "flying"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/gyarados.png",
+    "stats": {
+      "hp": 95,
+      "atk": 125,
+      "def": 79,
+      "spa": 60,
+      "spd": 100,
+      "spe": 81
+    },
+    "abilities": ["Intimidate"]
+  },
+  {
+    "id": "298",
+    "name": "Azurill",
+    "types": ["normal"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/azurill.png",
+    "stats": {
+      "hp": 50,
+      "atk": 20,
+      "def": 40,
+      "spa": 20,
+      "spd": 40,
+      "spe": 20
+    },
+    "abilities": ["Thick Fat", "Huge Power"]
+  },
+  {
+    "id": "183",
+    "name": "Marill",
+    "types": ["water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/marill.png",
+    "stats": {
+      "hp": 70,
+      "atk": 20,
+      "def": 50,
+      "spa": 20,
+      "spd": 50,
+      "spe": 40
+    },
+    "abilities": ["Thick Fat", "Huge Power"]
+  },
+  {
+    "id": "184",
+    "name": "Azumarill",
+    "types": ["water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/azumarill.png",
+    "stats": {
+      "hp": 100,
+      "atk": 50,
+      "def": 80,
+      "spa": 50,
+      "spd": 80,
+      "spe": 50
+    },
+    "abilities": ["Thick Fat", "Huge Power"]
+  },
+  {
+    "id": "074",
+    "name": "Geodude",
+    "types": ["rock", "ground"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/geodude.png",
+    "stats": {
+      "hp": 40,
+      "atk": 80,
+      "def": 100,
+      "spa": 30,
+      "spd": 30,
+      "spe": 20
+    },
+    "abilities": ["Rock Head", "Sturdy"]
+  },
+  {
+    "id": "075",
+    "name": "Graveler",
+    "types": ["rock", "ground"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/graveler.png",
+    "stats": {
+      "hp": 55,
+      "atk": 95,
+      "def": 115,
+      "spa": 45,
+      "spd": 45,
+      "spe": 35
+    },
+    "abilities": ["Rock Head", "Sturdy"]
+  },
+  {
+    "id": "076",
+    "name": "Golem",
+    "types": ["rock", "ground"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/golem.png",
+    "stats": {
+      "hp": 80,
+      "atk": 110,
+      "def": 130,
+      "spa": 55,
+      "spd": 65,
+      "spe": 45
+    },
+    "abilities": ["Rock Head", "Sturdy"]
+  },
+  {
+    "id": "299",
+    "name": "Nosepass",
+    "types": ["rock"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/nosepass.png",
+    "stats": {
+      "hp": 30,
+      "atk": 45,
+      "def": 135,
+      "spa": 45,
+      "spd": 90,
+      "spe": 30
+    },
+    "abilities": ["Sturdy", "Magnet Pull"]
+  },
+  {
+    "id": "300",
+    "name": "Skitty",
+    "types": ["normal"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/skitty.png",
+    "stats": {
+      "hp": 50,
+      "atk": 45,
+      "def": 45,
+      "spa": 35,
+      "spd": 35,
+      "spe": 50
+    },
+    "abilities": ["Cute Charm"]
+  },
+  {
+    "id": "301",
+    "name": "Delcatty",
+    "types": ["normal"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/delcatty.png",
+    "stats": {
+      "hp": 70,
+      "atk": 65,
+      "def": 65,
+      "spa": 55,
+      "spd": 55,
+      "spe": 70
+    },
+    "abilities": ["Cute Charm"]
+  },
+  {
+    "id": "041",
+    "name": "Zubat",
+    "types": ["poison", "flying"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/zubat.png",
+    "stats": {
+      "hp": 40,
+      "atk": 45,
+      "def": 35,
+      "spa": 30,
+      "spd": 40,
+      "spe": 55
+    },
+    "abilities": ["Inner Focus"]
+  },
+  {
+    "id": "042",
+    "name": "Golbat",
+    "types": ["poison", "flying"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/golbat.png",
+    "stats": {
+      "hp": 75,
+      "atk": 80,
+      "def": 70,
+      "spa": 65,
+      "spd": 75,
+      "spe": 90
+    },
+    "abilities": ["Inner Focus"]
+  },
+  {
+    "id": "169",
+    "name": "Crobat",
+    "types": ["poison", "flying"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/crobat.png",
+    "stats": {
+      "hp": 85,
+      "atk": 90,
+      "def": 80,
+      "spa": 70,
+      "spd": 80,
+      "spe": 130
+    },
+    "abilities": ["Inner Focus"]
+  },
+  {
+    "id": "072",
+    "name": "Tentacool",
+    "types": ["water", "poison"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/tentacool.png",
+    "stats": {
+      "hp": 40,
+      "atk": 40,
+      "def": 35,
+      "spa": 50,
+      "spd": 100,
+      "spe": 70
+    },
+    "abilities": ["Clear Body", "Liquid Ooze"]
+  },
+  {
+    "id": "073",
+    "name": "Tentacruel",
+    "types": ["water", "poison"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/tentacruel.png",
+    "stats": {
+      "hp": 80,
+      "atk": 70,
+      "def": 65,
+      "spa": 80,
+      "spd": 120,
+      "spe": 100
+    },
+    "abilities": ["Clear Body", "Liquid Ooze"]
+  },
+  {
+    "id": "302",
+    "name": "Sableye",
+    "types": ["dark", "ghost"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/sableye.png",
+    "stats": {
+      "hp": 50,
+      "atk": 75,
+      "def": 75,
+      "spa": 65,
+      "spd": 65,
+      "spe": 50
+    },
+    "abilities": ["Keen Eye"]
+  },
+  {
+    "id": "303",
+    "name": "Mawile",
+    "types": ["steel"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/mawile.png",
+    "stats": {
+      "hp": 50,
+      "atk": 85,
+      "def": 85,
+      "spa": 55,
+      "spd": 55,
+      "spe": 50
+    },
+    "abilities": ["Hyper Cutter", "Intimidate"]
+  },
+  {
+    "id": "304",
+    "name": "Aron",
+    "types": ["steel", "rock"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/aron.png",
+    "stats": {
+      "hp": 50,
+      "atk": 70,
+      "def": 100,
+      "spa": 40,
+      "spd": 40,
+      "spe": 30
+    },
+    "abilities": ["Sturdy", "Rock Head"]
+  },
+  {
+    "id": "305",
+    "name": "Lairon",
+    "types": ["steel", "rock"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/lairon.png",
+    "stats": {
+      "hp": 60,
+      "atk": 90,
+      "def": 140,
+      "spa": 50,
+      "spd": 50,
+      "spe": 40
+    },
+    "abilities": ["Sturdy", "Rock Head"]
+  },
+  {
+    "id": "306",
+    "name": "Aggron",
+    "types": ["steel", "rock"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/aggron.png",
+    "stats": {
+      "hp": 70,
+      "atk": 110,
+      "def": 180,
+      "spa": 60,
+      "spd": 60,
+      "spe": 50
+    },
+    "abilities": ["Sturdy", "Rock Head"]
+  },
+  {
+    "id": "066",
+    "name": "Machop",
+    "types": ["fighting"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/machop.png",
+    "stats": {
+      "hp": 70,
+      "atk": 80,
+      "def": 50,
+      "spa": 35,
+      "spd": 35,
+      "spe": 35
+    },
+    "abilities": ["Guts"]
+  },
+  {
+    "id": "067",
+    "name": "Machoke",
+    "types": ["fighting"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/machoke.png",
+    "stats": {
+      "hp": 80,
+      "atk": 100,
+      "def": 70,
+      "spa": 50,
+      "spd": 60,
+      "spe": 45
+    },
+    "abilities": ["Guts"]
+  },
+  {
+    "id": "068",
+    "name": "Machamp",
+    "types": ["fighting"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/machamp.png",
+    "stats": {
+      "hp": 90,
+      "atk": 130,
+      "def": 80,
+      "spa": 65,
+      "spd": 85,
+      "spe": 55
+    },
+    "abilities": ["Guts"]
+  },
+  {
+    "id": "307",
+    "name": "Meditite",
+    "types": ["fighting", "psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/meditite.png",
+    "stats": {
+      "hp": 30,
+      "atk": 40,
+      "def": 55,
+      "spa": 40,
+      "spd": 55,
+      "spe": 60
+    },
+    "abilities": ["Pure Power"]
+  },
+  {
+    "id": "308",
+    "name": "Medicham",
+    "types": ["fighting", "psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/medicham.png",
+    "stats": {
+      "hp": 60,
+      "atk": 60,
+      "def": 75,
+      "spa": 60,
+      "spd": 75,
+      "spe": 80
+    },
+    "abilities": ["Pure Power"]
+  },
+  {
+    "id": "309",
+    "name": "Electrike",
+    "types": ["electric"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/electrike.png",
+    "stats": {
+      "hp": 40,
+      "atk": 45,
+      "def": 40,
+      "spa": 65,
+      "spd": 40,
+      "spe": 65
+    },
+    "abilities": ["Static", "Lightning Rod"]
+  },
+  {
+    "id": "310",
+    "name": "Manectric",
+    "types": ["electric"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/manectric.png",
+    "stats": {
+      "hp": 70,
+      "atk": 75,
+      "def": 60,
+      "spa": 105,
+      "spd": 60,
+      "spe": 105
+    },
+    "abilities": ["Static", "Lightning Rod"]
+  },
+  {
+    "id": "311",
+    "name": "Plusle",
+    "types": ["electric"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/plusle.png",
+    "stats": {
+      "hp": 60,
+      "atk": 50,
+      "def": 40,
+      "spa": 85,
+      "spd": 75,
+      "spe": 95
+    },
+    "abilities": ["Plus"]
+  },
+  {
+    "id": "312",
+    "name": "Minun",
+    "types": ["electric"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/minun.png",
+    "stats": {
+      "hp": 60,
+      "atk": 40,
+      "def": 50,
+      "spa": 75,
+      "spd": 85,
+      "spe": 95
+    },
+    "abilities": ["Minus"]
+  },
+  {
+    "id": "081",
+    "name": "Magnemite",
+    "types": ["electric", "steel"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/magnemite.png",
+    "stats": {
+      "hp": 25,
+      "atk": 35,
+      "def": 70,
+      "spa": 95,
+      "spd": 55,
+      "spe": 45
+    },
+    "abilities": ["Magnet Pull", "Sturdy"]
+  },
+  {
+    "id": "082",
+    "name": "Magneton",
+    "types": ["electric", "steel"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/magneton.png",
+    "stats": {
+      "hp": 50,
+      "atk": 60,
+      "def": 95,
+      "spa": 120,
+      "spd": 70,
+      "spe": 70
+    },
+    "abilities": ["Magnet Pull", "Sturdy"]
+  },
+  {
+    "id": "100",
+    "name": "Voltorb",
+    "types": ["electric"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/voltorb.png",
+    "stats": {
+      "hp": 40,
+      "atk": 30,
+      "def": 50,
+      "spa": 55,
+      "spd": 55,
+      "spe": 100
+    },
+    "abilities": ["Soundproof", "Static"]
+  },
+  {
+    "id": "101",
+    "name": "Electrode",
+    "types": ["electric"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/electrode.png",
+    "stats": {
+      "hp": 60,
+      "atk": 50,
+      "def": 70,
+      "spa": 80,
+      "spd": 80,
+      "spe": 140
+    },
+    "abilities": ["Soundproof", "Static"]
+  },
+  {
+    "id": "313",
+    "name": "Volbeat",
+    "types": ["bug"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/volbeat.png",
+    "stats": {
+      "hp": 65,
+      "atk": 73,
+      "def": 55,
+      "spa": 47,
+      "spd": 75,
+      "spe": 85
+    },
+    "abilities": ["Illuminate", "Swarm"]
+  },
+  {
+    "id": "314",
+    "name": "Illumise",
+    "types": ["bug"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/illumise.png",
+    "stats": {
+      "hp": 65,
+      "atk": 47,
+      "def": 55,
+      "spa": 73,
+      "spd": 75,
+      "spe": 85
+    },
+    "abilities": ["Oblivious"]
+  },
+  {
+    "id": "043",
+    "name": "Oddish",
+    "types": ["grass", "poison"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/oddish.png",
+    "stats": {
+      "hp": 45,
+      "atk": 50,
+      "def": 55,
+      "spa": 75,
+      "spd": 65,
+      "spe": 30
+    },
+    "abilities": ["Chlorophyll"]
+  },
+  {
+    "id": "044",
+    "name": "Gloom",
+    "types": ["grass", "poison"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/gloom.png",
+    "stats": {
+      "hp": 60,
+      "atk": 65,
+      "def": 70,
+      "spa": 85,
+      "spd": 75,
+      "spe": 40
+    },
+    "abilities": ["Chlorophyll"]
+  },
+  {
+    "id": "045",
+    "name": "Vileplume",
+    "types": ["grass", "poison"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/vileplume.png",
+    "stats": {
+      "hp": 75,
+      "atk": 80,
+      "def": 85,
+      "spa": 100,
+      "spd": 90,
+      "spe": 50
+    },
+    "abilities": ["Chlorophyll"]
+  },
+  {
+    "id": "182",
+    "name": "Bellossom",
+    "types": ["grass"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/bellossom.png",
+    "stats": {
+      "hp": 75,
+      "atk": 80,
+      "def": 85,
+      "spa": 90,
+      "spd": 100,
+      "spe": 50
+    },
+    "abilities": ["Chlorophyll"]
+  },
+  {
+    "id": "084",
+    "name": "Doduo",
+    "types": ["normal", "flying"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/doduo.png",
+    "stats": {
+      "hp": 35,
+      "atk": 85,
+      "def": 45,
+      "spa": 35,
+      "spd": 35,
+      "spe": 75
+    },
+    "abilities": ["Run Away", "Early Bird"]
+  },
+  {
+    "id": "085",
+    "name": "Dodrio",
+    "types": ["normal", "flying"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/dodrio.png",
+    "stats": {
+      "hp": 60,
+      "atk": 110,
+      "def": 70,
+      "spa": 60,
+      "spd": 60,
+      "spe": 100
+    },
+    "abilities": ["Run Away", "Early Bird"]
+  },
+  {
+    "id": "315",
+    "name": "Roselia",
+    "types": ["grass", "poison"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/roselia.png",
+    "stats": {
+      "hp": 50,
+      "atk": 60,
+      "def": 45,
+      "spa": 100,
+      "spd": 80,
+      "spe": 65
+    },
+    "abilities": ["Natural Cure", "Poison Point"]
+  },
+  {
+    "id": "316",
+    "name": "Gulpin",
+    "types": ["poison"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/gulpin.png",
+    "stats": {
+      "hp": 70,
+      "atk": 43,
+      "def": 53,
+      "spa": 43,
+      "spd": 53,
+      "spe": 40
+    },
+    "abilities": ["Liquid Ooze", "Sticky Hold"]
+  },
+  {
+    "id": "317",
+    "name": "Swalot",
+    "types": ["poison"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/swalot.png",
+    "stats": {
+      "hp": 100,
+      "atk": 73,
+      "def": 83,
+      "spa": 73,
+      "spd": 83,
+      "spe": 55
+    },
+    "abilities": ["Liquid Ooze", "Sticky Hold"]
+  },
+  {
+    "id": "318",
+    "name": "Carvanha",
+    "types": ["water", "dark"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/carvanha.png",
+    "stats": {
+      "hp": 45,
+      "atk": 90,
+      "def": 20,
+      "spa": 65,
+      "spd": 20,
+      "spe": 65
+    },
+    "abilities": ["Rough Skin"]
+  },
+  {
+    "id": "319",
+    "name": "Sharpedo",
+    "types": ["water", "dark"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/sharpedo.png",
+    "stats": {
+      "hp": 70,
+      "atk": 120,
+      "def": 40,
+      "spa": 95,
+      "spd": 40,
+      "spe": 95
+    },
+    "abilities": ["Rough Skin"]
+  },
+  {
+    "id": "320",
+    "name": "Wailmer",
+    "types": ["water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/wailmer.png",
+    "stats": {
+      "hp": 130,
+      "atk": 70,
+      "def": 35,
+      "spa": 70,
+      "spd": 35,
+      "spe": 60
+    },
+    "abilities": ["Water Veil", "Oblivious"]
+  },
+  {
+    "id": "321",
+    "name": "Wailord",
+    "types": ["water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/wailord.png",
+    "stats": {
+      "hp": 170,
+      "atk": 90,
+      "def": 45,
+      "spa": 90,
+      "spd": 45,
+      "spe": 60
+    },
+    "abilities": ["Water Veil", "Oblivious"]
+  },
+  {
+    "id": "322",
+    "name": "Numel",
+    "types": ["fire", "ground"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/numel.png",
+    "stats": {
+      "hp": 60,
+      "atk": 60,
+      "def": 40,
+      "spa": 65,
+      "spd": 45,
+      "spe": 35
+    },
+    "abilities": ["Oblivious"]
+  },
+  {
+    "id": "323",
+    "name": "Camerupt",
+    "types": ["fire", "ground"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/camerupt.png",
+    "stats": {
+      "hp": 70,
+      "atk": 100,
+      "def": 70,
+      "spa": 105,
+      "spd": 75,
+      "spe": 40
+    },
+    "abilities": ["Magma Armor"]
+  },
+  {
+    "id": "218",
+    "name": "Slugma",
+    "types": ["fire"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/slugma.png",
+    "stats": {
+      "hp": 40,
+      "atk": 40,
+      "def": 40,
+      "spa": 70,
+      "spd": 40,
+      "spe": 20
+    },
+    "abilities": ["Magma Armor", "Flame Body"]
+  },
+  {
+    "id": "219",
+    "name": "Magcargo",
+    "types": ["fire", "rock"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/magcargo.png",
+    "stats": {
+      "hp": 50,
+      "atk": 50,
+      "def": 120,
+      "spa": 80,
+      "spd": 80,
+      "spe": 30
+    },
+    "abilities": ["Magma Armor", "Flame Body"]
+  },
+  {
+    "id": "324",
+    "name": "Torkoal",
+    "types": ["fire"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/torkoal.png",
+    "stats": {
+      "hp": 70,
+      "atk": 85,
+      "def": 140,
+      "spa": 85,
+      "spd": 70,
+      "spe": 20
+    },
+    "abilities": ["White Smoke"]
+  },
+  {
+    "id": "088",
+    "name": "Grimer",
+    "types": ["poison"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/grimer.png",
+    "stats": {
+      "hp": 80,
+      "atk": 80,
+      "def": 50,
+      "spa": 40,
+      "spd": 50,
+      "spe": 25
+    },
+    "abilities": ["Stench", "Sticky Hold"]
+  },
+  {
+    "id": "089",
+    "name": "Muk",
+    "types": ["poison"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/muk.png",
+    "stats": {
+      "hp": 105,
+      "atk": 105,
+      "def": 75,
+      "spa": 65,
+      "spd": 100,
+      "spe": 50
+    },
+    "abilities": ["Stench", "Sticky Hold"]
+  },
+  {
+    "id": "109",
+    "name": "Koffing",
+    "types": ["poison"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/koffing.png",
+    "stats": {
+      "hp": 40,
+      "atk": 65,
+      "def": 95,
+      "spa": 60,
+      "spd": 45,
+      "spe": 35
+    },
+    "abilities": ["Levitate"]
+  },
+  {
+    "id": "110",
+    "name": "Weezing",
+    "types": ["poison"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/weezing.png",
+    "stats": {
+      "hp": 65,
+      "atk": 90,
+      "def": 120,
+      "spa": 85,
+      "spd": 70,
+      "spe": 60
+    },
+    "abilities": ["Levitate"]
+  },
+  {
+    "id": "325",
+    "name": "Spoink",
+    "types": ["psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/spoink.png",
+    "stats": {
+      "hp": 60,
+      "atk": 25,
+      "def": 35,
+      "spa": 70,
+      "spd": 80,
+      "spe": 60
+    },
+    "abilities": ["Thick Fat", "Own Tempo"]
+  },
+  {
+    "id": "326",
+    "name": "Grumpig",
+    "types": ["psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/grumpig.png",
+    "stats": {
+      "hp": 80,
+      "atk": 45,
+      "def": 65,
+      "spa": 90,
+      "spd": 110,
+      "spe": 80
+    },
+    "abilities": ["Thick Fat", "Own Tempo"]
+  },
+  {
+    "id": "027",
+    "name": "Sandshrew",
+    "types": ["ground"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/sandshrew.png",
+    "stats": {
+      "hp": 50,
+      "atk": 75,
+      "def": 85,
+      "spa": 20,
+      "spd": 30,
+      "spe": 40
+    },
+    "abilities": ["Sand Veil"]
+  },
+  {
+    "id": "028",
+    "name": "Sandslash",
+    "types": ["ground"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/sandslash.png",
+    "stats": {
+      "hp": 75,
+      "atk": 100,
+      "def": 110,
+      "spa": 45,
+      "spd": 55,
+      "spe": 65
+    },
+    "abilities": ["Sand Veil"]
+  },
+  {
+    "id": "327",
+    "name": "Spinda",
+    "types": ["normal"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/spinda.png",
+    "stats": {
+      "hp": 60,
+      "atk": 60,
+      "def": 60,
+      "spa": 60,
+      "spd": 60,
+      "spe": 60
+    },
+    "abilities": ["Own Tempo"]
+  },
+  {
+    "id": "227",
+    "name": "Skarmory",
+    "types": ["steel", "flying"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/skarmory.png",
+    "stats": {
+      "hp": 65,
+      "atk": 80,
+      "def": 140,
+      "spa": 40,
+      "spd": 70,
+      "spe": 70
+    },
+    "abilities": ["Keen Eye", "Sturdy"]
+  },
+  {
+    "id": "328",
+    "name": "Trapinch",
+    "types": ["ground"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/trapinch.png",
+    "stats": {
+      "hp": 45,
+      "atk": 100,
+      "def": 45,
+      "spa": 45,
+      "spd": 45,
+      "spe": 10
+    },
+    "abilities": ["Hyper Cutter", "Arena Trap"]
+  },
+  {
+    "id": "329",
+    "name": "Vibrava",
+    "types": ["ground", "dragon"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/vibrava.png",
+    "stats": {
+      "hp": 50,
+      "atk": 70,
+      "def": 50,
+      "spa": 50,
+      "spd": 50,
+      "spe": 70
+    },
+    "abilities": ["Levitate"]
+  },
+  {
+    "id": "330",
+    "name": "Flygon",
+    "types": ["ground", "dragon"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/flygon.png",
+    "stats": {
+      "hp": 80,
+      "atk": 100,
+      "def": 80,
+      "spa": 80,
+      "spd": 80,
+      "spe": 100
+    },
+    "abilities": ["Levitate"]
+  },
+  {
+    "id": "331",
+    "name": "Cacnea",
+    "types": ["grass"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/cacnea.png",
+    "stats": {
+      "hp": 50,
+      "atk": 85,
+      "def": 40,
+      "spa": 85,
+      "spd": 40,
+      "spe": 35
+    },
+    "abilities": ["Sand Veil"]
+  },
+  {
+    "id": "332",
+    "name": "Cacturne",
+    "types": ["grass", "dark"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/cacturne.png",
+    "stats": {
+      "hp": 70,
+      "atk": 115,
+      "def": 60,
+      "spa": 115,
+      "spd": 60,
+      "spe": 55
+    },
+    "abilities": ["Sand Veil"]
+  },
+  {
+    "id": "333",
+    "name": "Swablu",
+    "types": ["normal", "flying"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/swablu.png",
+    "stats": {
+      "hp": 45,
+      "atk": 40,
+      "def": 60,
+      "spa": 40,
+      "spd": 75,
+      "spe": 50
+    },
+    "abilities": ["Natural Cure"]
+  },
+  {
+    "id": "334",
+    "name": "Altaria",
+    "types": ["dragon", "flying"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/altaria.png",
+    "stats": {
+      "hp": 75,
+      "atk": 70,
+      "def": 90,
+      "spa": 70,
+      "spd": 105,
+      "spe": 80
+    },
+    "abilities": ["Natural Cure"]
+  },
+  {
+    "id": "335",
+    "name": "Zangoose",
+    "types": ["normal"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/zangoose.png",
+    "stats": {
+      "hp": 73,
+      "atk": 115,
+      "def": 60,
+      "spa": 60,
+      "spd": 60,
+      "spe": 90
+    },
+    "abilities": ["Immunity"]
+  },
+  {
+    "id": "336",
+    "name": "Seviper",
+    "types": ["poison"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/seviper.png",
+    "stats": {
+      "hp": 73,
+      "atk": 100,
+      "def": 60,
+      "spa": 100,
+      "spd": 60,
+      "spe": 65
+    },
+    "abilities": ["Shed Skin"]
+  },
+  {
+    "id": "337",
+    "name": "Lunatone",
+    "types": ["rock", "psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/lunatone.png",
+    "stats": {
+      "hp": 70,
+      "atk": 55,
+      "def": 65,
+      "spa": 95,
+      "spd": 85,
+      "spe": 70
+    },
+    "abilities": ["Levitate"]
+  },
+  {
+    "id": "338",
+    "name": "Solrock",
+    "types": ["rock", "psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/solrock.png",
+    "stats": {
+      "hp": 70,
+      "atk": 95,
+      "def": 85,
+      "spa": 55,
+      "spd": 65,
+      "spe": 70
+    },
+    "abilities": ["Levitate"]
+  },
+  {
+    "id": "339",
+    "name": "Barboach",
+    "types": ["water", "ground"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/barboach.png",
+    "stats": {
+      "hp": 50,
+      "atk": 48,
+      "def": 43,
+      "spa": 46,
+      "spd": 41,
+      "spe": 60
+    },
+    "abilities": ["Oblivious"]
+  },
+  {
+    "id": "340",
+    "name": "Whiscash",
+    "types": ["water", "ground"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/whiscash.png",
+    "stats": {
+      "hp": 110,
+      "atk": 78,
+      "def": 73,
+      "spa": 76,
+      "spd": 71,
+      "spe": 60
+    },
+    "abilities": ["Oblivious"]
+  },
+  {
+    "id": "341",
+    "name": "Corphish",
+    "types": ["water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/corphish.png",
+    "stats": {
+      "hp": 43,
+      "atk": 80,
+      "def": 65,
+      "spa": 50,
+      "spd": 35,
+      "spe": 35
+    },
+    "abilities": ["Hyper Cutter", "Shell Armor"]
+  },
+  {
+    "id": "342",
+    "name": "Crawdaunt",
+    "types": ["water", "dark"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/crawdaunt.png",
+    "stats": {
+      "hp": 63,
+      "atk": 120,
+      "def": 85,
+      "spa": 90,
+      "spd": 55,
+      "spe": 55
+    },
+    "abilities": ["Hyper Cutter", "Shell Armor"]
+  },
+  {
+    "id": "343",
+    "name": "Baltoy",
+    "types": ["ground", "psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/baltoy.png",
+    "stats": {
+      "hp": 40,
+      "atk": 40,
+      "def": 55,
+      "spa": 40,
+      "spd": 70,
+      "spe": 55
+    },
+    "abilities": ["Levitate"]
+  },
+  {
+    "id": "344",
+    "name": "Claydol",
+    "types": ["ground", "psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/claydol.png",
+    "stats": {
+      "hp": 60,
+      "atk": 70,
+      "def": 105,
+      "spa": 70,
+      "spd": 120,
+      "spe": 75
+    },
+    "abilities": ["Levitate"]
+  },
+  {
+    "id": "345",
+    "name": "Lileep",
+    "types": ["rock", "grass"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/lileep.png",
+    "stats": {
+      "hp": 66,
+      "atk": 41,
+      "def": 77,
+      "spa": 61,
+      "spd": 87,
+      "spe": 23
+    },
+    "abilities": ["Suction Cups"]
+  },
+  {
+    "id": "346",
+    "name": "Cradily",
+    "types": ["rock", "grass"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/cradily.png",
+    "stats": {
+      "hp": 86,
+      "atk": 81,
+      "def": 97,
+      "spa": 81,
+      "spd": 107,
+      "spe": 43
+    },
+    "abilities": ["Suction Cups"]
+  },
+  {
+    "id": "347",
+    "name": "Anorith",
+    "types": ["rock", "bug"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/anorith.png",
+    "stats": {
+      "hp": 45,
+      "atk": 95,
+      "def": 50,
+      "spa": 40,
+      "spd": 50,
+      "spe": 75
+    },
+    "abilities": ["Battle Armor"]
+  },
+  {
+    "id": "348",
+    "name": "Armaldo",
+    "types": ["rock", "bug"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/armaldo.png",
+    "stats": {
+      "hp": 75,
+      "atk": 125,
+      "def": 100,
+      "spa": 70,
+      "spd": 80,
+      "spe": 45
+    },
+    "abilities": ["Battle Armor"]
+  },
+  {
+    "id": "174",
+    "name": "Igglybuff",
+    "types": ["normal"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/igglybuff.png",
+    "stats": {
+      "hp": 90,
+      "atk": 30,
+      "def": 15,
+      "spa": 40,
+      "spd": 20,
+      "spe": 15
+    },
+    "abilities": ["Cute Charm"]
+  },
+  {
+    "id": "039",
+    "name": "Jigglypuff",
+    "types": ["normal"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/jigglypuff.png",
+    "stats": {
+      "hp": 115,
+      "atk": 45,
+      "def": 20,
+      "spa": 45,
+      "spd": 25,
+      "spe": 20
+    },
+    "abilities": ["Cute Charm"]
+  },
+  {
+    "id": "040",
+    "name": "Wigglytuff",
+    "types": ["normal"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/wigglytuff.png",
+    "stats": {
+      "hp": 140,
+      "atk": 70,
+      "def": 45,
+      "spa": 75,
+      "spd": 50,
+      "spe": 45
+    },
+    "abilities": ["Cute Charm"]
+  },
+  {
+    "id": "349",
+    "name": "Feebas",
+    "types": ["water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/feebas.png",
+    "stats": {
+      "hp": 20,
+      "atk": 15,
+      "def": 20,
+      "spa": 10,
+      "spd": 55,
+      "spe": 80
+    },
+    "abilities": ["Swift Swim"]
+  },
+  {
+    "id": "350",
+    "name": "Milotic",
+    "types": ["water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/milotic.png",
+    "stats": {
+      "hp": 95,
+      "atk": 60,
+      "def": 79,
+      "spa": 100,
+      "spd": 125,
+      "spe": 81
+    },
+    "abilities": ["Marvel Scale"]
+  },
+  {
+    "id": "351",
+    "name": "Castform",
+    "types": ["normal"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/castform.png",
+    "stats": {
+      "hp": 70,
+      "atk": 70,
+      "def": 70,
+      "spa": 70,
+      "spd": 70,
+      "spe": 70
+    },
+    "abilities": ["Forecast"]
+  },
+  {
+    "id": "120",
+    "name": "Staryu",
+    "types": ["water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/staryu.png",
+    "stats": {
+      "hp": 30,
+      "atk": 45,
+      "def": 55,
+      "spa": 70,
+      "spd": 55,
+      "spe": 85
+    },
+    "abilities": ["Illuminate", "Natural Cure"]
+  },
+  {
+    "id": "121",
+    "name": "Starmie",
+    "types": ["water", "psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/starmie.png",
+    "stats": {
+      "hp": 60,
+      "atk": 75,
+      "def": 85,
+      "spa": 100,
+      "spd": 85,
+      "spe": 115
+    },
+    "abilities": ["Illuminate", "Natural Cure"]
+  },
+  {
+    "id": "352",
+    "name": "Kecleon",
+    "types": ["normal"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/kecleon.png",
+    "stats": {
+      "hp": 60,
+      "atk": 90,
+      "def": 70,
+      "spa": 60,
+      "spd": 120,
+      "spe": 40
+    },
+    "abilities": ["Color Change"]
+  },
+  {
+    "id": "353",
+    "name": "Shuppet",
+    "types": ["ghost"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/shuppet.png",
+    "stats": {
+      "hp": 44,
+      "atk": 75,
+      "def": 35,
+      "spa": 63,
+      "spd": 33,
+      "spe": 45
+    },
+    "abilities": ["Insomnia"]
+  },
+  {
+    "id": "354",
+    "name": "Banette",
+    "types": ["ghost"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/banette.png",
+    "stats": {
+      "hp": 64,
+      "atk": 115,
+      "def": 65,
+      "spa": 83,
+      "spd": 63,
+      "spe": 65
+    },
+    "abilities": ["Insomnia"]
+  },
+  {
+    "id": "355",
+    "name": "Duskull",
+    "types": ["ghost"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/duskull.png",
+    "stats": {
+      "hp": 20,
+      "atk": 40,
+      "def": 90,
+      "spa": 30,
+      "spd": 90,
+      "spe": 25
+    },
+    "abilities": ["Levitate"]
+  },
+  {
+    "id": "356",
+    "name": "Dusclops",
+    "types": ["ghost"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/dusclops.png",
+    "stats": {
+      "hp": 40,
+      "atk": 70,
+      "def": 130,
+      "spa": 60,
+      "spd": 130,
+      "spe": 25
+    },
+    "abilities": ["Pressure"]
+  },
+  {
+    "id": "357",
+    "name": "Tropius",
+    "types": ["grass", "flying"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/tropius.png",
+    "stats": {
+      "hp": 99,
+      "atk": 68,
+      "def": 83,
+      "spa": 72,
+      "spd": 87,
+      "spe": 51
+    },
+    "abilities": ["Chlorophyll"]
+  },
+  {
+    "id": "358",
+    "name": "Chimecho",
+    "types": ["psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/chimecho.png",
+    "stats": {
+      "hp": 65,
+      "atk": 50,
+      "def": 70,
+      "spa": 95,
+      "spd": 80,
+      "spe": 65
+    },
+    "abilities": ["Levitate"]
+  },
+  {
+    "id": "359",
+    "name": "Absol",
+    "types": ["dark"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/absol.png",
+    "stats": {
+      "hp": 65,
+      "atk": 130,
+      "def": 60,
+      "spa": 75,
+      "spd": 60,
+      "spe": 75
+    },
+    "abilities": ["Pressure"]
+  },
+  {
+    "id": "037",
+    "name": "Vulpix",
+    "types": ["fire"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/vulpix.png",
+    "stats": {
+      "hp": 38,
+      "atk": 41,
+      "def": 40,
+      "spa": 50,
+      "spd": 65,
+      "spe": 65
+    },
+    "abilities": ["Flash Fire"]
+  },
+  {
+    "id": "038",
+    "name": "Ninetales",
+    "types": ["fire"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/ninetales.png",
+    "stats": {
+      "hp": 73,
+      "atk": 76,
+      "def": 75,
+      "spa": 81,
+      "spd": 100,
+      "spe": 100
+    },
+    "abilities": ["Flash Fire"]
+  },
+  {
+    "id": "172",
+    "name": "Pichu",
+    "types": ["electric"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/pichu.png",
+    "stats": {
+      "hp": 20,
+      "atk": 40,
+      "def": 15,
+      "spa": 35,
+      "spd": 35,
+      "spe": 60
+    },
+    "abilities": ["Static"]
+  },
+  {
+    "id": "025",
+    "name": "Pikachu",
+    "types": ["electric"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/pikachu.png",
+    "stats": {
+      "hp": 35,
+      "atk": 55,
+      "def": 30,
+      "spa": 50,
+      "spd": 40,
+      "spe": 90
+    },
+    "abilities": ["Static"]
+  },
+  {
+    "id": "026",
+    "name": "Raichu",
+    "types": ["electric"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/raichu.png",
+    "stats": {
+      "hp": 60,
+      "atk": 90,
+      "def": 55,
+      "spa": 90,
+      "spd": 80,
+      "spe": 100
+    },
+    "abilities": ["Static"]
+  },
+  {
+    "id": "054",
+    "name": "Psyduck",
+    "types": ["water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/psyduck.png",
+    "stats": {
+      "hp": 50,
+      "atk": 52,
+      "def": 48,
+      "spa": 65,
+      "spd": 50,
+      "spe": 55
+    },
+    "abilities": ["Damp", "Cloud Nine"]
+  },
+  {
+    "id": "055",
+    "name": "Golduck",
+    "types": ["water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/golduck.png",
+    "stats": {
+      "hp": 80,
+      "atk": 82,
+      "def": 78,
+      "spa": 95,
+      "spd": 80,
+      "spe": 85
+    },
+    "abilities": ["Damp", "Cloud Nine"]
+  },
+  {
+    "id": "360",
+    "name": "Wynaut",
+    "types": ["psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/wynaut.png",
+    "stats": {
+      "hp": 95,
+      "atk": 23,
+      "def": 48,
+      "spa": 23,
+      "spd": 48,
+      "spe": 23
+    },
+    "abilities": ["Shadow Tag"]
+  },
+  {
+    "id": "202",
+    "name": "Wobbuffet",
+    "types": ["psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/wobbuffet.png",
+    "stats": {
+      "hp": 190,
+      "atk": 33,
+      "def": 58,
+      "spa": 33,
+      "spd": 58,
+      "spe": 33
+    },
+    "abilities": ["Shadow Tag"]
+  },
+  {
+    "id": "177",
+    "name": "Natu",
+    "types": ["psychic", "flying"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/natu.png",
+    "stats": {
+      "hp": 40,
+      "atk": 50,
+      "def": 45,
+      "spa": 70,
+      "spd": 45,
+      "spe": 70
+    },
+    "abilities": ["Synchronize", "Early Bird"]
+  },
+  {
+    "id": "178",
+    "name": "Xatu",
+    "types": ["psychic", "flying"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/xatu.png",
+    "stats": {
+      "hp": 65,
+      "atk": 75,
+      "def": 70,
+      "spa": 95,
+      "spd": 70,
+      "spe": 95
+    },
+    "abilities": ["Synchronize", "Early Bird"]
+  },
+  {
+    "id": "203",
+    "name": "Girafarig",
+    "types": ["normal", "psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/girafarig.png",
+    "stats": {
+      "hp": 70,
+      "atk": 80,
+      "def": 65,
+      "spa": 90,
+      "spd": 65,
+      "spe": 85
+    },
+    "abilities": ["Inner Focus", "Early Bird"]
+  },
+  {
+    "id": "231",
+    "name": "Phanpy",
+    "types": ["ground"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/phanpy.png",
+    "stats": {
+      "hp": 90,
+      "atk": 60,
+      "def": 60,
+      "spa": 40,
+      "spd": 40,
+      "spe": 40
+    },
+    "abilities": ["Pickup"]
+  },
+  {
+    "id": "232",
+    "name": "Donphan",
+    "types": ["ground"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/donphan.png",
+    "stats": {
+      "hp": 90,
+      "atk": 120,
+      "def": 120,
+      "spa": 60,
+      "spd": 60,
+      "spe": 50
+    },
+    "abilities": ["Sturdy"]
+  },
+  {
+    "id": "127",
+    "name": "Pinsir",
+    "types": ["bug"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/pinsir.png",
+    "stats": {
+      "hp": 65,
+      "atk": 125,
+      "def": 100,
+      "spa": 55,
+      "spd": 70,
+      "spe": 85
+    },
+    "abilities": ["Hyper Cutter"]
+  },
+  {
+    "id": "214",
+    "name": "Heracross",
+    "types": ["bug", "fighting"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/heracross.png",
+    "stats": {
+      "hp": 80,
+      "atk": 125,
+      "def": 75,
+      "spa": 40,
+      "spd": 95,
+      "spe": 85
+    },
+    "abilities": ["Swarm", "Guts"]
+  },
+  {
+    "id": "111",
+    "name": "Rhyhorn",
+    "types": ["ground", "rock"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/rhyhorn.png",
+    "stats": {
+      "hp": 80,
+      "atk": 85,
+      "def": 95,
+      "spa": 30,
+      "spd": 30,
+      "spe": 25
+    },
+    "abilities": ["Lightning Rod", "Rock Head"]
+  },
+  {
+    "id": "112",
+    "name": "Rhydon",
+    "types": ["ground", "rock"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/rhydon.png",
+    "stats": {
+      "hp": 105,
+      "atk": 130,
+      "def": 120,
+      "spa": 45,
+      "spd": 45,
+      "spe": 40
+    },
+    "abilities": ["Lightning Rod", "Rock Head"]
+  },
+  {
+    "id": "361",
+    "name": "Snorunt",
+    "types": ["ice"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/snorunt.png",
+    "stats": {
+      "hp": 50,
+      "atk": 50,
+      "def": 50,
+      "spa": 50,
+      "spd": 50,
+      "spe": 50
+    },
+    "abilities": ["Inner Focus"]
+  },
+  {
+    "id": "362",
+    "name": "Glalie",
+    "types": ["ice"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/glalie.png",
+    "stats": {
+      "hp": 80,
+      "atk": 80,
+      "def": 80,
+      "spa": 80,
+      "spd": 80,
+      "spe": 80
+    },
+    "abilities": ["Inner Focus"]
+  },
+  {
+    "id": "363",
+    "name": "Spheal",
+    "types": ["ice", "water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/spheal.png",
+    "stats": {
+      "hp": 70,
+      "atk": 40,
+      "def": 50,
+      "spa": 55,
+      "spd": 50,
+      "spe": 25
+    },
+    "abilities": ["Thick Fat"]
+  },
+  {
+    "id": "364",
+    "name": "Sealeo",
+    "types": ["ice", "water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/sealeo.png",
+    "stats": {
+      "hp": 90,
+      "atk": 60,
+      "def": 70,
+      "spa": 75,
+      "spd": 70,
+      "spe": 45
+    },
+    "abilities": ["Thick Fat"]
+  },
+  {
+    "id": "365",
+    "name": "Walrein",
+    "types": ["ice", "water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/walrein.png",
+    "stats": {
+      "hp": 110,
+      "atk": 80,
+      "def": 90,
+      "spa": 95,
+      "spd": 90,
+      "spe": 65
+    },
+    "abilities": ["Thick Fat"]
+  },
+  {
+    "id": "366",
+    "name": "Clamperl",
+    "types": ["water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/clamperl.png",
+    "stats": {
+      "hp": 35,
+      "atk": 64,
+      "def": 85,
+      "spa": 74,
+      "spd": 55,
+      "spe": 32
+    },
+    "abilities": ["Shell Armor"]
+  },
+  {
+    "id": "367",
+    "name": "Huntail",
+    "types": ["water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/huntail.png",
+    "stats": {
+      "hp": 55,
+      "atk": 104,
+      "def": 105,
+      "spa": 94,
+      "spd": 75,
+      "spe": 52
+    },
+    "abilities": ["Swift Swim"]
+  },
+  {
+    "id": "368",
+    "name": "Gorebyss",
+    "types": ["water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/gorebyss.png",
+    "stats": {
+      "hp": 55,
+      "atk": 84,
+      "def": 105,
+      "spa": 114,
+      "spd": 75,
+      "spe": 52
+    },
+    "abilities": ["Swift Swim"]
+  },
+  {
+    "id": "369",
+    "name": "Relicanth",
+    "types": ["water", "rock"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/relicanth.png",
+    "stats": {
+      "hp": 100,
+      "atk": 90,
+      "def": 130,
+      "spa": 45,
+      "spd": 65,
+      "spe": 55
+    },
+    "abilities": ["Swift Swim", "Rock Head"]
+  },
+  {
+    "id": "222",
+    "name": "Corsola",
+    "types": ["water", "rock"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/corsola.png",
+    "stats": {
+      "hp": 55,
+      "atk": 55,
+      "def": 85,
+      "spa": 65,
+      "spd": 85,
+      "spe": 35
+    },
+    "abilities": ["Hustle", "Natural Cure"]
+  },
+  {
+    "id": "170",
+    "name": "Chinchou",
+    "types": ["water", "electric"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/chinchou.png",
+    "stats": {
+      "hp": 75,
+      "atk": 38,
+      "def": 38,
+      "spa": 56,
+      "spd": 56,
+      "spe": 67
+    },
+    "abilities": ["Volt Absorb", "Illuminate"]
+  },
+  {
+    "id": "171",
+    "name": "Lanturn",
+    "types": ["water", "electric"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/lanturn.png",
+    "stats": {
+      "hp": 125,
+      "atk": 58,
+      "def": 58,
+      "spa": 76,
+      "spd": 76,
+      "spe": 67
+    },
+    "abilities": ["Volt Absorb", "Illuminate"]
+  },
+  {
+    "id": "370",
+    "name": "Luvdisc",
+    "types": ["water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/luvdisc.png",
+    "stats": {
+      "hp": 43,
+      "atk": 30,
+      "def": 55,
+      "spa": 40,
+      "spd": 65,
+      "spe": 97
+    },
+    "abilities": ["Swift Swim"]
+  },
+  {
+    "id": "116",
+    "name": "Horsea",
+    "types": ["water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/horsea.png",
+    "stats": {
+      "hp": 30,
+      "atk": 40,
+      "def": 70,
+      "spa": 70,
+      "spd": 25,
+      "spe": 60
+    },
+    "abilities": ["Swift Swim"]
+  },
+  {
+    "id": "117",
+    "name": "Seadra",
+    "types": ["water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/seadra.png",
+    "stats": {
+      "hp": 55,
+      "atk": 65,
+      "def": 95,
+      "spa": 95,
+      "spd": 45,
+      "spe": 85
+    },
+    "abilities": ["Poison Point"]
+  },
+  {
+    "id": "230",
+    "name": "Kingdra",
+    "types": ["water", "dragon"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/kingdra.png",
+    "stats": {
+      "hp": 75,
+      "atk": 95,
+      "def": 95,
+      "spa": 95,
+      "spd": 95,
+      "spe": 85
+    },
+    "abilities": ["Swift Swim"]
+  },
+  {
+    "id": "371",
+    "name": "Bagon",
+    "types": ["dragon"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/bagon.png",
+    "stats": {
+      "hp": 45,
+      "atk": 75,
+      "def": 60,
+      "spa": 40,
+      "spd": 30,
+      "spe": 50
+    },
+    "abilities": ["Rock Head"]
+  },
+  {
+    "id": "372",
+    "name": "Shelgon",
+    "types": ["dragon"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/shelgon.png",
+    "stats": {
+      "hp": 65,
+      "atk": 95,
+      "def": 100,
+      "spa": 60,
+      "spd": 50,
+      "spe": 50
+    },
+    "abilities": ["Rock Head"]
+  },
+  {
+    "id": "373",
+    "name": "Salamence",
+    "types": ["dragon", "flying"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/salamence.png",
+    "stats": {
+      "hp": 95,
+      "atk": 135,
+      "def": 80,
+      "spa": 110,
+      "spd": 80,
+      "spe": 100
+    },
+    "abilities": ["Intimidate"]
+  },
+  {
+    "id": "374",
+    "name": "Beldum",
+    "types": ["steel", "psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/beldum.png",
+    "stats": {
+      "hp": 40,
+      "atk": 55,
+      "def": 80,
+      "spa": 35,
+      "spd": 60,
+      "spe": 30
+    },
+    "abilities": ["Clear Body"]
+  },
+  {
+    "id": "375",
+    "name": "Metang",
+    "types": ["steel", "psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/metang.png",
+    "stats": {
+      "hp": 60,
+      "atk": 75,
+      "def": 100,
+      "spa": 55,
+      "spd": 80,
+      "spe": 50
+    },
+    "abilities": ["Clear Body"]
+  },
+  {
+    "id": "376",
+    "name": "Metagross",
+    "types": ["steel", "psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/metagross.png",
+    "stats": {
+      "hp": 80,
+      "atk": 135,
+      "def": 130,
+      "spa": 95,
+      "spd": 90,
+      "spe": 70
+    },
+    "abilities": ["Clear Body"]
+  },
+  {
+    "id": "377",
+    "name": "Regirock",
+    "types": ["rock"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/regirock.png",
+    "stats": {
+      "hp": 80,
+      "atk": 100,
+      "def": 200,
+      "spa": 50,
+      "spd": 100,
+      "spe": 50
+    },
+    "abilities": ["Clear Body"]
+  },
+  {
+    "id": "378",
+    "name": "Regice",
+    "types": ["ice"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/regice.png",
+    "stats": {
+      "hp": 80,
+      "atk": 50,
+      "def": 100,
+      "spa": 100,
+      "spd": 200,
+      "spe": 50
+    },
+    "abilities": ["Clear Body"]
+  },
+  {
+    "id": "379",
+    "name": "Registeel",
+    "types": ["steel"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/registeel.png",
+    "stats": {
+      "hp": 80,
+      "atk": 75,
+      "def": 150,
+      "spa": 75,
+      "spd": 150,
+      "spe": 50
+    },
+    "abilities": ["Clear Body"]
+  },
+  {
+    "id": "380",
+    "name": "Latias",
+    "types": ["dragon", "psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/latias.png",
+    "stats": {
+      "hp": 80,
+      "atk": 80,
+      "def": 90,
+      "spa": 110,
+      "spd": 130,
+      "spe": 110
+    },
+    "abilities": ["Levitate"]
+  },
+  {
+    "id": "381",
+    "name": "Latios",
+    "types": ["dragon", "psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/latios.png",
+    "stats": {
+      "hp": 80,
+      "atk": 90,
+      "def": 80,
+      "spa": 130,
+      "spd": 110,
+      "spe": 110
+    },
+    "abilities": ["Levitate"]
+  },
+  {
+    "id": "382",
+    "name": "Kyogre",
+    "types": ["water"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/kyogre.png",
+    "stats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 90,
+      "spa": 150,
+      "spd": 140,
+      "spe": 90
+    },
+    "abilities": ["Drizzle"]
+  },
+  {
+    "id": "383",
+    "name": "Groudon",
+    "types": ["ground"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/groudon.png",
+    "stats": {
+      "hp": 100,
+      "atk": 150,
+      "def": 140,
+      "spa": 100,
+      "spd": 90,
+      "spe": 90
+    },
+    "abilities": ["Drought"]
+  },
+  {
+    "id": "384",
+    "name": "Rayquaza",
+    "types": ["dragon", "flying"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/rayquaza.png",
+    "stats": {
+      "hp": 105,
+      "atk": 150,
+      "def": 90,
+      "spa": 150,
+      "spd": 90,
+      "spe": 95
+    },
+    "abilities": ["Air Lock"]
+  },
+  {
+    "id": "385",
+    "name": "Jirachi",
+    "types": ["steel", "psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/jirachi.png",
+    "stats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
+    },
+    "abilities": ["Serene Grace"]
+  },
+  {
+    "id": "386",
+    "name": "Deoxys",
+    "types": ["psychic"],
+    "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/deoxys.png",
+    "stats": {
+      "hp": 50,
+      "atk": 150,
+      "def": 50,
+      "spa": 150,
+      "spd": 50,
+      "spe": 150
+    },
+    "abilities": ["Pressure"]
+  }
+]

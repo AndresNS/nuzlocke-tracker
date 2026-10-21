@@ -1,1212 +1,1212 @@
 [
   {
-    "id": "001",
+    "id": "252",
     "name": "Treecko",
     "types": ["grass"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/treecko.png"
   },
   {
-    "id": "002",
+    "id": "253",
     "name": "Grovyle",
     "types": ["grass"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/grovyle.png"
   },
   {
-    "id": "003",
+    "id": "254",
     "name": "Sceptile",
     "types": ["grass"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/sceptile.png"
   },
   {
-    "id": "004",
+    "id": "255",
     "name": "Torchic",
     "types": ["fire"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/torchic.png"
   },
   {
-    "id": "005",
+    "id": "256",
     "name": "Combusken",
     "types": ["fire", "fighting"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/combusken.png"
   },
   {
-    "id": "006",
+    "id": "257",
     "name": "Blaziken",
     "types": ["fire", "fighting"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/blaziken.png"
   },
   {
-    "id": "007",
+    "id": "258",
     "name": "Mudkip",
     "types": ["water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/mudkip.png"
   },
   {
-    "id": "008",
+    "id": "259",
     "name": "Marshtomp",
     "types": ["water", "ground"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/marshtomp.png"
   },
   {
-    "id": "009",
+    "id": "260",
     "name": "Swampert",
     "types": ["water", "ground"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/swampert.png"
   },
   {
-    "id": "010",
+    "id": "261",
     "name": "Poochyena",
     "types": ["dark"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/poochyena.png"
   },
   {
-    "id": "011",
+    "id": "262",
     "name": "Mightyena",
     "types": ["dark"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/mightyena.png"
   },
   {
-    "id": "012",
+    "id": "263",
     "name": "Zigzagoon",
     "types": ["normal"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/zigzagoon.png"
   },
   {
-    "id": "013",
+    "id": "264",
     "name": "Linoone",
     "types": ["normal"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/linoone.png"
   },
   {
-    "id": "014",
+    "id": "265",
     "name": "Wurmple",
     "types": ["bug"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/wurmple.png"
   },
   {
-    "id": "015",
+    "id": "266",
     "name": "Silcoon",
     "types": ["bug"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/silcoon.png"
   },
   {
-    "id": "016",
+    "id": "267",
     "name": "Beautifly",
     "types": ["bug", "flying"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/beautifly.png"
   },
   {
-    "id": "017",
+    "id": "268",
     "name": "Cascoon",
     "types": ["bug"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/cascoon.png"
   },
   {
-    "id": "018",
+    "id": "269",
     "name": "Dustox",
     "types": ["bug", "poison"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/dustox.png"
   },
   {
-    "id": "019",
+    "id": "270",
     "name": "Lotad",
     "types": ["water", "grass"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/lotad.png"
   },
   {
-    "id": "020",
+    "id": "271",
     "name": "Lombre",
     "types": ["water", "grass"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/lombre.png"
   },
   {
-    "id": "021",
+    "id": "272",
     "name": "Ludicolo",
     "types": ["water", "grass"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/ludicolo.png"
   },
   {
-    "id": "022",
+    "id": "273",
     "name": "Seedot",
     "types": ["grass"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/seedot.png"
   },
   {
-    "id": "023",
+    "id": "274",
     "name": "Nuzleaf",
     "types": ["grass", "dark"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/nuzleaf.png"
   },
   {
-    "id": "024",
+    "id": "275",
     "name": "Shiftry",
     "types": ["grass", "dark"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/shiftry.png"
   },
   {
-    "id": "025",
+    "id": "276",
     "name": "Taillow",
     "types": ["normal", "flying"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/taillow.png"
   },
   {
-    "id": "026",
+    "id": "277",
     "name": "Swellow",
     "types": ["normal", "flying"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/swellow.png"
   },
   {
-    "id": "027",
+    "id": "278",
     "name": "Wingull",
     "types": ["water", "flying"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/wingull.png"
   },
   {
-    "id": "028",
+    "id": "279",
     "name": "Pelipper",
     "types": ["water", "flying"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/pelipper.png"
   },
   {
-    "id": "029",
+    "id": "280",
     "name": "Ralts",
     "types": ["psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/ralts.png"
   },
   {
-    "id": "030",
+    "id": "281",
     "name": "Kirlia",
     "types": ["psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/kirlia.png"
   },
   {
-    "id": "031",
+    "id": "282",
     "name": "Gardevoir",
     "types": ["psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/gardevoir.png"
   },
   {
-    "id": "032",
+    "id": "283",
     "name": "Surskit",
     "types": ["bug", "water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/surskit.png"
   },
   {
-    "id": "033",
+    "id": "284",
     "name": "Masquerain",
     "types": ["bug", "flying"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/masquerain.png"
   },
   {
-    "id": "034",
+    "id": "285",
     "name": "Shroomish",
     "types": ["grass"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/shroomish.png"
   },
   {
-    "id": "035",
+    "id": "286",
     "name": "Breloom",
     "types": ["grass", "fighting"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/breloom.png"
   },
   {
-    "id": "036",
+    "id": "287",
     "name": "Slakoth",
     "types": ["normal"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/slakoth.png"
   },
   {
-    "id": "037",
+    "id": "288",
     "name": "Vigoroth",
     "types": ["normal"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/vigoroth.png"
   },
   {
-    "id": "038",
+    "id": "289",
     "name": "Slaking",
     "types": ["normal"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/slaking.png"
   },
   {
-    "id": "039",
+    "id": "063",
     "name": "Abra",
     "types": ["psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/abra.png"
   },
   {
-    "id": "040",
+    "id": "064",
     "name": "Kadabra",
     "types": ["psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/kadabra.png"
   },
   {
-    "id": "041",
+    "id": "065",
     "name": "Alakazam",
     "types": ["psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/alakazam.png"
   },
   {
-    "id": "042",
+    "id": "290",
     "name": "Nincada",
     "types": ["bug", "ground"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/nincada.png"
   },
   {
-    "id": "043",
+    "id": "291",
     "name": "Ninjask",
     "types": ["bug", "flying"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/ninjask.png"
   },
   {
-    "id": "044",
+    "id": "292",
     "name": "Shedinja",
     "types": ["bug", "ghost"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/shedinja.png"
   },
   {
-    "id": "045",
+    "id": "293",
     "name": "Whismur",
     "types": ["normal"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/whismur.png"
   },
   {
-    "id": "046",
+    "id": "294",
     "name": "Loudred",
     "types": ["normal"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/loudred.png"
   },
   {
-    "id": "047",
+    "id": "295",
     "name": "Exploud",
     "types": ["normal"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/exploud.png"
   },
   {
-    "id": "048",
+    "id": "296",
     "name": "Makuhita",
     "types": ["fighting"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/makuhita.png"
   },
   {
-    "id": "049",
+    "id": "297",
     "name": "Hariyama",
     "types": ["fighting"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/hariyama.png"
   },
   {
-    "id": "050",
+    "id": "118",
     "name": "Goldeen",
     "types": ["water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/goldeen.png"
   },
   {
-    "id": "051",
+    "id": "119",
     "name": "Seaking",
     "types": ["water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/seaking.png"
   },
   {
-    "id": "052",
+    "id": "129",
     "name": "Magikarp",
     "types": ["water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/magikarp.png"
   },
   {
-    "id": "053",
+    "id": "130",
     "name": "Gyarados",
     "types": ["water", "flying"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/gyarados.png"
   },
   {
-    "id": "054",
+    "id": "298",
     "name": "Azurill",
     "types": ["normal"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/azurill.png"
   },
   {
-    "id": "055",
+    "id": "183",
     "name": "Marill",
     "types": ["water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/marill.png"
   },
   {
-    "id": "056",
+    "id": "184",
     "name": "Azumarill",
     "types": ["water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/azumarill.png"
   },
   {
-    "id": "057",
+    "id": "074",
     "name": "Geodude",
     "types": ["rock", "ground"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/geodude.png"
   },
   {
-    "id": "058",
+    "id": "075",
     "name": "Graveler",
     "types": ["rock", "ground"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/graveler.png"
   },
   {
-    "id": "059",
+    "id": "076",
     "name": "Golem",
     "types": ["rock", "ground"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/golem.png"
   },
   {
-    "id": "060",
+    "id": "299",
     "name": "Nosepass",
     "types": ["rock"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/nosepass.png"
   },
   {
-    "id": "061",
+    "id": "300",
     "name": "Skitty",
     "types": ["normal"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/skitty.png"
   },
   {
-    "id": "062",
+    "id": "301",
     "name": "Delcatty",
     "types": ["normal"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/delcatty.png"
   },
   {
-    "id": "063",
+    "id": "041",
     "name": "Zubat",
     "types": ["poison", "flying"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/zubat.png"
   },
   {
-    "id": "064",
+    "id": "042",
     "name": "Golbat",
     "types": ["poison", "flying"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/golbat.png"
   },
   {
-    "id": "065",
+    "id": "169",
     "name": "Crobat",
     "types": ["poison", "flying"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/crobat.png"
   },
   {
-    "id": "066",
+    "id": "072",
     "name": "Tentacool",
     "types": ["water", "poison"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/tentacool.png"
   },
   {
-    "id": "067",
+    "id": "073",
     "name": "Tentacruel",
     "types": ["water", "poison"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/tentacruel.png"
   },
   {
-    "id": "068",
+    "id": "302",
     "name": "Sableye",
     "types": ["dark", "ghost"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/sableye.png"
   },
   {
-    "id": "069",
+    "id": "303",
     "name": "Mawile",
     "types": ["steel"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/mawile.png"
   },
   {
-    "id": "070",
+    "id": "304",
     "name": "Aron",
     "types": ["steel", "rock"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/aron.png"
   },
   {
-    "id": "071",
+    "id": "305",
     "name": "Lairon",
     "types": ["steel", "rock"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/lairon.png"
   },
   {
-    "id": "072",
+    "id": "306",
     "name": "Aggron",
     "types": ["steel", "rock"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/aggron.png"
   },
   {
-    "id": "073",
+    "id": "066",
     "name": "Machop",
     "types": ["fighting"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/machop.png"
   },
   {
-    "id": "074",
+    "id": "067",
     "name": "Machoke",
     "types": ["fighting"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/machoke.png"
   },
   {
-    "id": "075",
+    "id": "068",
     "name": "Machamp",
     "types": ["fighting"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/machamp.png"
   },
   {
-    "id": "076",
+    "id": "307",
     "name": "Meditite",
     "types": ["fighting", "psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/meditite.png"
   },
   {
-    "id": "077",
+    "id": "308",
     "name": "Medicham",
     "types": ["fighting", "psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/medicham.png"
   },
   {
-    "id": "078",
+    "id": "309",
     "name": "Electrike",
     "types": ["electric"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/electrike.png"
   },
   {
-    "id": "079",
+    "id": "310",
     "name": "Manectric",
     "types": ["electric"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/manectric.png"
   },
   {
-    "id": "080",
+    "id": "311",
     "name": "Plusle",
     "types": ["electric"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/plusle.png"
   },
   {
-    "id": "081",
+    "id": "312",
     "name": "Minun",
     "types": ["electric"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/minun.png"
   },
   {
-    "id": "082",
+    "id": "081",
     "name": "Magnemite",
     "types": ["electric", "steel"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/magnemite.png"
   },
   {
-    "id": "083",
+    "id": "082",
     "name": "Magneton",
     "types": ["electric", "steel"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/magneton.png"
   },
   {
-    "id": "084",
+    "id": "100",
     "name": "Voltorb",
     "types": ["electric"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/voltorb.png"
   },
   {
-    "id": "085",
+    "id": "101",
     "name": "Electrode",
     "types": ["electric"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/electrode.png"
   },
   {
-    "id": "086",
+    "id": "313",
     "name": "Volbeat",
     "types": ["bug"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/volbeat.png"
   },
   {
-    "id": "087",
+    "id": "314",
     "name": "Illumise",
     "types": ["bug"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/illumise.png"
   },
   {
-    "id": "088",
+    "id": "043",
     "name": "Oddish",
     "types": ["grass", "poison"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/oddish.png"
   },
   {
-    "id": "089",
+    "id": "044",
     "name": "Gloom",
     "types": ["grass", "poison"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/gloom.png"
   },
   {
-    "id": "090",
+    "id": "045",
     "name": "Vileplume",
     "types": ["grass", "poison"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/vileplume.png"
   },
   {
-    "id": "091",
+    "id": "182",
     "name": "Bellossom",
     "types": ["grass"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/bellossom.png"
   },
   {
-    "id": "092",
+    "id": "084",
     "name": "Doduo",
     "types": ["normal", "flying"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/doduo.png"
   },
   {
-    "id": "093",
+    "id": "085",
     "name": "Dodrio",
     "types": ["normal", "flying"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/dodrio.png"
   },
   {
-    "id": "094",
+    "id": "315",
     "name": "Roselia",
     "types": ["grass", "poison"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/roselia.png"
   },
   {
-    "id": "095",
+    "id": "316",
     "name": "Gulpin",
     "types": ["poison"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/gulpin.png"
   },
   {
-    "id": "096",
+    "id": "317",
     "name": "Swalot",
     "types": ["poison"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/swalot.png"
   },
   {
-    "id": "097",
+    "id": "318",
     "name": "Carvanha",
     "types": ["water", "dark"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/carvanha.png"
   },
   {
-    "id": "098",
+    "id": "319",
     "name": "Sharpedo",
     "types": ["water", "dark"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/sharpedo.png"
   },
   {
-    "id": "099",
+    "id": "320",
     "name": "Wailmer",
     "types": ["water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/wailmer.png"
   },
   {
-    "id": "100",
+    "id": "321",
     "name": "Wailord",
     "types": ["water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/wailord.png"
   },
   {
-    "id": "101",
+    "id": "322",
     "name": "Numel",
     "types": ["fire", "ground"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/numel.png"
   },
   {
-    "id": "102",
+    "id": "323",
     "name": "Camerupt",
     "types": ["fire", "ground"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/camerupt.png"
   },
   {
-    "id": "103",
+    "id": "218",
     "name": "Slugma",
     "types": ["fire"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/slugma.png"
   },
   {
-    "id": "104",
+    "id": "219",
     "name": "Magcargo",
     "types": ["fire", "rock"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/magcargo.png"
   },
   {
-    "id": "105",
+    "id": "324",
     "name": "Torkoal",
     "types": ["fire"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/torkoal.png"
   },
   {
-    "id": "106",
+    "id": "088",
     "name": "Grimer",
     "types": ["poison"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/grimer.png"
   },
   {
-    "id": "107",
+    "id": "089",
     "name": "Muk",
     "types": ["poison"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/muk.png"
   },
   {
-    "id": "108",
+    "id": "109",
     "name": "Koffing",
     "types": ["poison"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/koffing.png"
   },
   {
-    "id": "109",
+    "id": "110",
     "name": "Weezing",
     "types": ["poison"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/weezing.png"
   },
   {
-    "id": "110",
+    "id": "325",
     "name": "Spoink",
     "types": ["psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/spoink.png"
   },
   {
-    "id": "111",
+    "id": "326",
     "name": "Grumpig",
     "types": ["psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/grumpig.png"
   },
   {
-    "id": "112",
+    "id": "027",
     "name": "Sandshrew",
     "types": ["ground"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/sandshrew.png"
   },
   {
-    "id": "113",
+    "id": "028",
     "name": "Sandslash",
     "types": ["ground"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/sandslash.png"
   },
   {
-    "id": "114",
+    "id": "327",
     "name": "Spinda",
     "types": ["normal"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/spinda.png"
   },
   {
-    "id": "115",
+    "id": "227",
     "name": "Skarmory",
     "types": ["steel", "flying"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/skarmory.png"
   },
   {
-    "id": "116",
+    "id": "328",
     "name": "Trapinch",
     "types": ["ground"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/trapinch.png"
   },
   {
-    "id": "117",
+    "id": "329",
     "name": "Vibrava",
     "types": ["ground", "dragon"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/vibrava.png"
   },
   {
-    "id": "118",
+    "id": "330",
     "name": "Flygon",
     "types": ["ground", "dragon"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/flygon.png"
   },
   {
-    "id": "119",
+    "id": "331",
     "name": "Cacnea",
     "types": ["grass"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/cacnea.png"
   },
   {
-    "id": "120",
+    "id": "332",
     "name": "Cacturne",
     "types": ["grass", "dark"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/cacturne.png"
   },
   {
-    "id": "121",
+    "id": "333",
     "name": "Swablu",
     "types": ["normal", "flying"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/swablu.png"
   },
   {
-    "id": "122",
+    "id": "334",
     "name": "Altaria",
     "types": ["dragon", "flying"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/altaria.png"
   },
   {
-    "id": "123",
+    "id": "335",
     "name": "Zangoose",
     "types": ["normal"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/zangoose.png"
   },
   {
-    "id": "124",
+    "id": "336",
     "name": "Seviper",
     "types": ["poison"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/seviper.png"
   },
   {
-    "id": "125",
+    "id": "337",
     "name": "Lunatone",
     "types": ["rock", "psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/lunatone.png"
   },
   {
-    "id": "126",
+    "id": "338",
     "name": "Solrock",
     "types": ["rock", "psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/solrock.png"
   },
   {
-    "id": "127",
+    "id": "339",
     "name": "Barboach",
     "types": ["water", "ground"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/barboach.png"
   },
   {
-    "id": "128",
+    "id": "340",
     "name": "Whiscash",
     "types": ["water", "ground"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/whiscash.png"
   },
   {
-    "id": "129",
+    "id": "341",
     "name": "Corphish",
     "types": ["water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/corphish.png"
   },
   {
-    "id": "130",
+    "id": "342",
     "name": "Crawdaunt",
     "types": ["water", "dark"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/crawdaunt.png"
   },
   {
-    "id": "131",
+    "id": "343",
     "name": "Baltoy",
     "types": ["ground", "psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/baltoy.png"
   },
   {
-    "id": "132",
+    "id": "344",
     "name": "Claydol",
     "types": ["ground", "psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/claydol.png"
   },
   {
-    "id": "133",
+    "id": "345",
     "name": "Lileep",
     "types": ["rock", "grass"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/lileep.png"
   },
   {
-    "id": "134",
+    "id": "346",
     "name": "Cradily",
     "types": ["rock", "grass"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/cradily.png"
   },
   {
-    "id": "135",
+    "id": "347",
     "name": "Anorith",
     "types": ["rock", "bug"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/anorith.png"
   },
   {
-    "id": "136",
+    "id": "348",
     "name": "Armaldo",
     "types": ["rock", "bug"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/armaldo.png"
   },
   {
-    "id": "137",
+    "id": "174",
     "name": "Igglybuff",
     "types": ["normal"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/igglybuff.png"
   },
   {
-    "id": "138",
+    "id": "039",
     "name": "Jigglypuff",
     "types": ["normal"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/jigglypuff.png"
   },
   {
-    "id": "139",
+    "id": "040",
     "name": "Wigglytuff",
     "types": ["normal"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/wigglytuff.png"
   },
   {
-    "id": "140",
+    "id": "349",
     "name": "Feebas",
     "types": ["water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/feebas.png"
   },
   {
-    "id": "141",
+    "id": "350",
     "name": "Milotic",
     "types": ["water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/milotic.png"
   },
   {
-    "id": "142",
+    "id": "351",
     "name": "Castform",
     "types": ["normal"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/castform.png"
   },
   {
-    "id": "143",
+    "id": "120",
     "name": "Staryu",
     "types": ["water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/staryu.png"
   },
   {
-    "id": "144",
+    "id": "121",
     "name": "Starmie",
     "types": ["water", "psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/starmie.png"
   },
   {
-    "id": "145",
+    "id": "352",
     "name": "Kecleon",
     "types": ["normal"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/kecleon.png"
   },
   {
-    "id": "146",
+    "id": "353",
     "name": "Shuppet",
     "types": ["ghost"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/shuppet.png"
   },
   {
-    "id": "147",
+    "id": "354",
     "name": "Banette",
     "types": ["ghost"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/banette.png"
   },
   {
-    "id": "148",
+    "id": "355",
     "name": "Duskull",
     "types": ["ghost"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/duskull.png"
   },
   {
-    "id": "149",
+    "id": "356",
     "name": "Dusclops",
     "types": ["ghost"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/dusclops.png"
   },
   {
-    "id": "150",
+    "id": "357",
     "name": "Tropius",
     "types": ["grass", "flying"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/tropius.png"
   },
   {
-    "id": "151",
+    "id": "358",
     "name": "Chimecho",
     "types": ["psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/chimecho.png"
   },
   {
-    "id": "152",
+    "id": "359",
     "name": "Absol",
     "types": ["dark"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/absol.png"
   },
   {
-    "id": "153",
+    "id": "037",
     "name": "Vulpix",
     "types": ["fire"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/vulpix.png"
   },
   {
-    "id": "154",
+    "id": "038",
     "name": "Ninetales",
     "types": ["fire"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/ninetales.png"
   },
   {
-    "id": "155",
+    "id": "172",
     "name": "Pichu",
     "types": ["electric"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/pichu.png"
   },
   {
-    "id": "156",
+    "id": "025",
     "name": "Pikachu",
     "types": ["electric"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/pikachu.png"
   },
   {
-    "id": "157",
+    "id": "026",
     "name": "Raichu",
     "types": ["electric"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/raichu.png"
   },
   {
-    "id": "158",
+    "id": "054",
     "name": "Psyduck",
     "types": ["water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/psyduck.png"
   },
   {
-    "id": "159",
+    "id": "055",
     "name": "Golduck",
     "types": ["water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/golduck.png"
   },
   {
-    "id": "160",
+    "id": "360",
     "name": "Wynaut",
     "types": ["psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/wynaut.png"
   },
   {
-    "id": "161",
+    "id": "202",
     "name": "Wobbuffet",
     "types": ["psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/wobbuffet.png"
   },
   {
-    "id": "162",
+    "id": "177",
     "name": "Natu",
     "types": ["psychic", "flying"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/natu.png"
   },
   {
-    "id": "163",
+    "id": "178",
     "name": "Xatu",
     "types": ["psychic", "flying"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/xatu.png"
   },
   {
-    "id": "164",
+    "id": "203",
     "name": "Girafarig",
     "types": ["normal", "psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/girafarig.png"
   },
   {
-    "id": "165",
+    "id": "231",
     "name": "Phanpy",
     "types": ["ground"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/phanpy.png"
   },
   {
-    "id": "166",
+    "id": "232",
     "name": "Donphan",
     "types": ["ground"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/donphan.png"
   },
   {
-    "id": "167",
+    "id": "127",
     "name": "Pinsir",
     "types": ["bug"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/pinsir.png"
   },
   {
-    "id": "168",
+    "id": "214",
     "name": "Heracross",
     "types": ["bug", "fighting"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/heracross.png"
   },
   {
-    "id": "169",
+    "id": "111",
     "name": "Rhyhorn",
     "types": ["ground", "rock"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/rhyhorn.png"
   },
   {
-    "id": "170",
+    "id": "112",
     "name": "Rhydon",
     "types": ["ground", "rock"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/rhydon.png"
   },
   {
-    "id": "171",
+    "id": "361",
     "name": "Snorunt",
     "types": ["ice"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/snorunt.png"
   },
   {
-    "id": "172",
+    "id": "362",
     "name": "Glalie",
     "types": ["ice"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/glalie.png"
   },
   {
-    "id": "173",
+    "id": "363",
     "name": "Spheal",
     "types": ["ice", "water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/spheal.png"
   },
   {
-    "id": "174",
+    "id": "364",
     "name": "Sealeo",
     "types": ["ice", "water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/sealeo.png"
   },
   {
-    "id": "175",
+    "id": "365",
     "name": "Walrein",
     "types": ["ice", "water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/walrein.png"
   },
   {
-    "id": "176",
+    "id": "366",
     "name": "Clamperl",
     "types": ["water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/clamperl.png"
   },
   {
-    "id": "177",
+    "id": "367",
     "name": "Huntail",
     "types": ["water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/huntail.png"
   },
   {
-    "id": "178",
+    "id": "368",
     "name": "Gorebyss",
     "types": ["water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/gorebyss.png"
   },
   {
-    "id": "179",
+    "id": "369",
     "name": "Relicanth",
     "types": ["water", "rock"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/relicanth.png"
   },
   {
-    "id": "180",
+    "id": "222",
     "name": "Corsola",
     "types": ["water", "rock"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/corsola.png"
   },
   {
-    "id": "181",
+    "id": "170",
     "name": "Chinchou",
     "types": ["water", "electric"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/chinchou.png"
   },
   {
-    "id": "182",
+    "id": "171",
     "name": "Lanturn",
     "types": ["water", "electric"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/lanturn.png"
   },
   {
-    "id": "183",
+    "id": "370",
     "name": "Luvdisc",
     "types": ["water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/luvdisc.png"
   },
   {
-    "id": "184",
+    "id": "116",
     "name": "Horsea",
     "types": ["water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/horsea.png"
   },
   {
-    "id": "185",
+    "id": "117",
     "name": "Seadra",
     "types": ["water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/seadra.png"
   },
   {
-    "id": "186",
+    "id": "230",
     "name": "Kingdra",
     "types": ["water", "dragon"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/kingdra.png"
   },
   {
-    "id": "187",
+    "id": "371",
     "name": "Bagon",
     "types": ["dragon"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/bagon.png"
   },
   {
-    "id": "188",
+    "id": "372",
     "name": "Shelgon",
     "types": ["dragon"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/shelgon.png"
   },
   {
-    "id": "189",
+    "id": "373",
     "name": "Salamence",
     "types": ["dragon", "flying"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/salamence.png"
   },
   {
-    "id": "190",
+    "id": "374",
     "name": "Beldum",
     "types": ["steel", "psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/beldum.png"
   },
   {
-    "id": "191",
+    "id": "375",
     "name": "Metang",
     "types": ["steel", "psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/metang.png"
   },
   {
-    "id": "192",
+    "id": "376",
     "name": "Metagross",
     "types": ["steel", "psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/metagross.png"
   },
   {
-    "id": "193",
+    "id": "377",
     "name": "Regirock",
     "types": ["rock"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/regirock.png"
   },
   {
-    "id": "194",
+    "id": "378",
     "name": "Regice",
     "types": ["ice"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/regice.png"
   },
   {
-    "id": "195",
+    "id": "379",
     "name": "Registeel",
     "types": ["steel"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/registeel.png"
   },
   {
-    "id": "196",
+    "id": "380",
     "name": "Latias",
     "types": ["dragon", "psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/latias.png"
   },
   {
-    "id": "197",
+    "id": "381",
     "name": "Latios",
     "types": ["dragon", "psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/latios.png"
   },
   {
-    "id": "198",
+    "id": "382",
     "name": "Kyogre",
     "types": ["water"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/kyogre.png"
   },
   {
-    "id": "199",
+    "id": "383",
     "name": "Groudon",
     "types": ["ground"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/groudon.png"
   },
   {
-    "id": "200",
+    "id": "384",
     "name": "Rayquaza",
     "types": ["dragon", "flying"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/rayquaza.png"
   },
   {
-    "id": "201",
+    "id": "385",
     "name": "Jirachi",
     "types": ["steel", "psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/jirachi.png"
   },
   {
-    "id": "202",
+    "id": "386",
     "name": "Deoxys",
     "types": ["psychic"],
     "sprite": "https://img.pokemondb.net/sprites/ruby-sapphire/normal/deoxys.png"

@@ -1,4 +1,5 @@
 import { getGyms } from './scrapers/gyms.ts';
+import { getMoves } from './scrapers/moves.ts';
 import { getPokemonDex } from './scrapers/pokemon-dex.ts';
 import { getRoutesEncounters } from './scrapers/routes-encounters.ts';
 import { saveFile } from './utils/storage.ts';
@@ -10,10 +11,16 @@ const config = {
   testing: false,
   scrapers: {
     gyms: {
-      enabled: false,
+      enabled: true,
       print: false,
       outputFile: 'gyms.json',
       run: getGyms,
+    },
+    moves: {
+      enabled: false,
+      print: false,
+      outputFile: 'moves.json',
+      run: getMoves,
     },
     pokemonDex: {
       enabled: false,
@@ -22,7 +29,7 @@ const config = {
       run: getPokemonDex,
     },
     routesEncounters: {
-      enabled: true,
+      enabled: false,
       print: false,
       outputFile: 'routes-encounters.json',
       run: getRoutesEncounters,
@@ -31,11 +38,6 @@ const config = {
 };
 
 // https://pokemondb.net/emerald
-
-// Get list of routes
-// sort routes based on gym
-// get encounters by route
-//
 
 await Promise.all(
   Object.keys(config.scrapers).map(async (key: string) => {

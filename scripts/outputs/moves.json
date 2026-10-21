@@ -1,0 +1,723 @@
+[
+  {
+    "name": "Aerial Ace",
+    "type": "flying",
+    "power": 60,
+    "url": "https://pokemondb.net/move/aerial-ace",
+    "effect": "Ignores Accuracy and Evasiveness."
+  },
+  {
+    "name": "Air Cutter",
+    "type": "flying",
+    "power": 60,
+    "url": "https://pokemondb.net/move/air-cutter",
+    "effect": "High critical hit ratio."
+  },
+  {
+    "name": "Arm Thrust",
+    "type": "fighting",
+    "power": 15,
+    "url": "https://pokemondb.net/move/arm-thrust",
+    "effect": "Hits 2-5 times in one turn."
+  },
+  {
+    "name": "Aromatherapy",
+    "type": "grass",
+    "power": null,
+    "url": "https://pokemondb.net/move/aromatherapy",
+    "effect": "Cures all status problems in your party."
+  },
+  {
+    "name": "Assist",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/assist",
+    "effect": "User performs a move known by its allies at random."
+  },
+  {
+    "name": "Astonish",
+    "type": "ghost",
+    "power": 30,
+    "url": "https://pokemondb.net/move/astonish",
+    "effect": "May cause flinching."
+  },
+  {
+    "name": "Blast Burn",
+    "type": "fire",
+    "power": 150,
+    "url": "https://pokemondb.net/move/blast-burn",
+    "effect": "User must recharge next turn."
+  },
+  {
+    "name": "Blaze Kick",
+    "type": "fire",
+    "power": 85,
+    "url": "https://pokemondb.net/move/blaze-kick",
+    "effect": "High critical hit ratio. May burn opponent."
+  },
+  {
+    "name": "Block",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/block",
+    "effect": "Opponent cannot flee or switch."
+  },
+  {
+    "name": "Bounce",
+    "type": "flying",
+    "power": 85,
+    "url": "https://pokemondb.net/move/bounce",
+    "effect": "Springs up on first turn, attacks on second. May paralyze opponent."
+  },
+  {
+    "name": "Brick Break",
+    "type": "fighting",
+    "power": 75,
+    "url": "https://pokemondb.net/move/brick-break",
+    "effect": "Breaks through Reflect and Light Screen barriers."
+  },
+  {
+    "name": "Bulk Up",
+    "type": "fighting",
+    "power": null,
+    "url": "https://pokemondb.net/move/bulk-up",
+    "effect": "Raises user's Attack and Defense."
+  },
+  {
+    "name": "Bullet Seed",
+    "type": "grass",
+    "power": 25,
+    "url": "https://pokemondb.net/move/bullet-seed",
+    "effect": "Hits 2-5 times in one turn."
+  },
+  {
+    "name": "Calm Mind",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/calm-mind",
+    "effect": "Raises user's Special Attack and Special Defense."
+  },
+  {
+    "name": "Camouflage",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/camouflage",
+    "effect": "Changes user's type according to the location."
+  },
+  {
+    "name": "Charge",
+    "type": "electric",
+    "power": null,
+    "url": "https://pokemondb.net/move/charge",
+    "effect": "Raises user's Special Defense and next Electric move's power increases."
+  },
+  {
+    "name": "Cosmic Power",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/cosmic-power",
+    "effect": "Raises user's Defense and Special Defense."
+  },
+  {
+    "name": "Covet",
+    "type": "normal",
+    "power": 60,
+    "url": "https://pokemondb.net/move/covet",
+    "effect": "Opponent's item is stolen by the user."
+  },
+  {
+    "name": "Crush Claw",
+    "type": "normal",
+    "power": 75,
+    "url": "https://pokemondb.net/move/crush-claw",
+    "effect": "May lower opponent's Defense."
+  },
+  {
+    "name": "Dive",
+    "type": "water",
+    "power": 80,
+    "url": "https://pokemondb.net/move/dive",
+    "effect": "Dives underwater on first turn, attacks on second turn."
+  },
+  {
+    "name": "Doom Desire",
+    "type": "steel",
+    "power": 140,
+    "url": "https://pokemondb.net/move/doom-desire",
+    "effect": "Damage occurs 2 turns later."
+  },
+  {
+    "name": "Dragon Claw",
+    "type": "dragon",
+    "power": 80,
+    "url": "https://pokemondb.net/move/dragon-claw",
+    "effect": ""
+  },
+  {
+    "name": "Dragon Dance",
+    "type": "dragon",
+    "power": null,
+    "url": "https://pokemondb.net/move/dragon-dance",
+    "effect": "Raises user's Attack and Speed."
+  },
+  {
+    "name": "Endeavor",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/endeavor",
+    "effect": "Reduces opponent's HP to same as user's."
+  },
+  {
+    "name": "Eruption",
+    "type": "fire",
+    "power": 150,
+    "url": "https://pokemondb.net/move/eruption",
+    "effect": "Stronger when the user's HP is higher."
+  },
+  {
+    "name": "Extrasensory",
+    "type": "psychic",
+    "power": 80,
+    "url": "https://pokemondb.net/move/extrasensory",
+    "effect": "May cause flinching."
+  },
+  {
+    "name": "Facade",
+    "type": "normal",
+    "power": 70,
+    "url": "https://pokemondb.net/move/facade",
+    "effect": "Power doubles if user is burned, poisoned, or paralyzed."
+  },
+  {
+    "name": "Fake Out",
+    "type": "normal",
+    "power": 40,
+    "url": "https://pokemondb.net/move/fake-out",
+    "effect": "User attacks first, foe flinches. Only usable on first turn."
+  },
+  {
+    "name": "Fake Tears",
+    "type": "dark",
+    "power": null,
+    "url": "https://pokemondb.net/move/fake-tears",
+    "effect": "Sharply lowers opponent's Special Defense."
+  },
+  {
+    "name": "Feather Dance",
+    "type": "flying",
+    "power": null,
+    "url": "https://pokemondb.net/move/feather-dance",
+    "effect": "Sharply lowers opponent's Attack."
+  },
+  {
+    "name": "Flatter",
+    "type": "dark",
+    "power": null,
+    "url": "https://pokemondb.net/move/flatter",
+    "effect": "Confuses opponent, but raises its Special Attack."
+  },
+  {
+    "name": "Focus Punch",
+    "type": "fighting",
+    "power": 150,
+    "url": "https://pokemondb.net/move/focus-punch",
+    "effect": "If the user is hit before attacking, it flinches instead."
+  },
+  {
+    "name": "Follow Me",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/follow-me",
+    "effect": "In Double Battle, the user takes all the attacks."
+  },
+  {
+    "name": "Frenzy Plant",
+    "type": "grass",
+    "power": 150,
+    "url": "https://pokemondb.net/move/frenzy-plant",
+    "effect": "User must recharge next turn."
+  },
+  {
+    "name": "Grass Whistle",
+    "type": "grass",
+    "power": null,
+    "url": "https://pokemondb.net/move/grass-whistle",
+    "effect": "Puts opponent to sleep."
+  },
+  {
+    "name": "Grudge",
+    "type": "ghost",
+    "power": null,
+    "url": "https://pokemondb.net/move/grudge",
+    "effect": "If the users faints after using this move, the PP for the opponent's last move is depleted."
+  },
+  {
+    "name": "Hail",
+    "type": "ice",
+    "power": null,
+    "url": "https://pokemondb.net/move/hail",
+    "effect": "Non-Ice types are damaged for 5 turns."
+  },
+  {
+    "name": "Heat Wave",
+    "type": "fire",
+    "power": 95,
+    "url": "https://pokemondb.net/move/heat-wave",
+    "effect": "May burn opponent."
+  },
+  {
+    "name": "Helping Hand",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/helping-hand",
+    "effect": "In Double Battles, boosts the power of the partner's move."
+  },
+  {
+    "name": "Howl",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/howl",
+    "effect": "Raises Attack of allies."
+  },
+  {
+    "name": "Hydro Cannon",
+    "type": "water",
+    "power": 150,
+    "url": "https://pokemondb.net/move/hydro-cannon",
+    "effect": "User must recharge next turn."
+  },
+  {
+    "name": "Hyper Voice",
+    "type": "normal",
+    "power": 90,
+    "url": "https://pokemondb.net/move/hyper-voice",
+    "effect": ""
+  },
+  {
+    "name": "Ice Ball",
+    "type": "ice",
+    "power": 30,
+    "url": "https://pokemondb.net/move/ice-ball",
+    "effect": "Doubles in power each turn for 5 turns."
+  },
+  {
+    "name": "Icicle Spear",
+    "type": "ice",
+    "power": 25,
+    "url": "https://pokemondb.net/move/icicle-spear",
+    "effect": "Hits 2-5 times in one turn."
+  },
+  {
+    "name": "Imprison",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/imprison",
+    "effect": "Opponent is unable to use moves that the user also knows."
+  },
+  {
+    "name": "Ingrain",
+    "type": "grass",
+    "power": null,
+    "url": "https://pokemondb.net/move/ingrain",
+    "effect": "User restores HP each turn. User cannot escape/switch."
+  },
+  {
+    "name": "Iron Defense",
+    "type": "steel",
+    "power": null,
+    "url": "https://pokemondb.net/move/iron-defense",
+    "effect": "Sharply raises user's Defense."
+  },
+  {
+    "name": "Knock Off",
+    "type": "dark",
+    "power": 65,
+    "url": "https://pokemondb.net/move/knock-off",
+    "effect": "Removes opponent's held item for the rest of the battle."
+  },
+  {
+    "name": "Leaf Blade",
+    "type": "grass",
+    "power": 90,
+    "url": "https://pokemondb.net/move/leaf-blade",
+    "effect": "High critical hit ratio."
+  },
+  {
+    "name": "Luster Purge",
+    "type": "psychic",
+    "power": 95,
+    "url": "https://pokemondb.net/move/luster-purge",
+    "effect": "May lower opponent's Special Defense."
+  },
+  {
+    "name": "Magic Coat",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/magic-coat",
+    "effect": "Reflects moves that cause status conditions back to the attacker."
+  },
+  {
+    "name": "Magical Leaf",
+    "type": "grass",
+    "power": 60,
+    "url": "https://pokemondb.net/move/magical-leaf",
+    "effect": "Ignores Accuracy and Evasiveness."
+  },
+  {
+    "name": "Memento",
+    "type": "dark",
+    "power": null,
+    "url": "https://pokemondb.net/move/memento",
+    "effect": "User faints, sharply lowers opponent's Attack and Special Attack."
+  },
+  {
+    "name": "Metal Sound",
+    "type": "steel",
+    "power": null,
+    "url": "https://pokemondb.net/move/metal-sound",
+    "effect": "Sharply lowers opponent's Special Defense."
+  },
+  {
+    "name": "Meteor Mash",
+    "type": "steel",
+    "power": 90,
+    "url": "https://pokemondb.net/move/meteor-mash",
+    "effect": "May raise user's Attack."
+  },
+  {
+    "name": "Mist Ball",
+    "type": "psychic",
+    "power": 95,
+    "url": "https://pokemondb.net/move/mist-ball",
+    "effect": "May lower opponent's Special Attack."
+  },
+  {
+    "name": "Mud Shot",
+    "type": "ground",
+    "power": 55,
+    "url": "https://pokemondb.net/move/mud-shot",
+    "effect": "Lowers opponent's Speed."
+  },
+  {
+    "name": "Mud Sport",
+    "type": "ground",
+    "power": null,
+    "url": "https://pokemondb.net/move/mud-sport",
+    "effect": "Weakens the power of Electric-type moves."
+  },
+  {
+    "name": "Muddy Water",
+    "type": "water",
+    "power": 90,
+    "url": "https://pokemondb.net/move/muddy-water",
+    "effect": "May lower opponent's Accuracy."
+  },
+  {
+    "name": "Nature Power",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/nature-power",
+    "effect": "Uses a certain move based on the current terrain."
+  },
+  {
+    "name": "Needle Arm",
+    "type": "grass",
+    "power": 60,
+    "url": "https://pokemondb.net/move/needle-arm",
+    "effect": "May cause flinching."
+  },
+  {
+    "name": "Odor Sleuth",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/odor-sleuth",
+    "effect": "Resets opponent's Evasiveness, and allows Normal- and Fighting-type attacks to hit Ghosts."
+  },
+  {
+    "name": "Overheat",
+    "type": "fire",
+    "power": 130,
+    "url": "https://pokemondb.net/move/overheat",
+    "effect": "Sharply lowers user's Special Attack."
+  },
+  {
+    "name": "Poison Fang",
+    "type": "poison",
+    "power": 50,
+    "url": "https://pokemondb.net/move/poison-fang",
+    "effect": "May badly poison opponent."
+  },
+  {
+    "name": "Poison Tail",
+    "type": "poison",
+    "power": 50,
+    "url": "https://pokemondb.net/move/poison-tail",
+    "effect": "High critical hit ratio. May poison opponent."
+  },
+  {
+    "name": "Psycho Boost",
+    "type": "psychic",
+    "power": 140,
+    "url": "https://pokemondb.net/move/psycho-boost",
+    "effect": "Sharply lowers user's Special Attack."
+  },
+  {
+    "name": "Recycle",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/recycle",
+    "effect": "User's used hold item is restored."
+  },
+  {
+    "name": "Refresh",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/refresh",
+    "effect": "Cures paralysis, poison, and burns."
+  },
+  {
+    "name": "Revenge",
+    "type": "fighting",
+    "power": 60,
+    "url": "https://pokemondb.net/move/revenge",
+    "effect": "Power increases if user was hit first."
+  },
+  {
+    "name": "Rock Blast",
+    "type": "rock",
+    "power": 25,
+    "url": "https://pokemondb.net/move/rock-blast",
+    "effect": "Hits 2-5 times in one turn."
+  },
+  {
+    "name": "Rock Tomb",
+    "type": "rock",
+    "power": 60,
+    "url": "https://pokemondb.net/move/rock-tomb",
+    "effect": "Lowers opponent's Speed."
+  },
+  {
+    "name": "Role Play",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/role-play",
+    "effect": "User copies the opponent's Ability."
+  },
+  {
+    "name": "Sand Tomb",
+    "type": "ground",
+    "power": 35,
+    "url": "https://pokemondb.net/move/sand-tomb",
+    "effect": "Traps opponent, damaging them for 4-5 turns."
+  },
+  {
+    "name": "Secret Power",
+    "type": "normal",
+    "power": 70,
+    "url": "https://pokemondb.net/move/secret-power",
+    "effect": "Effects of the attack vary with the location."
+  },
+  {
+    "name": "Shadow Punch",
+    "type": "ghost",
+    "power": 60,
+    "url": "https://pokemondb.net/move/shadow-punch",
+    "effect": "Ignores Accuracy and Evasiveness."
+  },
+  {
+    "name": "Sheer Cold",
+    "type": "ice",
+    "power": null,
+    "url": "https://pokemondb.net/move/sheer-cold",
+    "effect": "One-Hit-KO, if it hits."
+  },
+  {
+    "name": "Shock Wave",
+    "type": "electric",
+    "power": 60,
+    "url": "https://pokemondb.net/move/shock-wave",
+    "effect": "Ignores Accuracy and Evasiveness."
+  },
+  {
+    "name": "Signal Beam",
+    "type": "bug",
+    "power": 75,
+    "url": "https://pokemondb.net/move/signal-beam",
+    "effect": "May confuse opponent."
+  },
+  {
+    "name": "Silver Wind",
+    "type": "bug",
+    "power": 60,
+    "url": "https://pokemondb.net/move/silver-wind",
+    "effect": "May raise all stats of user at once."
+  },
+  {
+    "name": "Skill Swap",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/skill-swap",
+    "effect": "The user swaps Abilities with the opponent."
+  },
+  {
+    "name": "Sky Uppercut",
+    "type": "fighting",
+    "power": 85,
+    "url": "https://pokemondb.net/move/sky-uppercut",
+    "effect": "Hits the opponent, even during Fly."
+  },
+  {
+    "name": "Slack Off",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/slack-off",
+    "effect": "User recovers half its max HP."
+  },
+  {
+    "name": "Smelling Salts",
+    "type": "normal",
+    "power": 70,
+    "url": "https://pokemondb.net/move/smelling-salts",
+    "effect": "Power doubles if opponent is paralyzed, but cures it."
+  },
+  {
+    "name": "Snatch",
+    "type": "dark",
+    "power": null,
+    "url": "https://pokemondb.net/move/snatch",
+    "effect": "Steals the effects of the opponent's next move."
+  },
+  {
+    "name": "Spit Up",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/spit-up",
+    "effect": "Power depends on how many times the user performed Stockpile."
+  },
+  {
+    "name": "Stockpile",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/stockpile",
+    "effect": "Stores energy for use with Spit Up and Swallow."
+  },
+  {
+    "name": "Superpower",
+    "type": "fighting",
+    "power": 120,
+    "url": "https://pokemondb.net/move/superpower",
+    "effect": "Lowers user's Attack and Defense."
+  },
+  {
+    "name": "Swallow",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/swallow",
+    "effect": "The more times the user has performed Stockpile, the more HP is recovered."
+  },
+  {
+    "name": "Tail Glow",
+    "type": "bug",
+    "power": null,
+    "url": "https://pokemondb.net/move/tail-glow",
+    "effect": "Drastically raises user's Special Attack."
+  },
+  {
+    "name": "Taunt",
+    "type": "dark",
+    "power": null,
+    "url": "https://pokemondb.net/move/taunt",
+    "effect": "Opponent can only use moves that attack."
+  },
+  {
+    "name": "Teeter Dance",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/teeter-dance",
+    "effect": "Confuses all Pokémon."
+  },
+  {
+    "name": "Tickle",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/tickle",
+    "effect": "Lowers opponent's Attack and Defense."
+  },
+  {
+    "name": "Torment",
+    "type": "dark",
+    "power": null,
+    "url": "https://pokemondb.net/move/torment",
+    "effect": "Opponent cannot use the same move in a row."
+  },
+  {
+    "name": "Trick",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/trick",
+    "effect": "Swaps held items with the opponent."
+  },
+  {
+    "name": "Uproar",
+    "type": "normal",
+    "power": 90,
+    "url": "https://pokemondb.net/move/uproar",
+    "effect": "User attacks for 3 turns and prevents sleep."
+  },
+  {
+    "name": "Volt Tackle",
+    "type": "electric",
+    "power": 120,
+    "url": "https://pokemondb.net/move/volt-tackle",
+    "effect": "User receives recoil damage. May paralyze opponent."
+  },
+  {
+    "name": "Water Pulse",
+    "type": "water",
+    "power": 60,
+    "url": "https://pokemondb.net/move/water-pulse",
+    "effect": "May confuse opponent."
+  },
+  {
+    "name": "Water Sport",
+    "type": "water",
+    "power": null,
+    "url": "https://pokemondb.net/move/water-sport",
+    "effect": "Weakens the power of Fire-type moves."
+  },
+  {
+    "name": "Water Spout",
+    "type": "water",
+    "power": 150,
+    "url": "https://pokemondb.net/move/water-spout",
+    "effect": "The higher the user's HP, the higher the damage caused."
+  },
+  {
+    "name": "Weather Ball",
+    "type": "normal",
+    "power": 50,
+    "url": "https://pokemondb.net/move/weather-ball",
+    "effect": "Move's power and type changes with the weather."
+  },
+  {
+    "name": "Will-O-Wisp",
+    "type": "fire",
+    "power": null,
+    "url": "https://pokemondb.net/move/will-o-wisp",
+    "effect": "Burns opponent."
+  },
+  {
+    "name": "Wish",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/wish",
+    "effect": "The user recovers HP in the following turn."
+  },
+  {
+    "name": "Yawn",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/yawn",
+    "effect": "Puts opponent to sleep in the next turn."
+  }
+]

@@ -2,8 +2,16 @@ import * as cheerio from 'cheerio';
 import type { Element } from 'domhandler';
 
 import type { Gym } from '@/features/gyms/types.ts';
-import type { Item, Move, PokemonType, TrainerPokemon } from '@/types.ts';
+import type {
+  Item,
+  Move,
+  PokemonType,
+  Stats,
+  TrainerPokemon,
+} from '@/types.ts';
 
+import movesList from '../data/moves.json' with { type: 'json' };
+import pokemonDex from '../data/pokemon-dex.json' with { type: 'json' };
 import { cheerioQuery } from '../utils/cheerio-query.ts';
 
 const SOURCE_URL = {
@@ -40,12 +48,15 @@ export const getGyms = () => {
 
     // Get Team
     const team: Gym['team'] = [];
+    let levelCap = 0;
 
     $(gymElement)
       .find('div.trainer-pkmn')
       .each((i, pkmnElement) => {
         const pkmnData = getGymPokemon($, pkmnElement, leader, i);
         team.push(pkmnData);
+
+        if (pkmnData.level > levelCap) levelCap = pkmnData.level;
       });
 
     const gymData: Gym = {
@@ -56,6 +67,7 @@ export const getGyms = () => {
       team,
       isDouble: leader === 'Tate & Liza',
       location: { name: '', id: '' },
+      levelCap,
     };
 
     gyms.push(gymData);
@@ -69,7 +81,7 @@ const getGymPokemon = (
   pkmnElement: Element,
   leader: string,
   index: number,
-): Omit<TrainerPokemon, 'stats'> => {
+): TrainerPokemon => {
   const pkmnNumber = $(pkmnElement)
     .find('span.infocard-lg-data')
     .children('small')
@@ -104,6 +116,8 @@ const getGymPokemon = (
 
   const { item, moves } = getTeamData($serebii, leader, index);
 
+  const pkmnData = pokemonDex.find((pokemon) => pokemon.id === pkmnNumber);
+
   return {
     id: pkmnNumber,
     name,
@@ -112,6 +126,7 @@ const getGymPokemon = (
     types,
     item,
     moves,
+    stats: pkmnData?.stats as Stats,
   };
 };
 
@@ -137,15 +152,20 @@ const getTeamData = (
       }
     });
 
-  const pkmnMoves = $(gymTable)
+  const pkmnMovesNames = $(gymTable)
     .find('tr')
     .eq(6)
     .find('td')
     .eq(index)
     .find('a')
     .map((_, move) => $(move).text().trim())
-    .get()
-    .map((move) => ({ name: move, url: '' }));
+    .get();
+
+  const pkmnMoves: Move[] = pkmnMovesNames.map((moveName) => {
+    const moveData = movesList.find((move) => move.name === moveName);
+
+    return moveData;
+  }) as Move[];
 
   pokemon[index] = {
     ...pokemon[index],

@@ -1,0 +1,2480 @@
+[
+  {
+    "name": "Absorb",
+    "type": "grass",
+    "power": 20,
+    "url": "https://pokemondb.net/move/absorb",
+    "effect": "An attack that absorbs half the damage inflicted."
+  },
+  {
+    "name": "Acid",
+    "type": "poison",
+    "power": 40,
+    "url": "https://pokemondb.net/move/acid",
+    "effect": "Sprays a hide-melting acid. May lower DEFENSE."
+  },
+  {
+    "name": "Acid Armor",
+    "type": "poison",
+    "power": null,
+    "url": "https://pokemondb.net/move/acid-armor",
+    "effect": "Liquifies the user’s body to sharply raise DEFENSE."
+  },
+  {
+    "name": "Aerial Ace",
+    "type": "flying",
+    "power": 60,
+    "url": "https://pokemondb.net/move/aerial-ace",
+    "effect": "An extremely speedy and unavoidable attack."
+  },
+  {
+    "name": "Aeroblast",
+    "type": "flying",
+    "power": 100,
+    "url": "https://pokemondb.net/move/aeroblast",
+    "effect": "Launches a vacuumed blast. High critical-hit ratio."
+  },
+  {
+    "name": "Agility",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/agility",
+    "effect": "Relaxes the body to sharply boost SPEED."
+  },
+  {
+    "name": "Air Cutter",
+    "type": "flying",
+    "power": 55,
+    "url": "https://pokemondb.net/move/air-cutter",
+    "effect": "Hacks with razorlike wind. High critical-hit ratio."
+  },
+  {
+    "name": "Amnesia",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/amnesia",
+    "effect": "Forgets about something and sharply raises SP. DEF."
+  },
+  {
+    "name": "Ancient Power",
+    "type": "rock",
+    "power": 60,
+    "url": "https://pokemondb.net/move/ancient-power",
+    "effect": "An attack that may raise all stats."
+  },
+  {
+    "name": "Arm Thrust",
+    "type": "fighting",
+    "power": 15,
+    "url": "https://pokemondb.net/move/arm-thrust",
+    "effect": "Straight-arm punches that strike the foe 2 to 5 times."
+  },
+  {
+    "name": "Aromatherapy",
+    "type": "grass",
+    "power": null,
+    "url": "https://pokemondb.net/move/aromatherapy",
+    "effect": "Heals all status problems with a soothing scent."
+  },
+  {
+    "name": "Assist",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/assist",
+    "effect": "Attacks randomly with one of the partner’s moves."
+  },
+  {
+    "name": "Astonish",
+    "type": "ghost",
+    "power": 30,
+    "url": "https://pokemondb.net/move/astonish",
+    "effect": "An attack that may shock the foe into flinching."
+  },
+  {
+    "name": "Attract",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/attract",
+    "effect": "Makes the opposite gender less likely to attack."
+  },
+  {
+    "name": "Aurora Beam",
+    "type": "ice",
+    "power": 65,
+    "url": "https://pokemondb.net/move/aurora-beam",
+    "effect": "Fires a rainbow-colored beam that may lower ATTACK."
+  },
+  {
+    "name": "Barrage",
+    "type": "normal",
+    "power": 15,
+    "url": "https://pokemondb.net/move/barrage",
+    "effect": "Hurls round objects at the foe 2 to 5 times."
+  },
+  {
+    "name": "Barrier",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/barrier",
+    "effect": "Creates a barrier that sharply raises DEFENSE."
+  },
+  {
+    "name": "Baton Pass",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/baton-pass",
+    "effect": "Switches out the user while keeping effects in play."
+  },
+  {
+    "name": "Beat Up",
+    "type": "dark",
+    "power": 10,
+    "url": "https://pokemondb.net/move/beat-up",
+    "effect": "Summons party Pokémon to join in the attack."
+  },
+  {
+    "name": "Belly Drum",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/belly-drum",
+    "effect": "Maximizes ATTACK while sacrificing HP."
+  },
+  {
+    "name": "Bide",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/bide",
+    "effect": "Endures attack for 2 turns to retaliate double."
+  },
+  {
+    "name": "Bind",
+    "type": "normal",
+    "power": 15,
+    "url": "https://pokemondb.net/move/bind",
+    "effect": "Binds and squeezes the foe for 2 to 5 turns."
+  },
+  {
+    "name": "Bite",
+    "type": "dark",
+    "power": 60,
+    "url": "https://pokemondb.net/move/bite",
+    "effect": "Bites with vicious fangs. May cause flinching."
+  },
+  {
+    "name": "Blast Burn",
+    "type": "fire",
+    "power": 150,
+    "url": "https://pokemondb.net/move/blast-burn",
+    "effect": "Powerful, but leaves the user immobile the next turn."
+  },
+  {
+    "name": "Blaze Kick",
+    "type": "fire",
+    "power": 85,
+    "url": "https://pokemondb.net/move/blaze-kick",
+    "effect": "A kick with a high critical-hit ratio. May cause a burn."
+  },
+  {
+    "name": "Blizzard",
+    "type": "ice",
+    "power": 120,
+    "url": "https://pokemondb.net/move/blizzard",
+    "effect": "Hits the foe with an icy storm that may freeze it."
+  },
+  {
+    "name": "Block",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/block",
+    "effect": "Blocks the foe’s way to prevent escape."
+  },
+  {
+    "name": "Body Slam",
+    "type": "normal",
+    "power": 85,
+    "url": "https://pokemondb.net/move/body-slam",
+    "effect": "A full-body slam that may cause paralysis."
+  },
+  {
+    "name": "Bone Club",
+    "type": "ground",
+    "power": 65,
+    "url": "https://pokemondb.net/move/bone-club",
+    "effect": "Clubs the foe with a bone. May cause flinching."
+  },
+  {
+    "name": "Bone Rush",
+    "type": "ground",
+    "power": 25,
+    "url": "https://pokemondb.net/move/bone-rush",
+    "effect": "Strikes the foe with a bone in hand 2 to 5 times."
+  },
+  {
+    "name": "Bonemerang",
+    "type": "ground",
+    "power": 50,
+    "url": "https://pokemondb.net/move/bonemerang",
+    "effect": "Throws a bone boomerang that strikes twice."
+  },
+  {
+    "name": "Bounce",
+    "type": "flying",
+    "power": 85,
+    "url": "https://pokemondb.net/move/bounce",
+    "effect": "Bounces up, then down the next turn. May paralyze."
+  },
+  {
+    "name": "Brick Break",
+    "type": "fighting",
+    "power": 75,
+    "url": "https://pokemondb.net/move/brick-break",
+    "effect": "Destroys barriers such as REFLECT and causes damage."
+  },
+  {
+    "name": "Bubble",
+    "type": "water",
+    "power": 20,
+    "url": "https://pokemondb.net/move/bubble",
+    "effect": "An attack using bubbles. May lower the foe’s SPEED."
+  },
+  {
+    "name": "Bubble Beam",
+    "type": "water",
+    "power": 65,
+    "url": "https://pokemondb.net/move/bubble-beam",
+    "effect": "Forcefully sprays bubbles that may lower SPEED."
+  },
+  {
+    "name": "Bulk Up",
+    "type": "fighting",
+    "power": null,
+    "url": "https://pokemondb.net/move/bulk-up",
+    "effect": "Bulks up the body to boost both ATTACK and DEFENSE."
+  },
+  {
+    "name": "Bullet Seed",
+    "type": "grass",
+    "power": 10,
+    "url": "https://pokemondb.net/move/bullet-seed",
+    "effect": "Shoots 2 to 5 seeds in a row to strike the foe."
+  },
+  {
+    "name": "Calm Mind",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/calm-mind",
+    "effect": "Raises SP. ATK and SP. DEF by focusing the mind."
+  },
+  {
+    "name": "Camouflage",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/camouflage",
+    "effect": "Alters the Pokémon’s type depending on the location."
+  },
+  {
+    "name": "Charge",
+    "type": "electric",
+    "power": null,
+    "url": "https://pokemondb.net/move/charge",
+    "effect": "Charges power to boost the electric move used next."
+  },
+  {
+    "name": "Charm",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/charm",
+    "effect": "Charms the foe and sharply reduces its ATTACK."
+  },
+  {
+    "name": "Clamp",
+    "type": "water",
+    "power": 35,
+    "url": "https://pokemondb.net/move/clamp",
+    "effect": "Traps and squeezes the foe for 2 to 5 turns."
+  },
+  {
+    "name": "Comet Punch",
+    "type": "normal",
+    "power": 18,
+    "url": "https://pokemondb.net/move/comet-punch",
+    "effect": "Repeatedly punches the foe 2 to 5 times."
+  },
+  {
+    "name": "Confuse Ray",
+    "type": "ghost",
+    "power": null,
+    "url": "https://pokemondb.net/move/confuse-ray",
+    "effect": "A sinister ray that confuses the foe."
+  },
+  {
+    "name": "Confusion",
+    "type": "psychic",
+    "power": 50,
+    "url": "https://pokemondb.net/move/confusion",
+    "effect": "A psychic attack that may cause confusion."
+  },
+  {
+    "name": "Constrict",
+    "type": "normal",
+    "power": 10,
+    "url": "https://pokemondb.net/move/constrict",
+    "effect": "Constricts to inflict pain. May lower SPEED."
+  },
+  {
+    "name": "Conversion",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/conversion",
+    "effect": "Changes the user’s type into a known move’s type."
+  },
+  {
+    "name": "Conversion 2",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/conversion-2",
+    "effect": "Makes the user resistant to the last attack’s type."
+  },
+  {
+    "name": "Cosmic Power",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/cosmic-power",
+    "effect": "Raises DEFENSE and SP. DEF with a mystic power."
+  },
+  {
+    "name": "Cotton Spore",
+    "type": "grass",
+    "power": null,
+    "url": "https://pokemondb.net/move/cotton-spore",
+    "effect": "Spores cling to the foe, sharply reducing SPEED."
+  },
+  {
+    "name": "Counter",
+    "type": "fighting",
+    "power": null,
+    "url": "https://pokemondb.net/move/counter",
+    "effect": "Retaliates any physical hit with double the power."
+  },
+  {
+    "name": "Covet",
+    "type": "normal",
+    "power": 40,
+    "url": "https://pokemondb.net/move/covet",
+    "effect": "Cutely begs to obtain an item held by the foe."
+  },
+  {
+    "name": "Crabhammer",
+    "type": "water",
+    "power": 90,
+    "url": "https://pokemondb.net/move/crabhammer",
+    "effect": "Hammers with a pincer. Has a high critical-hit ratio."
+  },
+  {
+    "name": "Cross Chop",
+    "type": "fighting",
+    "power": 100,
+    "url": "https://pokemondb.net/move/cross-chop",
+    "effect": "A double-chopping attack. High critical-hit ratio."
+  },
+  {
+    "name": "Crunch",
+    "type": "dark",
+    "power": 80,
+    "url": "https://pokemondb.net/move/crunch",
+    "effect": "Crunches with sharp fangs. May lower SP. DEF."
+  },
+  {
+    "name": "Crush Claw",
+    "type": "normal",
+    "power": 75,
+    "url": "https://pokemondb.net/move/crush-claw",
+    "effect": "Tears at the foe with sharp claws. May lower DEFENSE."
+  },
+  {
+    "name": "Curse",
+    "type": "???",
+    "power": null,
+    "url": "https://pokemondb.net/move/curse",
+    "effect": "A move that functions differently for GHOSTS."
+  },
+  {
+    "name": "Cut",
+    "type": "normal",
+    "power": 50,
+    "url": "https://pokemondb.net/move/cut",
+    "effect": "Cuts the foe with sharp scythes, claws, etc."
+  },
+  {
+    "name": "Defense Curl",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/defense-curl",
+    "effect": "Curls up to conceal weak spots and raise DEFENSE."
+  },
+  {
+    "name": "Destiny Bond",
+    "type": "ghost",
+    "power": null,
+    "url": "https://pokemondb.net/move/destiny-bond",
+    "effect": "If the user faints, the foe is also made to faint."
+  },
+  {
+    "name": "Detect",
+    "type": "fighting",
+    "power": null,
+    "url": "https://pokemondb.net/move/detect",
+    "effect": "Evades attack, but may fail if used in succession."
+  },
+  {
+    "name": "Dig",
+    "type": "ground",
+    "power": 60,
+    "url": "https://pokemondb.net/move/dig",
+    "effect": "Digs underground the first turn and strikes next turn."
+  },
+  {
+    "name": "Disable",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/disable",
+    "effect": "Psychically disables one of the foe’s moves."
+  },
+  {
+    "name": "Dive",
+    "type": "water",
+    "power": 60,
+    "url": "https://pokemondb.net/move/dive",
+    "effect": "Dives underwater the first turn and strikes next turn."
+  },
+  {
+    "name": "Dizzy Punch",
+    "type": "normal",
+    "power": 70,
+    "url": "https://pokemondb.net/move/dizzy-punch",
+    "effect": "A rhythmic punch that may confuse the foe."
+  },
+  {
+    "name": "Doom Desire",
+    "type": "steel",
+    "power": 120,
+    "url": "https://pokemondb.net/move/doom-desire",
+    "effect": "Summons strong sunlight to attack 2 turns later."
+  },
+  {
+    "name": "Double Kick",
+    "type": "fighting",
+    "power": 30,
+    "url": "https://pokemondb.net/move/double-kick",
+    "effect": "A double-kicking attack that strikes the foe twice."
+  },
+  {
+    "name": "Double Slap",
+    "type": "normal",
+    "power": 15,
+    "url": "https://pokemondb.net/move/double-slap",
+    "effect": "Repeatedly slaps the foe 2 to 5 times."
+  },
+  {
+    "name": "Double Team",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/double-team",
+    "effect": "Creates illusory copies to raise evasiveness."
+  },
+  {
+    "name": "Double-Edge",
+    "type": "normal",
+    "power": 120,
+    "url": "https://pokemondb.net/move/double-edge",
+    "effect": "A life-risking tackle that also hurts the user."
+  },
+  {
+    "name": "Dragon Breath",
+    "type": "dragon",
+    "power": 60,
+    "url": "https://pokemondb.net/move/dragon-breath",
+    "effect": "Strikes the foe with an incredible blast of breath."
+  },
+  {
+    "name": "Dragon Claw",
+    "type": "dragon",
+    "power": 80,
+    "url": "https://pokemondb.net/move/dragon-claw",
+    "effect": "Slashes the foe with sharp claws."
+  },
+  {
+    "name": "Dragon Dance",
+    "type": "dragon",
+    "power": null,
+    "url": "https://pokemondb.net/move/dragon-dance",
+    "effect": "A mystical dance that ups ATTACK and SPEED."
+  },
+  {
+    "name": "Dragon Rage",
+    "type": "dragon",
+    "power": null,
+    "url": "https://pokemondb.net/move/dragon-rage",
+    "effect": "Launches shock waves that always inflict 40 HP damage."
+  },
+  {
+    "name": "Dream Eater",
+    "type": "psychic",
+    "power": 100,
+    "url": "https://pokemondb.net/move/dream-eater",
+    "effect": "Takes one half the damage inflicted on a sleeping foe."
+  },
+  {
+    "name": "Drill Peck",
+    "type": "flying",
+    "power": 80,
+    "url": "https://pokemondb.net/move/drill-peck",
+    "effect": "A corkscrewing attack with the beak acting as a drill."
+  },
+  {
+    "name": "Dynamic Punch",
+    "type": "fighting",
+    "power": 100,
+    "url": "https://pokemondb.net/move/dynamic-punch",
+    "effect": "Powerful and sure to cause confusion, but inaccurate."
+  },
+  {
+    "name": "Earthquake",
+    "type": "ground",
+    "power": 100,
+    "url": "https://pokemondb.net/move/earthquake",
+    "effect": "A powerful quake, but has no effect on flying foes."
+  },
+  {
+    "name": "Egg Bomb",
+    "type": "normal",
+    "power": 100,
+    "url": "https://pokemondb.net/move/egg-bomb",
+    "effect": "An egg is forcibly hurled at the foe."
+  },
+  {
+    "name": "Ember",
+    "type": "fire",
+    "power": 40,
+    "url": "https://pokemondb.net/move/ember",
+    "effect": "A weak fire attack that may inflict a burn."
+  },
+  {
+    "name": "Encore",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/encore",
+    "effect": "Makes the foe repeat its last move over 2 to 6 turns."
+  },
+  {
+    "name": "Endeavor",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/endeavor",
+    "effect": "Gains power if the user’s HP is lower than the foe’s HP."
+  },
+  {
+    "name": "Endure",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/endure",
+    "effect": "Endures any attack for 1 turn, leaving at least 1HP."
+  },
+  {
+    "name": "Eruption",
+    "type": "fire",
+    "power": 150,
+    "url": "https://pokemondb.net/move/eruption",
+    "effect": "The higher the user’s HP, the more damage caused."
+  },
+  {
+    "name": "Explosion",
+    "type": "normal",
+    "power": 250,
+    "url": "https://pokemondb.net/move/explosion",
+    "effect": "Inflicts severe damage but makes the user faint."
+  },
+  {
+    "name": "Extrasensory",
+    "type": "psychic",
+    "power": 80,
+    "url": "https://pokemondb.net/move/extrasensory",
+    "effect": "Attacks with a peculiar power. May cause flinching."
+  },
+  {
+    "name": "Extreme Speed",
+    "type": "normal",
+    "power": 80,
+    "url": "https://pokemondb.net/move/extreme-speed",
+    "effect": "An extremely fast and powerful attack."
+  },
+  {
+    "name": "Facade",
+    "type": "normal",
+    "power": 70,
+    "url": "https://pokemondb.net/move/facade",
+    "effect": "Boosts ATTACK when burned, paralyzed, or poisoned."
+  },
+  {
+    "name": "Fake Out",
+    "type": "normal",
+    "power": 40,
+    "url": "https://pokemondb.net/move/fake-out",
+    "effect": "A 1st-turn, 1st-strike move that causes flinching."
+  },
+  {
+    "name": "Fake Tears",
+    "type": "dark",
+    "power": null,
+    "url": "https://pokemondb.net/move/fake-tears",
+    "effect": "Feigns crying to sharply lower the foe’s SP. DEF."
+  },
+  {
+    "name": "False Swipe",
+    "type": "normal",
+    "power": 40,
+    "url": "https://pokemondb.net/move/false-swipe",
+    "effect": "An attack that leaves the foe with at least 1 HP."
+  },
+  {
+    "name": "Feather Dance",
+    "type": "flying",
+    "power": null,
+    "url": "https://pokemondb.net/move/feather-dance",
+    "effect": "Envelops the foe with down to sharply reduce ATTACK."
+  },
+  {
+    "name": "Feint Attack",
+    "type": "dark",
+    "power": 60,
+    "url": "https://pokemondb.net/move/feint-attack",
+    "effect": "Draws the foe close, then strikes without fail."
+  },
+  {
+    "name": "Fire Blast",
+    "type": "fire",
+    "power": 120,
+    "url": "https://pokemondb.net/move/fire-blast",
+    "effect": "Incinerates everything it strikes. May cause a burn."
+  },
+  {
+    "name": "Fire Punch",
+    "type": "fire",
+    "power": 75,
+    "url": "https://pokemondb.net/move/fire-punch",
+    "effect": "A fiery punch that may burn the foe."
+  },
+  {
+    "name": "Fire Spin",
+    "type": "fire",
+    "power": 15,
+    "url": "https://pokemondb.net/move/fire-spin",
+    "effect": "Traps the foe in a ring of fire for 2 to 5 turns."
+  },
+  {
+    "name": "Fissure",
+    "type": "ground",
+    "power": null,
+    "url": "https://pokemondb.net/move/fissure",
+    "effect": "A one-hit KO move that drops the foe in a fissure."
+  },
+  {
+    "name": "Flail",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/flail",
+    "effect": "Inflicts more damage when the user’s HP is down."
+  },
+  {
+    "name": "Flame Wheel",
+    "type": "fire",
+    "power": 60,
+    "url": "https://pokemondb.net/move/flame-wheel",
+    "effect": "A fiery charge attack that may inflict a burn."
+  },
+  {
+    "name": "Flamethrower",
+    "type": "fire",
+    "power": 95,
+    "url": "https://pokemondb.net/move/flamethrower",
+    "effect": "A powerful fire attack that may inflict a burn."
+  },
+  {
+    "name": "Flash",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/flash",
+    "effect": "Looses a powerful blast of light that cuts accuracy."
+  },
+  {
+    "name": "Flatter",
+    "type": "dark",
+    "power": null,
+    "url": "https://pokemondb.net/move/flatter",
+    "effect": "Confuses the foe, but raises its SP. ATK."
+  },
+  {
+    "name": "Fly",
+    "type": "flying",
+    "power": 70,
+    "url": "https://pokemondb.net/move/fly",
+    "effect": "Flies up on the first turn, then strikes the next turn."
+  },
+  {
+    "name": "Focus Energy",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/focus-energy",
+    "effect": "Focuses power to raise the critical-hit ratio."
+  },
+  {
+    "name": "Focus Punch",
+    "type": "fighting",
+    "power": 150,
+    "url": "https://pokemondb.net/move/focus-punch",
+    "effect": "A powerful loyalty attack. The user flinches if hit."
+  },
+  {
+    "name": "Follow Me",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/follow-me",
+    "effect": "Draws attention to make foes attack only the user."
+  },
+  {
+    "name": "Foresight",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/foresight",
+    "effect": "Negates the foe’s efforts to heighten evasiveness."
+  },
+  {
+    "name": "Frenzy Plant",
+    "type": "grass",
+    "power": 150,
+    "url": "https://pokemondb.net/move/frenzy-plant",
+    "effect": "Powerful, but leaves the user immobile the next turn."
+  },
+  {
+    "name": "Frustration",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/frustration",
+    "effect": "An attack that is stronger if the TRAINER is disliked."
+  },
+  {
+    "name": "Fury Attack",
+    "type": "normal",
+    "power": 15,
+    "url": "https://pokemondb.net/move/fury-attack",
+    "effect": "Jabs the foe 2 to 5 times with sharp horns, etc."
+  },
+  {
+    "name": "Fury Cutter",
+    "type": "bug",
+    "power": 10,
+    "url": "https://pokemondb.net/move/fury-cutter",
+    "effect": "An attack that intensifies on each successive hit."
+  },
+  {
+    "name": "Fury Swipes",
+    "type": "normal",
+    "power": 18,
+    "url": "https://pokemondb.net/move/fury-swipes",
+    "effect": "Rakes the foe with sharp claws, etc., 2 to 5 times."
+  },
+  {
+    "name": "Future Sight",
+    "type": "psychic",
+    "power": 80,
+    "url": "https://pokemondb.net/move/future-sight",
+    "effect": "Heightens inner power to strike 2 turns later."
+  },
+  {
+    "name": "Giga Drain",
+    "type": "grass",
+    "power": 60,
+    "url": "https://pokemondb.net/move/giga-drain",
+    "effect": "An attack that steals half the damage inflicted."
+  },
+  {
+    "name": "Glare",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/glare",
+    "effect": "Intimidates and frightens the foe into paralysis."
+  },
+  {
+    "name": "Grass Whistle",
+    "type": "grass",
+    "power": null,
+    "url": "https://pokemondb.net/move/grass-whistle",
+    "effect": "Lulls the foe into sleep with a pleasant melody."
+  },
+  {
+    "name": "Growl",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/growl",
+    "effect": "Growls cutely to reduce the foe’s ATTACK."
+  },
+  {
+    "name": "Growth",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/growth",
+    "effect": "Forces the body to grow and heightens SP. ATK."
+  },
+  {
+    "name": "Grudge",
+    "type": "ghost",
+    "power": null,
+    "url": "https://pokemondb.net/move/grudge",
+    "effect": "If the user faints, deletes all PP of foe’s last move."
+  },
+  {
+    "name": "Guillotine",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/guillotine",
+    "effect": "A powerful pincer attack that may cause fainting."
+  },
+  {
+    "name": "Gust",
+    "type": "flying",
+    "power": 40,
+    "url": "https://pokemondb.net/move/gust",
+    "effect": "Strikes the foe with a gust of wind whipped up by wings."
+  },
+  {
+    "name": "Hail",
+    "type": "ice",
+    "power": null,
+    "url": "https://pokemondb.net/move/hail",
+    "effect": "Summons a hailstorm that strikes every turn."
+  },
+  {
+    "name": "Harden",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/harden",
+    "effect": "Stiffens the body’s muscles to raise DEFENSE."
+  },
+  {
+    "name": "Haze",
+    "type": "ice",
+    "power": null,
+    "url": "https://pokemondb.net/move/haze",
+    "effect": "Creates a black haze that eliminates all stat changes."
+  },
+  {
+    "name": "Headbutt",
+    "type": "normal",
+    "power": 70,
+    "url": "https://pokemondb.net/move/headbutt",
+    "effect": "A ramming attack that may cause flinching."
+  },
+  {
+    "name": "Heal Bell",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/heal-bell",
+    "effect": "Chimes soothingly to heal all status abnormalities."
+  },
+  {
+    "name": "Heat Wave",
+    "type": "fire",
+    "power": 100,
+    "url": "https://pokemondb.net/move/heat-wave",
+    "effect": "Exhales a hot breath on the foe. May inflict a burn."
+  },
+  {
+    "name": "Helping Hand",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/helping-hand",
+    "effect": "Boosts the power of the recipient’s moves."
+  },
+  {
+    "name": "Hidden Power",
+    "type": "normal",
+    "power": 1,
+    "url": "https://pokemondb.net/move/hidden-power",
+    "effect": "The effectiveness varies with the user."
+  },
+  {
+    "name": "High Jump Kick",
+    "type": "fighting",
+    "power": 85,
+    "url": "https://pokemondb.net/move/high-jump-kick",
+    "effect": "A jumping knee kick. If it misses, the user is hurt."
+  },
+  {
+    "name": "Horn Attack",
+    "type": "normal",
+    "power": 65,
+    "url": "https://pokemondb.net/move/horn-attack",
+    "effect": "Jabs the foe with sharp horns."
+  },
+  {
+    "name": "Horn Drill",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/horn-drill",
+    "effect": "A one-hit KO attack that uses a horn like a drill."
+  },
+  {
+    "name": "Howl",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/howl",
+    "effect": "Howls to raise the spirit and boosts ATTACK."
+  },
+  {
+    "name": "Hydro Cannon",
+    "type": "water",
+    "power": 150,
+    "url": "https://pokemondb.net/move/hydro-cannon",
+    "effect": "Powerful, but leaves the user immobile the next turn."
+  },
+  {
+    "name": "Hydro Pump",
+    "type": "water",
+    "power": 120,
+    "url": "https://pokemondb.net/move/hydro-pump",
+    "effect": "Blasts water at high power to strike the foe."
+  },
+  {
+    "name": "Hyper Beam",
+    "type": "normal",
+    "power": 150,
+    "url": "https://pokemondb.net/move/hyper-beam",
+    "effect": "Powerful, but leaves the user immobile the next turn."
+  },
+  {
+    "name": "Hyper Fang",
+    "type": "normal",
+    "power": 80,
+    "url": "https://pokemondb.net/move/hyper-fang",
+    "effect": "Attacks with sharp fangs. May cause flinching."
+  },
+  {
+    "name": "Hyper Voice",
+    "type": "normal",
+    "power": 90,
+    "url": "https://pokemondb.net/move/hyper-voice",
+    "effect": "A loud attack that uses sound waves to injure."
+  },
+  {
+    "name": "Hypnosis",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/hypnosis",
+    "effect": "A hypnotizing move that may induce sleep."
+  },
+  {
+    "name": "Ice Ball",
+    "type": "ice",
+    "power": 30,
+    "url": "https://pokemondb.net/move/ice-ball",
+    "effect": "A 5-turn attack that gains power on successive hits."
+  },
+  {
+    "name": "Ice Beam",
+    "type": "ice",
+    "power": 95,
+    "url": "https://pokemondb.net/move/ice-beam",
+    "effect": "Blasts the foe with an icy beam that may freeze it."
+  },
+  {
+    "name": "Ice Punch",
+    "type": "ice",
+    "power": 75,
+    "url": "https://pokemondb.net/move/ice-punch",
+    "effect": "An icy punch that may freeze the foe."
+  },
+  {
+    "name": "Icicle Spear",
+    "type": "ice",
+    "power": 10,
+    "url": "https://pokemondb.net/move/icicle-spear",
+    "effect": "Attacks the foe by firing 2 to 5 icicles in a row."
+  },
+  {
+    "name": "Icy Wind",
+    "type": "ice",
+    "power": 55,
+    "url": "https://pokemondb.net/move/icy-wind",
+    "effect": "A chilling attack that lowers the foe’s SPEED."
+  },
+  {
+    "name": "Imprison",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/imprison",
+    "effect": "Prevents foes from using moves known by the user."
+  },
+  {
+    "name": "Ingrain",
+    "type": "grass",
+    "power": null,
+    "url": "https://pokemondb.net/move/ingrain",
+    "effect": "Lays roots that restore HP. The user can’t switch out."
+  },
+  {
+    "name": "Iron Defense",
+    "type": "steel",
+    "power": null,
+    "url": "https://pokemondb.net/move/iron-defense",
+    "effect": "Hardens the body’s surface to sharply raise DEFENSE."
+  },
+  {
+    "name": "Iron Tail",
+    "type": "steel",
+    "power": 100,
+    "url": "https://pokemondb.net/move/iron-tail",
+    "effect": "Attacks with a rock-hard tail. May lower DEFENSE."
+  },
+  {
+    "name": "Jump Kick",
+    "type": "fighting",
+    "power": 70,
+    "url": "https://pokemondb.net/move/jump-kick",
+    "effect": "A strong jumping kick. May miss and hurt the kicker."
+  },
+  {
+    "name": "Karate Chop",
+    "type": "fighting",
+    "power": 50,
+    "url": "https://pokemondb.net/move/karate-chop",
+    "effect": "A chopping attack with a high critical-hit ratio."
+  },
+  {
+    "name": "Kinesis",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/kinesis",
+    "effect": "Distracts the foe. May lower accuracy."
+  },
+  {
+    "name": "Knock Off",
+    "type": "dark",
+    "power": 20,
+    "url": "https://pokemondb.net/move/knock-off",
+    "effect": "Knocks down the foe’s held item to prevent its use."
+  },
+  {
+    "name": "Leaf Blade",
+    "type": "grass",
+    "power": 70,
+    "url": "https://pokemondb.net/move/leaf-blade",
+    "effect": "Slashes with a sharp leaf. High critical-hit ratio."
+  },
+  {
+    "name": "Leech Life",
+    "type": "bug",
+    "power": 20,
+    "url": "https://pokemondb.net/move/leech-life",
+    "effect": "An attack that steals half the damage inflicted."
+  },
+  {
+    "name": "Leech Seed",
+    "type": "grass",
+    "power": null,
+    "url": "https://pokemondb.net/move/leech-seed",
+    "effect": "Plants a seed on the foe to steal HP on every turn."
+  },
+  {
+    "name": "Leer",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/leer",
+    "effect": "Frightens the foe with a leer to lower DEFENSE."
+  },
+  {
+    "name": "Lick",
+    "type": "ghost",
+    "power": 20,
+    "url": "https://pokemondb.net/move/lick",
+    "effect": "Licks with a long tongue to injure. May also paralyze."
+  },
+  {
+    "name": "Light Screen",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/light-screen",
+    "effect": "Creates a wall of light that lowers SP. ATK damage."
+  },
+  {
+    "name": "Lock-On",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/lock-on",
+    "effect": "Locks on to the foe to ensure the next move hits."
+  },
+  {
+    "name": "Lovely Kiss",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/lovely-kiss",
+    "effect": "Demands a kiss with a scary face that induces sleep."
+  },
+  {
+    "name": "Low Kick",
+    "type": "fighting",
+    "power": null,
+    "url": "https://pokemondb.net/move/low-kick",
+    "effect": "A kick that inflicts more damage on heavier foes."
+  },
+  {
+    "name": "Luster Purge",
+    "type": "psychic",
+    "power": 70,
+    "url": "https://pokemondb.net/move/luster-purge",
+    "effect": "Attacks with a burst of light. May lower SP. DEF."
+  },
+  {
+    "name": "Mach Punch",
+    "type": "fighting",
+    "power": 40,
+    "url": "https://pokemondb.net/move/mach-punch",
+    "effect": "A punch is thrown at wicked speed to strike first."
+  },
+  {
+    "name": "Magic Coat",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/magic-coat",
+    "effect": "Reflects special effects back to the attacker."
+  },
+  {
+    "name": "Magical Leaf",
+    "type": "grass",
+    "power": 60,
+    "url": "https://pokemondb.net/move/magical-leaf",
+    "effect": "Attacks with a strange leaf that cannot be evaded."
+  },
+  {
+    "name": "Magnitude",
+    "type": "ground",
+    "power": null,
+    "url": "https://pokemondb.net/move/magnitude",
+    "effect": "A ground-shaking attack of random intensity."
+  },
+  {
+    "name": "Mean Look",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/mean-look",
+    "effect": "Fixes the foe with a mean look that prevents escape."
+  },
+  {
+    "name": "Meditate",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/meditate",
+    "effect": "Meditates in a peaceful fashion to raise ATTACK."
+  },
+  {
+    "name": "Mega Drain",
+    "type": "grass",
+    "power": 40,
+    "url": "https://pokemondb.net/move/mega-drain",
+    "effect": "An attack that absorbs half the damage inflicted."
+  },
+  {
+    "name": "Mega Kick",
+    "type": "normal",
+    "power": 120,
+    "url": "https://pokemondb.net/move/mega-kick",
+    "effect": "An extremely powerful kick with intense force."
+  },
+  {
+    "name": "Mega Punch",
+    "type": "normal",
+    "power": 80,
+    "url": "https://pokemondb.net/move/mega-punch",
+    "effect": "A strong punch thrown with incredible power."
+  },
+  {
+    "name": "Megahorn",
+    "type": "bug",
+    "power": 120,
+    "url": "https://pokemondb.net/move/megahorn",
+    "effect": "A brutal ramming attack using out-thrust horns."
+  },
+  {
+    "name": "Memento",
+    "type": "dark",
+    "power": null,
+    "url": "https://pokemondb.net/move/memento",
+    "effect": "The user faints and lowers the foe’s abilities."
+  },
+  {
+    "name": "Metal Claw",
+    "type": "steel",
+    "power": 50,
+    "url": "https://pokemondb.net/move/metal-claw",
+    "effect": "A claw attack that may raise the user’s ATTACK."
+  },
+  {
+    "name": "Metal Sound",
+    "type": "steel",
+    "power": null,
+    "url": "https://pokemondb.net/move/metal-sound",
+    "effect": "Emits a horrible screech that sharply lowers SP. DEF."
+  },
+  {
+    "name": "Meteor Mash",
+    "type": "steel",
+    "power": 100,
+    "url": "https://pokemondb.net/move/meteor-mash",
+    "effect": "Fires a meteor-like punch. May raise ATTACK."
+  },
+  {
+    "name": "Metronome",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/metronome",
+    "effect": "Waggles a finger to use any Pokémon move at random."
+  },
+  {
+    "name": "Milk Drink",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/milk-drink",
+    "effect": "Recovers up to half the user’s maximum HP."
+  },
+  {
+    "name": "Mimic",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/mimic",
+    "effect": "Copies a move used by the foe during one battle."
+  },
+  {
+    "name": "Mind Reader",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/mind-reader",
+    "effect": "Senses the foe’s action to ensure the next move’s hit."
+  },
+  {
+    "name": "Minimize",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/minimize",
+    "effect": "Minimizes the user’s size to raise evasiveness."
+  },
+  {
+    "name": "Mirror Coat",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/mirror-coat",
+    "effect": "Counters the foe’s special attack at double the power."
+  },
+  {
+    "name": "Mirror Move",
+    "type": "flying",
+    "power": null,
+    "url": "https://pokemondb.net/move/mirror-move",
+    "effect": "Counters the foe’s attack with the same move."
+  },
+  {
+    "name": "Mist",
+    "type": "ice",
+    "power": null,
+    "url": "https://pokemondb.net/move/mist",
+    "effect": "Creates a mist that stops reduction of abilities."
+  },
+  {
+    "name": "Mist Ball",
+    "type": "psychic",
+    "power": 70,
+    "url": "https://pokemondb.net/move/mist-ball",
+    "effect": "Attacks with a flurry of down. May lower SP. ATK."
+  },
+  {
+    "name": "Moonlight",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/moonlight",
+    "effect": "Restores HP. The amount varies with the weather."
+  },
+  {
+    "name": "Morning Sun",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/morning-sun",
+    "effect": "Restores HP. The amount varies with the weather."
+  },
+  {
+    "name": "Mud Shot",
+    "type": "ground",
+    "power": 55,
+    "url": "https://pokemondb.net/move/mud-shot",
+    "effect": "Hurls mud at the foe and reduces SPEED."
+  },
+  {
+    "name": "Mud Sport",
+    "type": "ground",
+    "power": null,
+    "url": "https://pokemondb.net/move/mud-sport",
+    "effect": "Covers the user in mud to raise electrical resistance."
+  },
+  {
+    "name": "Mud-Slap",
+    "type": "ground",
+    "power": 20,
+    "url": "https://pokemondb.net/move/mud-slap",
+    "effect": "Hurls mud in the foe’s face to reduce its accuracy."
+  },
+  {
+    "name": "Muddy Water",
+    "type": "water",
+    "power": 95,
+    "url": "https://pokemondb.net/move/muddy-water",
+    "effect": "Attacks with muddy water. May lower accuracy."
+  },
+  {
+    "name": "Nature Power",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/nature-power",
+    "effect": "The type of attack varies depending on the location."
+  },
+  {
+    "name": "Needle Arm",
+    "type": "grass",
+    "power": 60,
+    "url": "https://pokemondb.net/move/needle-arm",
+    "effect": "Attacks with thorny arms. May cause flinching."
+  },
+  {
+    "name": "Night Shade",
+    "type": "ghost",
+    "power": null,
+    "url": "https://pokemondb.net/move/night-shade",
+    "effect": "Inflicts damage identical to the user’s level."
+  },
+  {
+    "name": "Nightmare",
+    "type": "ghost",
+    "power": null,
+    "url": "https://pokemondb.net/move/nightmare",
+    "effect": "Inflicts 1/4 damage on a sleeping foe every turn."
+  },
+  {
+    "name": "Octazooka",
+    "type": "water",
+    "power": 65,
+    "url": "https://pokemondb.net/move/octazooka",
+    "effect": "Fires a lump of ink to damage and cut accuracy."
+  },
+  {
+    "name": "Odor Sleuth",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/odor-sleuth",
+    "effect": "Negates the foe’s efforts to heighten evasiveness."
+  },
+  {
+    "name": "Outrage",
+    "type": "dragon",
+    "power": 90,
+    "url": "https://pokemondb.net/move/outrage",
+    "effect": "A rampage of 2 to 3 turns that confuses the user."
+  },
+  {
+    "name": "Overheat",
+    "type": "fire",
+    "power": 140,
+    "url": "https://pokemondb.net/move/overheat",
+    "effect": "Allows a full-power attack, but sharply lowers SP. ATK."
+  },
+  {
+    "name": "Pain Split",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/pain-split",
+    "effect": "Adds the user and foe’s HP, then shares them equally."
+  },
+  {
+    "name": "Pay Day",
+    "type": "normal",
+    "power": 40,
+    "url": "https://pokemondb.net/move/pay-day",
+    "effect": "Throws coins at the foe. Money is recovered after."
+  },
+  {
+    "name": "Peck",
+    "type": "flying",
+    "power": 35,
+    "url": "https://pokemondb.net/move/peck",
+    "effect": "Attacks the foe with a jabbing beak, etc."
+  },
+  {
+    "name": "Perish Song",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/perish-song",
+    "effect": "Any Pokémon hearing this song faints in 3 turns."
+  },
+  {
+    "name": "Petal Dance",
+    "type": "grass",
+    "power": 70,
+    "url": "https://pokemondb.net/move/petal-dance",
+    "effect": "A rampage of 2 to 3 turns that confuses the user."
+  },
+  {
+    "name": "Pin Missile",
+    "type": "bug",
+    "power": 14,
+    "url": "https://pokemondb.net/move/pin-missile",
+    "effect": "Sharp pins are fired to strike 2 to 5 times."
+  },
+  {
+    "name": "Poison Fang",
+    "type": "poison",
+    "power": 50,
+    "url": "https://pokemondb.net/move/poison-fang",
+    "effect": "A sharp-fanged attack. May badly poison the foe."
+  },
+  {
+    "name": "Poison Gas",
+    "type": "poison",
+    "power": null,
+    "url": "https://pokemondb.net/move/poison-gas",
+    "effect": "Envelops the foe in a toxic gas that may poison."
+  },
+  {
+    "name": "Poison Powder",
+    "type": "poison",
+    "power": null,
+    "url": "https://pokemondb.net/move/poison-powder",
+    "effect": "Scatters a toxic powder that may poison the foe."
+  },
+  {
+    "name": "Poison Sting",
+    "type": "poison",
+    "power": 15,
+    "url": "https://pokemondb.net/move/poison-sting",
+    "effect": "A toxic attack with barbs, etc., that may poison."
+  },
+  {
+    "name": "Poison Tail",
+    "type": "poison",
+    "power": 50,
+    "url": "https://pokemondb.net/move/poison-tail",
+    "effect": "Has a high critical-hit ratio. May also poison."
+  },
+  {
+    "name": "Pound",
+    "type": "normal",
+    "power": 40,
+    "url": "https://pokemondb.net/move/pound",
+    "effect": "Pounds the foe with forelegs or tail."
+  },
+  {
+    "name": "Powder Snow",
+    "type": "ice",
+    "power": 40,
+    "url": "https://pokemondb.net/move/powder-snow",
+    "effect": "Blasts the foe with a snowy gust. May cause freezing."
+  },
+  {
+    "name": "Present",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/present",
+    "effect": "A gift in the form of a bomb. May restore HP."
+  },
+  {
+    "name": "Protect",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/protect",
+    "effect": "Evades attack, but may fail if used in succession."
+  },
+  {
+    "name": "Psybeam",
+    "type": "psychic",
+    "power": 65,
+    "url": "https://pokemondb.net/move/psybeam",
+    "effect": "Fires a peculiar ray that may confuse the foe."
+  },
+  {
+    "name": "Psych Up",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/psych-up",
+    "effect": "Copies the foe’s effect(s) and gives to the user."
+  },
+  {
+    "name": "Psychic",
+    "type": "psychic",
+    "power": 90,
+    "url": "https://pokemondb.net/move/psychic",
+    "effect": "A powerful psychic attack that may lower SP. DEF."
+  },
+  {
+    "name": "Psycho Boost",
+    "type": "psychic",
+    "power": 140,
+    "url": "https://pokemondb.net/move/psycho-boost",
+    "effect": "Allows a full-power attack, but sharply lowers SP. ATK."
+  },
+  {
+    "name": "Psywave",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/psywave",
+    "effect": "Attacks with a psychic wave of varying intensity."
+  },
+  {
+    "name": "Pursuit",
+    "type": "dark",
+    "power": 40,
+    "url": "https://pokemondb.net/move/pursuit",
+    "effect": "Inflicts bad damage if used on a foe switching out."
+  },
+  {
+    "name": "Quick Attack",
+    "type": "normal",
+    "power": 40,
+    "url": "https://pokemondb.net/move/quick-attack",
+    "effect": "An extremely fast attack that always strikes first."
+  },
+  {
+    "name": "Rage",
+    "type": "normal",
+    "power": 20,
+    "url": "https://pokemondb.net/move/rage",
+    "effect": "Raises the user’s ATTACK every time it is hit."
+  },
+  {
+    "name": "Rain Dance",
+    "type": "water",
+    "power": null,
+    "url": "https://pokemondb.net/move/rain-dance",
+    "effect": "Boosts the power of WATER-type moves for 5 turns."
+  },
+  {
+    "name": "Rapid Spin",
+    "type": "normal",
+    "power": 20,
+    "url": "https://pokemondb.net/move/rapid-spin",
+    "effect": "Spins the body at high speed to strike the foe."
+  },
+  {
+    "name": "Razor Leaf",
+    "type": "grass",
+    "power": 55,
+    "url": "https://pokemondb.net/move/razor-leaf",
+    "effect": "Cuts the enemy with leaves. High critical-hit ratio."
+  },
+  {
+    "name": "Razor Wind",
+    "type": "normal",
+    "power": 80,
+    "url": "https://pokemondb.net/move/razor-wind",
+    "effect": "A 2-turn move that strikes the foe on the 2nd turn."
+  },
+  {
+    "name": "Recover",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/recover",
+    "effect": "Recovers up to half the user’s maximum HP."
+  },
+  {
+    "name": "Recycle",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/recycle",
+    "effect": "Recycles a used item for one more use."
+  },
+  {
+    "name": "Reflect",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/reflect",
+    "effect": "Creates a wall of light that weakens physical attacks."
+  },
+  {
+    "name": "Refresh",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/refresh",
+    "effect": "Heals poisoning, paralysis, or a burn."
+  },
+  {
+    "name": "Rest",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/rest",
+    "effect": "The user sleeps for 2 turns, restoring HP and status."
+  },
+  {
+    "name": "Return",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/return",
+    "effect": "An attack that increases in power with friendship."
+  },
+  {
+    "name": "Revenge",
+    "type": "fighting",
+    "power": 60,
+    "url": "https://pokemondb.net/move/revenge",
+    "effect": "An attack that gains power if injured by the foe."
+  },
+  {
+    "name": "Reversal",
+    "type": "fighting",
+    "power": null,
+    "url": "https://pokemondb.net/move/reversal",
+    "effect": "Inflicts more damage when the user’s HP is down."
+  },
+  {
+    "name": "Roar",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/roar",
+    "effect": "Makes the foe flee to end the battle."
+  },
+  {
+    "name": "Rock Blast",
+    "type": "rock",
+    "power": 25,
+    "url": "https://pokemondb.net/move/rock-blast",
+    "effect": "Hurls boulders at the foe 2 to 5 times in a row."
+  },
+  {
+    "name": "Rock Slide",
+    "type": "rock",
+    "power": 75,
+    "url": "https://pokemondb.net/move/rock-slide",
+    "effect": "Large boulders are hurled. May cause flinching."
+  },
+  {
+    "name": "Rock Smash",
+    "type": "fighting",
+    "power": 20,
+    "url": "https://pokemondb.net/move/rock-smash",
+    "effect": "A rock-crushing attack that may lower DEFENSE."
+  },
+  {
+    "name": "Rock Throw",
+    "type": "rock",
+    "power": 50,
+    "url": "https://pokemondb.net/move/rock-throw",
+    "effect": "Throws small rocks to strike the foe."
+  },
+  {
+    "name": "Rock Tomb",
+    "type": "rock",
+    "power": 50,
+    "url": "https://pokemondb.net/move/rock-tomb",
+    "effect": "Stops the foe from moving with rocks and cuts SPEED."
+  },
+  {
+    "name": "Role Play",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/role-play",
+    "effect": "Mimics the target and copies its special ability."
+  },
+  {
+    "name": "Rolling Kick",
+    "type": "fighting",
+    "power": 60,
+    "url": "https://pokemondb.net/move/rolling-kick",
+    "effect": "A fast kick delivered from a rapid spin."
+  },
+  {
+    "name": "Rollout",
+    "type": "rock",
+    "power": 30,
+    "url": "https://pokemondb.net/move/rollout",
+    "effect": "An attack lasting 5 turns with rising intensity."
+  },
+  {
+    "name": "Sacred Fire",
+    "type": "fire",
+    "power": 100,
+    "url": "https://pokemondb.net/move/sacred-fire",
+    "effect": "A mystical fire attack that may inflict a burn."
+  },
+  {
+    "name": "Safeguard",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/safeguard",
+    "effect": "A mystical force prevents all status problems."
+  },
+  {
+    "name": "Sand Attack",
+    "type": "ground",
+    "power": null,
+    "url": "https://pokemondb.net/move/sand-attack",
+    "effect": "Reduces the foe’s accuracy by hurling sand in its face."
+  },
+  {
+    "name": "Sand Tomb",
+    "type": "ground",
+    "power": 15,
+    "url": "https://pokemondb.net/move/sand-tomb",
+    "effect": "Traps and hurts the foe in quicksand for 2 to 5 turns."
+  },
+  {
+    "name": "Sandstorm",
+    "type": "rock",
+    "power": null,
+    "url": "https://pokemondb.net/move/sandstorm",
+    "effect": "Causes a sandstorm that rages for several turns."
+  },
+  {
+    "name": "Scary Face",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/scary-face",
+    "effect": "Frightens with a scary face to sharply reduce SPEED."
+  },
+  {
+    "name": "Scratch",
+    "type": "normal",
+    "power": 40,
+    "url": "https://pokemondb.net/move/scratch",
+    "effect": "Scratches the foe with sharp claws."
+  },
+  {
+    "name": "Screech",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/screech",
+    "effect": "Emits a screech to sharply reduce the foe’s DEFENSE."
+  },
+  {
+    "name": "Secret Power",
+    "type": "normal",
+    "power": 70,
+    "url": "https://pokemondb.net/move/secret-power",
+    "effect": "An attack with effects that vary by location."
+  },
+  {
+    "name": "Seismic Toss",
+    "type": "fighting",
+    "power": null,
+    "url": "https://pokemondb.net/move/seismic-toss",
+    "effect": "Inflicts damage identical to the user’s level."
+  },
+  {
+    "name": "Self-Destruct",
+    "type": "normal",
+    "power": 200,
+    "url": "https://pokemondb.net/move/self-destruct",
+    "effect": "Inflicts severe damage but makes the user faint."
+  },
+  {
+    "name": "Shadow Ball",
+    "type": "ghost",
+    "power": 80,
+    "url": "https://pokemondb.net/move/shadow-ball",
+    "effect": "Hurls a black blob that may lower the foe’s SP. DEF."
+  },
+  {
+    "name": "Shadow Punch",
+    "type": "ghost",
+    "power": 60,
+    "url": "https://pokemondb.net/move/shadow-punch",
+    "effect": "An unavoidable punch that is thrown from shadows."
+  },
+  {
+    "name": "Sharpen",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/sharpen",
+    "effect": "Reduces the polygon count and raises ATTACK."
+  },
+  {
+    "name": "Sheer Cold",
+    "type": "ice",
+    "power": null,
+    "url": "https://pokemondb.net/move/sheer-cold",
+    "effect": "A chilling attack that causes fainting if it hits."
+  },
+  {
+    "name": "Shock Wave",
+    "type": "electric",
+    "power": 60,
+    "url": "https://pokemondb.net/move/shock-wave",
+    "effect": "A fast and unavoidable electric attack."
+  },
+  {
+    "name": "Signal Beam",
+    "type": "bug",
+    "power": 75,
+    "url": "https://pokemondb.net/move/signal-beam",
+    "effect": "A strange beam attack that may confuse the foe."
+  },
+  {
+    "name": "Silver Wind",
+    "type": "bug",
+    "power": 60,
+    "url": "https://pokemondb.net/move/silver-wind",
+    "effect": "A powdery attack that may raise abilities."
+  },
+  {
+    "name": "Sing",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/sing",
+    "effect": "A soothing song lulls the foe into a deep slumber."
+  },
+  {
+    "name": "Sketch",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/sketch",
+    "effect": "Copies the foe’s last move permanently."
+  },
+  {
+    "name": "Skill Swap",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/skill-swap",
+    "effect": "The user swaps special abilities with the target."
+  },
+  {
+    "name": "Skull Bash",
+    "type": "normal",
+    "power": 100,
+    "url": "https://pokemondb.net/move/skull-bash",
+    "effect": "Tucks in the head, then attacks on the next turn."
+  },
+  {
+    "name": "Sky Attack",
+    "type": "flying",
+    "power": 140,
+    "url": "https://pokemondb.net/move/sky-attack",
+    "effect": "Searches out weak spots, then strikes the next turn."
+  },
+  {
+    "name": "Sky Uppercut",
+    "type": "fighting",
+    "power": 85,
+    "url": "https://pokemondb.net/move/sky-uppercut",
+    "effect": "An uppercut thrown as if leaping into the sky."
+  },
+  {
+    "name": "Slack Off",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/slack-off",
+    "effect": "Slacks off and restores half the maximum HP."
+  },
+  {
+    "name": "Slam",
+    "type": "normal",
+    "power": 80,
+    "url": "https://pokemondb.net/move/slam",
+    "effect": "Slams the foe with a long tail, vine, etc."
+  },
+  {
+    "name": "Slash",
+    "type": "normal",
+    "power": 70,
+    "url": "https://pokemondb.net/move/slash",
+    "effect": "Slashes with claws, etc. Has a high critical-hit ratio."
+  },
+  {
+    "name": "Sleep Powder",
+    "type": "grass",
+    "power": null,
+    "url": "https://pokemondb.net/move/sleep-powder",
+    "effect": "Scatters a powder that may cause the foe to sleep."
+  },
+  {
+    "name": "Sleep Talk",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/sleep-talk",
+    "effect": "Uses an available move randomly while asleep."
+  },
+  {
+    "name": "Sludge",
+    "type": "poison",
+    "power": 65,
+    "url": "https://pokemondb.net/move/sludge",
+    "effect": "Sludge is hurled to inflict damage. May also poison."
+  },
+  {
+    "name": "Sludge Bomb",
+    "type": "poison",
+    "power": 90,
+    "url": "https://pokemondb.net/move/sludge-bomb",
+    "effect": "Sludge is hurled to inflict damage. May also poison."
+  },
+  {
+    "name": "Smelling Salts",
+    "type": "normal",
+    "power": 60,
+    "url": "https://pokemondb.net/move/smelling-salts",
+    "effect": "Powerful against paralyzed foes, but also heals them."
+  },
+  {
+    "name": "Smog",
+    "type": "poison",
+    "power": 20,
+    "url": "https://pokemondb.net/move/smog",
+    "effect": "An exhaust-gas attack that may also poison."
+  },
+  {
+    "name": "Smokescreen",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/smokescreen",
+    "effect": "Lowers the foe’s accuracy using smoke, ink, etc."
+  },
+  {
+    "name": "Snatch",
+    "type": "dark",
+    "power": null,
+    "url": "https://pokemondb.net/move/snatch",
+    "effect": "Steals the effects of the move the target uses next."
+  },
+  {
+    "name": "Snore",
+    "type": "normal",
+    "power": 40,
+    "url": "https://pokemondb.net/move/snore",
+    "effect": "A loud attack that can be used only while asleep."
+  },
+  {
+    "name": "Soft-Boiled",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/soft-boiled",
+    "effect": "Recovers up to half the user’s maximum HP."
+  },
+  {
+    "name": "Solar Beam",
+    "type": "grass",
+    "power": 120,
+    "url": "https://pokemondb.net/move/solar-beam",
+    "effect": "Absorbs light in one turn, then attacks next turn."
+  },
+  {
+    "name": "Sonic Boom",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/sonic-boom",
+    "effect": "Launches shock waves that always inflict 20 HP damage."
+  },
+  {
+    "name": "Spark",
+    "type": "electric",
+    "power": 65,
+    "url": "https://pokemondb.net/move/spark",
+    "effect": "An electrified tackle that may paralyze the foe."
+  },
+  {
+    "name": "Spider Web",
+    "type": "bug",
+    "power": null,
+    "url": "https://pokemondb.net/move/spider-web",
+    "effect": "Ensnares the foe to stop it from fleeing or switching."
+  },
+  {
+    "name": "Spike Cannon",
+    "type": "normal",
+    "power": 20,
+    "url": "https://pokemondb.net/move/spike-cannon",
+    "effect": "Launches sharp spikes that strike 2 to 5 times."
+  },
+  {
+    "name": "Spikes",
+    "type": "ground",
+    "power": null,
+    "url": "https://pokemondb.net/move/spikes",
+    "effect": "Sets spikes that hurt a foe switching in."
+  },
+  {
+    "name": "Spit Up",
+    "type": "normal",
+    "power": 100,
+    "url": "https://pokemondb.net/move/spit-up",
+    "effect": "Releases stockpiled power (the more the better)."
+  },
+  {
+    "name": "Spite",
+    "type": "ghost",
+    "power": null,
+    "url": "https://pokemondb.net/move/spite",
+    "effect": "Spitefully cuts the PP of the foe’s last move."
+  },
+  {
+    "name": "Splash",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/splash",
+    "effect": "It’s just a splash... Has no effect whatsoever."
+  },
+  {
+    "name": "Spore",
+    "type": "grass",
+    "power": null,
+    "url": "https://pokemondb.net/move/spore",
+    "effect": "Scatters a cloud of spores that always induce sleep."
+  },
+  {
+    "name": "Steel Wing",
+    "type": "steel",
+    "power": 70,
+    "url": "https://pokemondb.net/move/steel-wing",
+    "effect": "Strikes the foe with hard wings spread wide."
+  },
+  {
+    "name": "Stockpile",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/stockpile",
+    "effect": "Charges up power for up to 3 turns."
+  },
+  {
+    "name": "Stomp",
+    "type": "normal",
+    "power": 65,
+    "url": "https://pokemondb.net/move/stomp",
+    "effect": "Stomps the enemy with a big foot. May cause flinching."
+  },
+  {
+    "name": "Strength",
+    "type": "normal",
+    "power": 80,
+    "url": "https://pokemondb.net/move/strength",
+    "effect": "Builds enormous power, then slams the foe."
+  },
+  {
+    "name": "String Shot",
+    "type": "bug",
+    "power": null,
+    "url": "https://pokemondb.net/move/string-shot",
+    "effect": "Binds the foe with string to reduce its SPEED."
+  },
+  {
+    "name": "Struggle",
+    "type": "normal",
+    "power": 50,
+    "url": "https://pokemondb.net/move/struggle",
+    "effect": "Used only if all PP are gone. Also hurts the user a little."
+  },
+  {
+    "name": "Stun Spore",
+    "type": "grass",
+    "power": null,
+    "url": "https://pokemondb.net/move/stun-spore",
+    "effect": "Scatters a powder that may paralyze the foe."
+  },
+  {
+    "name": "Submission",
+    "type": "fighting",
+    "power": 80,
+    "url": "https://pokemondb.net/move/submission",
+    "effect": "A reckless body slam that also hurts the user."
+  },
+  {
+    "name": "Substitute",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/substitute",
+    "effect": "Creates a decoy using 1/4 of the user’s maximum HP."
+  },
+  {
+    "name": "Sunny Day",
+    "type": "fire",
+    "power": null,
+    "url": "https://pokemondb.net/move/sunny-day",
+    "effect": "Boosts the power of FIRE-type moves for 5 turns."
+  },
+  {
+    "name": "Super Fang",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/super-fang",
+    "effect": "Attacks with sharp fangs and cuts half the foe’s HP."
+  },
+  {
+    "name": "Superpower",
+    "type": "fighting",
+    "power": 120,
+    "url": "https://pokemondb.net/move/superpower",
+    "effect": "Boosts strength sharply, but lowers abilities."
+  },
+  {
+    "name": "Supersonic",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/supersonic",
+    "effect": "Emits bizarre sound waves that may confuse the foe."
+  },
+  {
+    "name": "Surf",
+    "type": "water",
+    "power": 95,
+    "url": "https://pokemondb.net/move/surf",
+    "effect": "Creates a huge wave, then crashes it down on the foe."
+  },
+  {
+    "name": "Swagger",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/swagger",
+    "effect": "Confuses the foe, but also sharply raises ATTACK."
+  },
+  {
+    "name": "Swallow",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/swallow",
+    "effect": "Absorbs stockpiled power and restores HP."
+  },
+  {
+    "name": "Sweet Kiss",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/sweet-kiss",
+    "effect": "Demands a kiss with a cute look. May cause confusion."
+  },
+  {
+    "name": "Sweet Scent",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/sweet-scent",
+    "effect": "Allures the foe to reduce evasiveness."
+  },
+  {
+    "name": "Swift",
+    "type": "normal",
+    "power": 60,
+    "url": "https://pokemondb.net/move/swift",
+    "effect": "Sprays star-shaped rays that never miss."
+  },
+  {
+    "name": "Swords Dance",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/swords-dance",
+    "effect": "A fighting dance that sharply raises ATTACK."
+  },
+  {
+    "name": "Synthesis",
+    "type": "grass",
+    "power": null,
+    "url": "https://pokemondb.net/move/synthesis",
+    "effect": "Restores HP. The amount varies with the weather."
+  },
+  {
+    "name": "Tackle",
+    "type": "normal",
+    "power": 35,
+    "url": "https://pokemondb.net/move/tackle",
+    "effect": "Charges the foe with a full-body tackle."
+  },
+  {
+    "name": "Tail Glow",
+    "type": "bug",
+    "power": null,
+    "url": "https://pokemondb.net/move/tail-glow",
+    "effect": "Flashes a light that sharply raises SP. ATK."
+  },
+  {
+    "name": "Tail Whip",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/tail-whip",
+    "effect": "Wags the tail to lower the foe’s DEFENSE."
+  },
+  {
+    "name": "Take Down",
+    "type": "normal",
+    "power": 90,
+    "url": "https://pokemondb.net/move/take-down",
+    "effect": "A reckless charge attack that also hurts the user."
+  },
+  {
+    "name": "Taunt",
+    "type": "dark",
+    "power": null,
+    "url": "https://pokemondb.net/move/taunt",
+    "effect": "Taunts the foe into only using attack moves."
+  },
+  {
+    "name": "Teeter Dance",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/teeter-dance",
+    "effect": "Confuses all Pokémon on the scene."
+  },
+  {
+    "name": "Teleport",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/teleport",
+    "effect": "A psychic move for fleeing from battle instantly."
+  },
+  {
+    "name": "Thief",
+    "type": "dark",
+    "power": 40,
+    "url": "https://pokemondb.net/move/thief",
+    "effect": "While attacking, it may steal the foe’s held item."
+  },
+  {
+    "name": "Thrash",
+    "type": "normal",
+    "power": 90,
+    "url": "https://pokemondb.net/move/thrash",
+    "effect": "A rampage of 2 to 3 turns that confuses the user."
+  },
+  {
+    "name": "Thunder",
+    "type": "electric",
+    "power": 120,
+    "url": "https://pokemondb.net/move/thunder",
+    "effect": "A lightning attack that may cause paralysis."
+  },
+  {
+    "name": "Thunder Punch",
+    "type": "electric",
+    "power": 75,
+    "url": "https://pokemondb.net/move/thunder-punch",
+    "effect": "An electrified punch that may paralyze the foe."
+  },
+  {
+    "name": "Thunder Shock",
+    "type": "electric",
+    "power": 40,
+    "url": "https://pokemondb.net/move/thunder-shock",
+    "effect": "An electrical attack that may paralyze the foe."
+  },
+  {
+    "name": "Thunder Wave",
+    "type": "electric",
+    "power": null,
+    "url": "https://pokemondb.net/move/thunder-wave",
+    "effect": "A weak jolt of electricity that paralyzes the foe."
+  },
+  {
+    "name": "Thunderbolt",
+    "type": "electric",
+    "power": 95,
+    "url": "https://pokemondb.net/move/thunderbolt",
+    "effect": "A strong electrical attack that may paralyze the foe."
+  },
+  {
+    "name": "Tickle",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/tickle",
+    "effect": "Makes the foe laugh to lower ATTACK and DEFENSE."
+  },
+  {
+    "name": "Torment",
+    "type": "dark",
+    "power": null,
+    "url": "https://pokemondb.net/move/torment",
+    "effect": "Torments the foe and stops successive use of a move."
+  },
+  {
+    "name": "Toxic",
+    "type": "poison",
+    "power": null,
+    "url": "https://pokemondb.net/move/toxic",
+    "effect": "Poisons the foe with an intensifying toxin."
+  },
+  {
+    "name": "Transform",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/transform",
+    "effect": "Alters the user’s cells to become a copy of the foe."
+  },
+  {
+    "name": "Tri Attack",
+    "type": "normal",
+    "power": 80,
+    "url": "https://pokemondb.net/move/tri-attack",
+    "effect": "Fires three types of beams at the same time."
+  },
+  {
+    "name": "Trick",
+    "type": "psychic",
+    "power": null,
+    "url": "https://pokemondb.net/move/trick",
+    "effect": "Tricks the foe into trading held items."
+  },
+  {
+    "name": "Triple Kick",
+    "type": "fighting",
+    "power": 10,
+    "url": "https://pokemondb.net/move/triple-kick",
+    "effect": "Kicks the foe 3 times in a row with rising intensity."
+  },
+  {
+    "name": "Twineedle",
+    "type": "bug",
+    "power": 25,
+    "url": "https://pokemondb.net/move/twineedle",
+    "effect": "Stingers on the forelegs jab the foe twice."
+  },
+  {
+    "name": "Twister",
+    "type": "dragon",
+    "power": 40,
+    "url": "https://pokemondb.net/move/twister",
+    "effect": "Whips up a vicious twister to tear at the foe."
+  },
+  {
+    "name": "Uproar",
+    "type": "normal",
+    "power": 50,
+    "url": "https://pokemondb.net/move/uproar",
+    "effect": "Causes an uproar for 2 to 5 turns and prevents sleep."
+  },
+  {
+    "name": "Vine Whip",
+    "type": "grass",
+    "power": 35,
+    "url": "https://pokemondb.net/move/vine-whip",
+    "effect": "Strikes the foe with slender, whiplike vines."
+  },
+  {
+    "name": "Vise Grip",
+    "type": "normal",
+    "power": 55,
+    "url": "https://pokemondb.net/move/vice-grip",
+    "effect": "Grips the foe with large and powerful pincers."
+  },
+  {
+    "name": "Vital Throw",
+    "type": "fighting",
+    "power": 70,
+    "url": "https://pokemondb.net/move/vital-throw",
+    "effect": "Makes the user’s move last, but it never misses."
+  },
+  {
+    "name": "Volt Tackle",
+    "type": "electric",
+    "power": 120,
+    "url": "https://pokemondb.net/move/volt-tackle",
+    "effect": "A life-risking tackle that slightly hurts the user."
+  },
+  {
+    "name": "Water Gun",
+    "type": "water",
+    "power": 40,
+    "url": "https://pokemondb.net/move/water-gun",
+    "effect": "Squirts water to attack the foe."
+  },
+  {
+    "name": "Water Pulse",
+    "type": "water",
+    "power": 60,
+    "url": "https://pokemondb.net/move/water-pulse",
+    "effect": "Attacks with ultrasonic waves. May confuse the foe."
+  },
+  {
+    "name": "Water Sport",
+    "type": "water",
+    "power": null,
+    "url": "https://pokemondb.net/move/water-sport",
+    "effect": "The user becomes soaked to raise resistance to fire."
+  },
+  {
+    "name": "Water Spout",
+    "type": "water",
+    "power": 150,
+    "url": "https://pokemondb.net/move/water-spout",
+    "effect": "Inflicts more damage if the user’s HP is high."
+  },
+  {
+    "name": "Waterfall",
+    "type": "water",
+    "power": 80,
+    "url": "https://pokemondb.net/move/waterfall",
+    "effect": "Charges the foe with speed to climb waterfalls."
+  },
+  {
+    "name": "Weather Ball",
+    "type": "normal",
+    "power": 50,
+    "url": "https://pokemondb.net/move/weather-ball",
+    "effect": "The move’s type and power change with the weather."
+  },
+  {
+    "name": "Whirlpool",
+    "type": "water",
+    "power": 15,
+    "url": "https://pokemondb.net/move/whirlpool",
+    "effect": "Traps and hurts the foe in a whirlpool for 2 to 5 turns."
+  },
+  {
+    "name": "Whirlwind",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/whirlwind",
+    "effect": "Blows away the foe with wind and ends the battle."
+  },
+  {
+    "name": "Will-O-Wisp",
+    "type": "fire",
+    "power": null,
+    "url": "https://pokemondb.net/move/will-o-wisp",
+    "effect": "Inflicts a burn on the foe with intense fire."
+  },
+  {
+    "name": "Wing Attack",
+    "type": "flying",
+    "power": 60,
+    "url": "https://pokemondb.net/move/wing-attack",
+    "effect": "Strikes the foe with wings spread wide."
+  },
+  {
+    "name": "Wish",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/wish",
+    "effect": "A wish that restores HP. It takes time to work."
+  },
+  {
+    "name": "Withdraw",
+    "type": "water",
+    "power": null,
+    "url": "https://pokemondb.net/move/withdraw",
+    "effect": "Withdraws the body into its hard shell to raise DEFENSE."
+  },
+  {
+    "name": "Wrap",
+    "type": "normal",
+    "power": 15,
+    "url": "https://pokemondb.net/move/wrap",
+    "effect": "Wraps and squeezes the foe 2 to 5 times with vines, etc."
+  },
+  {
+    "name": "Yawn",
+    "type": "normal",
+    "power": null,
+    "url": "https://pokemondb.net/move/yawn",
+    "effect": "Lulls the foe into yawning, then sleeping next turn."
+  },
+  {
+    "name": "Zap Cannon",
+    "type": "electric",
+    "power": 100,
+    "url": "https://pokemondb.net/move/zap-cannon",
+    "effect": "Powerful and sure to cause paralysis, but inaccurate."
+  }
+]
