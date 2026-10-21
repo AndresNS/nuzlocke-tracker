@@ -25,8 +25,15 @@ export interface Item {
 
 export interface Move {
   name: string;
+  type: PokemonType;
+  power: number | null;
   url: string;
+  effect: string;
 }
+
+export const STAT_KEYS = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'] as const;
+export type StatKey = (typeof STAT_KEYS)[number];
+export type Stats = Record<StatKey, number>;
 
 export interface BasePokemon {
   id: string;
@@ -37,21 +44,12 @@ export interface BasePokemon {
 export interface TrainerPokemon extends BasePokemon {
   sprite: string;
   level: number;
-  item: Item;
+  item?: Item;
   moves: Move[];
+  stats: Stats;
 }
 
 export interface Location {
   id: string;
   name: string;
-}
-
-export interface Gym {
-  location: Location;
-  leader: string;
-  isDouble: boolean;
-  type: PokemonType;
-  badge: string;
-  sprite: string;
-  team: TrainerPokemon[];
 }

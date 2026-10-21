@@ -28,7 +28,7 @@ export default defineConfig([
       importX.flatConfigs.typescript,
       jsxA11y.flatConfigs.recommended,
       eslintPluginTailwindcss.configs['flat/recommended'] ||
-      eslintPluginTailwindcss.configs.recommended,
+        eslintPluginTailwindcss.configs.recommended,
       eslintConfigPrettier,
     ],
     plugins: {
@@ -57,6 +57,11 @@ export default defineConfig([
               target: './src/features/encounters',
               from: './src/features/',
               except: ['./encounters'],
+            },
+            {
+              target: './src/features/gyms',
+              from: './src/features/',
+              except: ['./gyms'],
             },
             {
               target: [
