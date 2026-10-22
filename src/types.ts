@@ -1,3 +1,5 @@
+import type { STAT_KEYS } from './constants';
+
 export type PokemonType =
   | 'normal'
   | 'fire'
@@ -31,7 +33,6 @@ export interface Move {
   effect: string;
 }
 
-export const STAT_KEYS = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'] as const;
 export type StatKey = (typeof STAT_KEYS)[number];
 export type Stats = Record<StatKey, number>;
 

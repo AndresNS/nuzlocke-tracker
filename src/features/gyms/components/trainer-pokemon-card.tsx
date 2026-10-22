@@ -1,6 +1,7 @@
 import { Card } from '@heroui/react';
 
-import { STAT_KEYS, type TrainerPokemon } from '@/types';
+import { STAT_KEYS } from '@/constants';
+import { type TrainerPokemon } from '@/types';
 
 import PokemonMove from './pokemon-move';
 import PokemonStatBar from './pokemon-stat-bar';

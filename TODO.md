@@ -5,6 +5,7 @@
 ### Encounters
 
 - add trade encounter section
+- fix routeslist initial value in expandedkeys
 
 ### Items
 
