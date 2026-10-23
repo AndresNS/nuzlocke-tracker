@@ -1,7 +1,7 @@
 import { ROUTE_STATUS, type Method } from '../constants';
 import type { PokemonEncounter, Route } from '../types';
 
-import RouteChoiceButton from './route-choice-button';
+import { RouteChoiceButton } from './route-choice-button';
 
 interface RouteRowExceptionsProps {
   routeId: Route['id'];
@@ -20,7 +20,7 @@ interface RouteRowExceptionsProps {
   ) => void;
 }
 
-const RouteRowExceptions: React.FC<RouteRowExceptionsProps> = ({
+export const RouteRowExceptions: React.FC<RouteRowExceptionsProps> = ({
   routeId,
   isChoiceDisabled,
   handleChoiceButtonClick,
@@ -45,5 +45,3 @@ const RouteRowExceptions: React.FC<RouteRowExceptionsProps> = ({
     </div>
   );
 };
-
-export default RouteRowExceptions;

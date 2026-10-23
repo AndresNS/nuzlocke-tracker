@@ -6,8 +6,6 @@ interface TypeBadgeProps {
   type: PokemonType;
 }
 
-const TypeBadge: React.FC<TypeBadgeProps> = ({ type }) => {
+export const TypeBadge: React.FC<TypeBadgeProps> = ({ type }) => {
   return <Chip key={type}>{type}</Chip>;
 };
-
-export default TypeBadge;

@@ -1,26 +1,13 @@
-import { STORAGE_KEYS } from '@/constants';
-import useLocalStorage from '@/hooks/use-local-storage';
+import { use } from 'react';
 
-import type { Route, StorageEncounter, StorageRouteProgress } from '../types';
+import { RoutesProgressContext } from '../stores/routes-progress-context';
 
-const useRoutesProgress = () => {
-  const [encounters, setEncounters] = useLocalStorage<StorageRouteProgress>(
-    STORAGE_KEYS.ENCOUNTERS,
-    {},
-  );
+export const useRoutesProgress = () => {
+  const context = use(RoutesProgressContext);
+  if (!context)
+    throw new Error(
+      'useRoutesProgress must be used within RoutesProgressProvider',
+    );
 
-  const selectEncounter = (
-    routeId: Route['id'],
-    encounter: StorageEncounter | undefined,
-  ) => {
-    setEncounters((prev) => ({ ...prev, [routeId]: encounter }));
-  };
-
-  const resetRun = () => {
-    setEncounters({});
-  };
-
-  return { encounters, selectEncounter, resetRun };
+  return context;
 };
-
-export default useRoutesProgress;

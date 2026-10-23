@@ -3,7 +3,7 @@ import { Label } from '@heroui/react';
 import { type Method } from '../constants';
 import type { AreaEncounter, PokemonEncounter, Route } from '../types';
 
-import RouteChoiceButton from './route-choice-button';
+import { RouteChoiceButton } from './route-choice-button';
 
 interface RouteRowSectionProps {
   title: string;
@@ -26,7 +26,7 @@ interface RouteRowSectionProps {
   ) => void;
 }
 
-const RouteRowSection: React.FC<RouteRowSectionProps> = ({
+export const RouteRowSection: React.FC<RouteRowSectionProps> = ({
   title,
   routeId,
   method,
@@ -67,5 +67,3 @@ const RouteRowSection: React.FC<RouteRowSectionProps> = ({
     </div>
   );
 };
-
-export default RouteRowSection;

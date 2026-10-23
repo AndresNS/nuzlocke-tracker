@@ -77,6 +77,7 @@ export default defineConfig([
         },
       ],
       'import-x/no-cycle': 'error',
+      'import-x/no-default-export': 'error',
       'import-x/order': [
         'error',
         {
@@ -104,5 +105,9 @@ export default defineConfig([
       ],
       '@typescript-eslint/no-unused-vars': 'off',
     },
+  },
+  {
+    files: ['**/*.config.{js,ts}'],
+    rules: { 'import-x/no-default-export': 'off' },
   },
 ]);

@@ -4,7 +4,7 @@ interface HeaderProps {
   onResetRunClick: () => void;
 }
 
-const Header: React.FC<HeaderProps> = ({ onResetRunClick }) => {
+export const Header: React.FC<HeaderProps> = ({ onResetRunClick }) => {
   return (
     <header className="container m-auto flex justify-between py-4">
       <Typography type="h1">Nuzlocke Tracker</Typography>
@@ -14,5 +14,3 @@ const Header: React.FC<HeaderProps> = ({ onResetRunClick }) => {
     </header>
   );
 };
-
-export default Header;

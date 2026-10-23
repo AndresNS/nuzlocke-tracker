@@ -9,8 +9,8 @@ import type {
 } from '../types';
 import { getEvolutionLine } from '../utils/evolution-line';
 
-import RouteRowExceptions from './route-row-exceptions';
-import RouteRowSection from './route-row-section';
+import { RouteRowExceptions } from './route-row-exceptions';
+import { RouteRowSection } from './route-row-section';
 
 interface RouteRowProps {
   route: Route;
@@ -22,7 +22,7 @@ interface RouteRowProps {
   ) => void;
 }
 
-const RouteRow: React.FC<RouteRowProps> = ({
+export const RouteRow: React.FC<RouteRowProps> = ({
   route,
   isExpanded,
   encounters,
@@ -177,5 +177,3 @@ const RouteRow: React.FC<RouteRowProps> = ({
     </>
   );
 };
-
-export default RouteRow;

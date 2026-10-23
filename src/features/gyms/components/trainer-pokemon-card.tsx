@@ -3,14 +3,16 @@ import { Card } from '@heroui/react';
 import { STAT_KEYS } from '@/constants';
 import { type TrainerPokemon } from '@/types';
 
-import PokemonMove from './pokemon-move';
-import PokemonStatBar from './pokemon-stat-bar';
-import TypeBadge from './type-badge';
+import { PokemonMove } from './pokemon-move';
+import { PokemonStatBar } from './pokemon-stat-bar';
+import { TypeBadge } from './type-badge';
 
 interface TrainerPokemonCardProps {
   pokemon: Omit<TrainerPokemon, 'id'>;
 }
-const TrainerPokemonCard: React.FC<TrainerPokemonCardProps> = ({ pokemon }) => {
+export const TrainerPokemonCard: React.FC<TrainerPokemonCardProps> = ({
+  pokemon,
+}) => {
   const { types, item, level, moves, stats, name, sprite } = pokemon;
 
   return (
@@ -49,5 +51,3 @@ const TrainerPokemonCard: React.FC<TrainerPokemonCardProps> = ({ pokemon }) => {
     </>
   );
 };
-
-export default TrainerPokemonCard;

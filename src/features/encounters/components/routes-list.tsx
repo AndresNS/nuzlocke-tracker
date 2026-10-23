@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { getRoutes } from '../api';
 import type { Route, StorageEncounter, StorageRouteProgress } from '../types';
 
-import RouteRow from './route-row';
+import { RouteRow } from './route-row';
 
 interface RoutesListProps {
   encounters: StorageRouteProgress;
@@ -14,7 +14,7 @@ interface RoutesListProps {
   ) => void;
 }
 
-const RoutesList: React.FC<RoutesListProps> = ({
+export const RoutesList: React.FC<RoutesListProps> = ({
   encounters,
   onSelectEncounter,
 }) => {
@@ -50,5 +50,3 @@ const RoutesList: React.FC<RoutesListProps> = ({
     </>
   );
 };
-
-export default RoutesList;

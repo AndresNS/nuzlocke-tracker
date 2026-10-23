@@ -2,9 +2,9 @@ import { Label, Tooltip } from '@heroui/react';
 
 import type { Move } from '@/types';
 
-import TypeBadge from './type-badge';
+import { TypeBadge } from './type-badge';
 
-const PokemonMove: React.FC<Move> = ({ name, type, power, effect }) => {
+export const PokemonMove: React.FC<Move> = ({ name, type, power, effect }) => {
   return (
     <Tooltip delay={0}>
       <Tooltip.Trigger>
@@ -24,5 +24,3 @@ const PokemonMove: React.FC<Move> = ({ name, type, power, effect }) => {
     </Tooltip>
   );
 };
-
-export default PokemonMove;

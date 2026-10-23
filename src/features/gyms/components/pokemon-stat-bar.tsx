@@ -7,7 +7,10 @@ interface PokemonStatBarProps {
 
 const maxBaseStat = 255;
 
-const PokemonStatBar: React.FC<PokemonStatBarProps> = ({ name, value }) => {
+export const PokemonStatBar: React.FC<PokemonStatBarProps> = ({
+  name,
+  value,
+}) => {
   return (
     <div>
       <ProgressBar
@@ -27,5 +30,3 @@ const PokemonStatBar: React.FC<PokemonStatBarProps> = ({ name, value }) => {
     </div>
   );
 };
-
-export default PokemonStatBar;

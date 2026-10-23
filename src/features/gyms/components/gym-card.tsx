@@ -2,11 +2,11 @@ import { Card, Chip } from '@heroui/react';
 
 import type { Gym } from '../types';
 
-import TrainerPokemonCard from './trainer-pokemon-card';
+import { TrainerPokemonCard } from './trainer-pokemon-card';
 
 type GymCardProps = Omit<Gym, 'badge'>;
 
-const GymCard: React.FC<GymCardProps> = ({
+export const GymCard: React.FC<GymCardProps> = ({
   leader,
   type,
   team,
@@ -46,5 +46,3 @@ const GymCard: React.FC<GymCardProps> = ({
     </div>
   );
 };
-
-export default GymCard;

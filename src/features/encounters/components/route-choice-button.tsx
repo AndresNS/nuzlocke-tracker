@@ -19,7 +19,7 @@ interface RouteChoiceButtonProps {
   ) => void;
 }
 
-const RouteChoiceButton: React.FC<RouteChoiceButtonProps> = ({
+export const RouteChoiceButton: React.FC<RouteChoiceButtonProps> = ({
   routeId,
   method,
   floor,
@@ -41,5 +41,3 @@ const RouteChoiceButton: React.FC<RouteChoiceButtonProps> = ({
     </Button>
   );
 };
-
-export default RouteChoiceButton;
